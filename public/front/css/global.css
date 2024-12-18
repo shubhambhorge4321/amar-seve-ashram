@@ -1,0 +1,52 @@
+:root {
+    
+  --gradiant-color-from: #3b4693;
+  --gradiant-color-to: #2441c6;
+  --black-color: #101010; 
+
+  --heading: 'DM Sans';
+  --body-font: 'DM Sans';  
+  --body-color: #666666;  
+  --sv-body-color: #202020;  
+  --transition: 500ms all ease;
+  --main-color: #015fea;
+  --base-color: #3b4391;
+
+  --theme-color: #3b4391;
+  --theme-color-2: #ffcc29;
+
+  /* --theme-color: #056251;
+  --theme-color-2: #FFB966; */
+  --meta-font: 'Play', sans-serif;
+
+  --main-sv-color: #3b4391;
+  --base-sv-color: #ffcc29;
+  --sv-body-font: 'Montserrat';
+ 
+ 
+  --sv-heading-font: 'Libre Baskerville';
+
+  --bg-color: #f5f5f5;
+  --bg-round-a: #3b4391;
+  --bg-round-b: #3b4391;
+  --panel-color: #fff;
+  --title: #444;
+  --bg-input: #e0e0e0;
+  --input-icon: #8a8a8a;
+  --input: #333;
+  --input-hover: #222;
+  --btn-color: #5995fd;
+  --btn-text: #fff;
+  --btn-hover: #4d84e2;
+  --social-text: #444;
+  --social-icon: #4481eb;
+  --icon-color: #333;
+  --check-text: #333;
+  --check-hover: #333;
+  --check-link: #4d84e2;
+  --pass-color: #444;
+  --key-color: #777;
+  --pass-hover-color: #4d84e2;
+  --keyboard-color: #e0e0e0;
+  --key-letter: #333;
+}
