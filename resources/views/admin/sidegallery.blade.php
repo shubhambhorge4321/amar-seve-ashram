@@ -82,65 +82,21 @@
                 </div>
                 
                 <div class="form-group">
-                  <label for="sub_category">Select page</label>
+                  <label for="sub_category">Select size</label>
                   <select class="form-select" name="title" id="sub_category" >
-                    <option disabled>Select page</option>
-                    <option value="mahagame">mahagame</option>
-                    <option value="gallery">gallery</option>
-                    <option value="event">event</option>
-                  </select>
-                </div>
-                <div class="form-group sub-category" style="display: none;">
-                  <label for="category">Select event</label>
-                  <select class="form-select " name="event" id="category">
-                    <option  disabled>Select event</option>
-                    @if(isset($categories))
-                    @foreach($categories as $category)
-                    <option value="{{ $category }}">{{ $category }}</option>
-                    @endforeach
-                    @endif
-                  </select>
-                </div>
-
-                <div class="form-group city-category" style="display: none;">
-                  <label for="category_new">Select city</label>
-                  <select class="form-select" name="category" id="category_new" >
-                  <option   disabled>Select city</option>
-                    <option value="nagpur">nagpur</option>
-                    <option value="amravati">amravati</option>
-                    <option value="akola">akola</option>
-                    <option value="nanded">nanded</option>
-                    <option value="jalgaon">jalgaon</option>
-                    <option value="aurangabad">aurangabad</option>
-                    <option value="ahmadnagar">ahmadnagar</option>
-                    <option value="nashik">nashik</option>
-                    <option value="pune">pune</option>
-                    <option value="kolhapur">kolhapur</option>
-                    <option value="solapur">solapur</option>
-                    <option value="ratnagiri">ratnagiri</option>
-                    <option value="sindhudurg">sindhudurg</option>
-                    <option value="nandurbar">nandurbar</option>
-                    <option value="dhule">dhule</option>
-                    <option value="buldhana">buldhana</option>
-                    <option value="beed">beed</option>
-                    <option value="usmanabad">usmanabad</option>
-                    <option value="latur">latur</option>
-                    <option value="parbhani">parbhani</option>
-                    <option value="washim">washim</option>
-                    <option value="yavatmal">yavatmal</option>
-                    <option value="wardha">wardha</option>
-                    <option value="chandrapur">chandrapur</option>
-                    <option value="bhandara">bhandara</option>
-                    <option value="gadchiroli">gadchiroli</option>
-                    <option value="satara">satara</option>
+                    <option disabled selected>Select size</option>
+                    <option value="1">300 width x 244 height</option>
+                    <option value="2">300 width x 312 height</option>
+                    <option value="3">300 width x 250 height</option>
+                    <option value="4">300 width x 462 height</option>
+                    <option value="5">300 width x 502 height</option>
+                    <option value="6">630 width x 244 height</option>
+                    <option value="7">630 width x 400 height</option>
                   </select>
                 </div>
                 <div class="form-group city-category" style="display: none;">
                 <input type="text" name="year" id="year" onfocus="(this.type = 'date')" class="form-control" placeholder="select date" >
                 </div>
-                <!-- <div class="form-group">
-                  <input type="text" name="description" class="form-control" placeholder="Description" required>
-                </div> -->
               </div>
             </div>
           </div>
@@ -149,27 +105,7 @@
             <button type="submit" id="add_gallery_btn" class="btn btn-primary">Add Gallery</button>
           </div>
         </form>
-        <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-                <script>
-                  $(document).ready(function () {
-                    $('select[name="title"]').change(function () {
-                      var selectedCategory = $(this).val();
-                      // Show the second dropdown when "event" or "gallery" is selected in the first dropdown
-                      if (selectedCategory === 'event' || selectedCategory === 'gallery') {
-                        if(selectedCategory === 'gallery'){
-                        $('.city-category').show();
-                        }
-                        else {
-                        $('.city-category').hide();
-                      }
-                        $('.sub-category').show();
-                      } else {
-                        $('.sub-category').hide();
-                        $('.city-category').hide();
-                      }
-                    });
-                  });
-                </script>
+        
       </div>
     </div>
   </div>

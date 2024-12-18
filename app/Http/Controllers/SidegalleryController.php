@@ -64,8 +64,6 @@ class SidegalleryController extends Controller
     // insert a new gallery ajax request
     public function admin_store(Request $request)
     {
-        
-        
         $file = $request->file('avatar');
         $fileName = time() . '.' . $file->getClientOriginalExtension();
         $file->storeAs('public/images', $fileName);      
@@ -85,7 +83,45 @@ class SidegalleryController extends Controller
             $city = "none";
             $year = "none";
         }
-        $galleryData = ['gal_title' => $request->title, 'gal_image' => $fileName, "gal_event" => $subevent, "gal_category" => $city, "gal_year" => $year];
+        
+        $width=null;
+        $height = null;
+        if ($request->has('title')) {
+            switch ($request->title) {
+                case 1:
+                    $width = "300px";
+                    $height = "244px";
+                    break;
+                case 2:
+                    $width = "300px";
+                    $height = "312px";
+                    break;
+                case 3:
+                    $width = "300px";
+                    $height = "250px";
+                    break;
+                case 4:
+                    $width = "300px";
+                    $height = "462px";
+                    break;
+                case 5:
+                    $width = "300px";
+                    $height = "502px";
+                    break;
+                case 6:
+                    $width = "630px";
+                    $height = "244px";
+                    break;
+                case 7:
+                    $width = "630px";
+                    $height = "400px";
+                    break;
+                default:
+                    return response()->json(['error' => 'Invalid selection'], 400);
+            }
+        } 
+        
+        $galleryData = ['gal_title' =>$width = "630px", 'gal_image' => $fileName, "gal_event" => $height];
         Sidegallery::create($galleryData);
         return response()->json([
             'status' => 200,
