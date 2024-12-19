@@ -76,7 +76,7 @@ Route::group(['middleware' => 'auth'], function () {
 
 
     
-    Route::post('/slidegallery/store/admin/', [SidegalleryController::class, 'admin_store'])->name('sidegallery.admin.store');
+    Route::any('/slidegallery/store/admin/', [SidegalleryController::class, 'admin_store'])->name('sidegallery.admin.store');
     Route::get('/slidegallery/admin/fetchall', [SidegalleryController::class, 'admin_fetchall'])->name('sidegallery.fetchall');
     Route::get('/sidegallery/admin/show/{id}', [SidegalleryController::class, 'admin_show'])->name('sidegallery.view');
     Route::delete('/slidegallery/delete/admin/', [SidegalleryController::class, 'admin_delete'])->name('sidegallery.delete');

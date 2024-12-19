@@ -61,7 +61,7 @@ class GalleryController extends Controller
                 <td>' . $rs->created_at->format("d-m-y"). '</td>
                 <td>
                     <button id="' . $rs->id . '" class="btn btn-sm btn-info viewIcon" data-bs-toggle="modal" data-bs-target="#viewGalleryModal">view</button>
-                    <button id="' . $rs->id . '" class="btn btn-sm btn-success editIcon" data-bs-toggle="modal" data-bs-target="#editGalleryModal">edit</button>
+                    
                     <button id="' . $rs->id . '" class="btn btn-sm btn-danger deleteIcon" data-bs-toggle="modal">delete</button>
                 </td>
               </tr>';

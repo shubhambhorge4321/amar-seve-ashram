@@ -85,13 +85,10 @@
                   <label for="sub_category">Select size</label>
                   <select class="form-select" name="title" id="sub_category" >
                     <option disabled selected>Select size</option>
-                    <option value="1">300 width x 244 height</option>
-                    <option value="2">300 width x 312 height</option>
-                    <option value="3">300 width x 250 height</option>
-                    <option value="4">300 width x 462 height</option>
-                    <option value="5">300 width x 502 height</option>
-                    <option value="6">630 width x 244 height</option>
-                    <option value="7">630 width x 400 height</option>
+                    <option value="1">300 width </option>
+                    <option value="2">400 width </option>
+                    <option value="3">500 width </option>
+                    <option value="7">630 width </option>
                   </select>
                 </div>
                 <div class="form-group city-category" style="display: none;">
@@ -168,7 +165,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">View slide Gallery</h5>
+          <h5 class="modal-title" id="exampleModalLabel">View Gallery</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -181,22 +178,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
-              <div class="form-group">
-                <strong>Page :</strong> <span id="view_title"></span>
-              </div>
-              <div class="form-group">
-                <strong>Event :</strong> <span id="view_description"></span>
-              </div>
-              <div class="form-group">
-                <strong>city :</strong> <span id="view_category"></span>
-              </div>
-              <div class="form-group">
-                <strong>year :</strong> <span id="view_year"></span>
-              </div>
-
-
-            </div>
+           
           </div>
         </div>
       </div>
@@ -347,6 +329,7 @@
     $(document).on('click', '.viewIcon', function (e) {
       e.preventDefault();
       let id = $(this).attr('id');
+      
       $.ajax({
         url: '/sidegallery/admin/show/' + id,
         method: 'get',

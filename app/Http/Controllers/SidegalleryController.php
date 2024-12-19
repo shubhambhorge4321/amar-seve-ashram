@@ -33,7 +33,7 @@ class SidegalleryController extends Controller
             <tbody>';
             foreach ($gallery as $rs) {
                 if($rs->gal_event !=="none"){
-                    $eventdata="/".$rs->gal_event;
+                    $eventdata=".".$rs->gal_event;
                 }
                 else{
                     $eventdata=" ";
@@ -90,15 +90,15 @@ class SidegalleryController extends Controller
             switch ($request->title) {
                 case 1:
                     $width = "300px";
-                    $height = "244px";
+                    
                     break;
                 case 2:
-                    $width = "300px";
-                    $height = "312px";
+                    $width = "400px";
+                    
                     break;
                 case 3:
-                    $width = "300px";
-                    $height = "250px";
+                    $width = "500px";
+                    
                     break;
                 case 4:
                     $width = "300px";
@@ -114,14 +114,13 @@ class SidegalleryController extends Controller
                     break;
                 case 7:
                     $width = "630px";
-                    $height = "400px";
                     break;
                 default:
                     return response()->json(['error' => 'Invalid selection'], 400);
             }
         } 
         
-        $galleryData = ['gal_title' =>$width = "630px", 'gal_image' => $fileName, "gal_event" => $height];
+        $galleryData = ['gal_title' =>$width, 'gal_image' => $fileName, "gal_event" => $height];
         Sidegallery::create($galleryData);
         return response()->json([
             'status' => 200,
