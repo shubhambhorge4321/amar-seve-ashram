@@ -22,7 +22,7 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.html"><img src="assets/img/logo-white.svg" alt="Donat"></a>
+                                <a href="index.html"><img src="assets/img/logo.png" alt="Donat"></a>
                             </div>
                             <p class="about-text mb-3"> Our secure online donation platform allows you to make contributions quickly</p>
                             <div class="info-card style2">
@@ -99,7 +99,7 @@
     </div>
     <div class="copyright-wrap bg-theme text-center">
         <div class="container">
-            <p class="copyright-text">Copyright 2024 <a href="index.html">Donat.</a> All Rights Reserved.</p>
+            <p class="copyright-text">Copyright 2024 <a href="index.html">Amar Seve Ashram Trust.</a> All Rights Reserved.</p>
         </div>
     </div>
 </footer>

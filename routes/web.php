@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 
-use App\Http\Controllers\{TestimonialController,SidegalleryController,GalleryController,AdminController,AuthController,FrontController};
+use App\Http\Controllers\{TestimonialController,SidegalleryController,GalleryController,AdminController,AuthController,FrontController,RegisterController,ContactController};
 
 /*
 |--------------------------------------------------------------------------
@@ -55,8 +55,8 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/admindashboard/setevent', [AdminController::class, 'setevent_view'])->name("setevent.admin.view");
     Route::get('/admindashboard/gallery', [AdminController::class, 'sidegallery_view'])->name("gallery.admin.view");
     Route::get("/admindashboard/upcomingevent.html",function(){return view("admin.upcomingevent");})->name("upcomingevent");
-    //added route
 
+    Route::post('volunteer/store', [RegisterController::class, 'volunteer_store'])->name('volunteer.register');
     Route::post('/store', [GalleryController::class, 'store'])->name('store');
     Route::get('/edit', [GalleryController::class, 'edit'])->name('edit');
     Route::post('/update', [GalleryController::class, 'update'])->name('update');
@@ -70,9 +70,19 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/testimonial/fetchall/admin', [TestimonialController::class, 'admin_fetchAll'])->name('testimonial.admin.fetchall');
 
 
+    
+    Route::any('/register/fetchall/admin', [RegisterController::class, 'admin_fetchAll'])->name('register.admin.fetchall');
+    Route::delete('/delete/register/admin', [RegisterController::class, 'admin_delete'])->name('register.admin.delete');
+    Route::get('/register/admin/show/{id}', [RegisterController::class, 'admin_show'])->name('register.admin.id');
+
+
+
     Route::get('/map/view/admin', [EventController::class, 'event_view'])->name('event.admin.view');
     Route::get('/Register/store/admin', [RegisterController::class, 'register_show'])->name('register.admin.view');
     Route::get('/contact/view/admin', [ContactController::class, 'contact_view'])->name('contact.admin.view');
+    Route::delete('/contact/admin/delete', [ContactController::class, 'admin_delete'])->name('contactus.admin.delete');
+    Route::delete('/contact/admin/delete', [ContactController::class, 'admin_delete'])->name('contactus.admin.delete');
+    Route::get('/contact/fetchall/admin', [ContactController::class, 'admin_fetchAll'])->name('contact.admin.fetchall');
 
 
     

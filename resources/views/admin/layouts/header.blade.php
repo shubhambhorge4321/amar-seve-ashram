@@ -17,6 +17,14 @@
             </div> -->
           </div>
           <div class="header-right d-flex align-items-center justify-content-end">
+            <div class="form-group mb-0">
+              <div class="input-group">
+                {{-- <input class="form-control" type="text" value="" placeholder="Search Here....."><span class="input-group-text"><i data-feather="search"></i></span> --}}
+                <a href="{{route('home')}}" target="_trial"><span class="input-group-text">visit site &nbsp; &nbsp; &nbsp; <i data-feather="fas fa-arrow-up-right ms-2"></i></span></a>
+              </div>
+            </div>
+</div>
+          <div class="header-right d-flex align-items-center justify-content-end">
             <ul class="nav-iconlist">  
               <li>
                 <div class="navicon-wrap action-dark"><i class="fa fa-moon-o icon-dark"></i><i class="fa fa-sun-o icon-light" style="display:none;"></i></div>

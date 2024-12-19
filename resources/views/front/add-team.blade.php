@@ -50,7 +50,9 @@ Team Area
                 </div>
                 <div class="col-xl-6">
                     <div class="add-team-form">
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact">
+                        <form action="{{route('volunteer.register')}}" method="POST" class="contact-form ajax-contact">
+                            @csrf
+
                             <div class="row">
                                 <div class="form-group style-border col-12">
                                     <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
@@ -59,13 +61,13 @@ Team Area
                                     <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
                                 </div>
                                 <div class="form-group style-border col-12">
-                                    <input type="number" class="form-control" name="number" id="number" placeholder="Phone Number">
+                                    <input type="number" class="form-control" name="mobile_no" id="number" placeholder="Phone Number">
                                 </div>
                                 <div class="form-group style-border col-md-6">
-                                    <input type="text" class="form-control" name="address" id="address" placeholder="Address">
+                                    <input type="text" class="form-control" name="reg_address" id="address" placeholder="Address">
                                 </div>
                                 <div class="form-group style-border col-md-6">
-                                    <select name="subject" id="subject" class="form-select">
+                                    <select name="reg_occupation" id="subject" class="form-select">
                                         <option value="" disabled selected hidden>Occupation</option>
                                         <option value="Volunteer">Volunteer</option>
                                         <option value="Health Advisor">Health Advisor</option>
@@ -73,7 +75,7 @@ Team Area
                                     </select>
                                 </div>
                                 <div class="form-group style-border col-12">
-                                    <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Type Your Message"></textarea>
+                                    <textarea name="reg_message" id="message" cols="30" rows="3" class="form-control" placeholder="Type Your Message"></textarea>
                                 </div>
                                 <div class="form-btn col-12">
                                     <button class="th-btn style3">Send Request</button>
@@ -151,7 +153,4 @@ Brand Area
             </div>
         </div>
     </div>
-    <!--==============================
-	Footer Area
-==============================-->
    @endsection

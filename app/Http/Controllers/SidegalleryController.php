@@ -24,7 +24,7 @@ class SidegalleryController extends Controller
                 
                 <th>Image</th>
                
-                <th>page</th>
+                <th>width</th>
                 
                 <th>created date</th>
                 <th>Action</th>
