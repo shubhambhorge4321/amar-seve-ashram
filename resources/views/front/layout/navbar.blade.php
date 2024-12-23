@@ -15,8 +15,8 @@
     <button class="th-btn style2 preloaderCls">Cancel Preloader </button>
     <div class="preloader-inner">
         <span class="loader">
-            Donat
-            <span class="loading-text">Donat</span>
+            Amar Seve Ashram Trust.
+            <span class="loading-text">Amar Seve Ashram Trust.</span>
         </span>
     </div>
 </div><!--==============================

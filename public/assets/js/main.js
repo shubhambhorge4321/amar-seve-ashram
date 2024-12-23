@@ -481,18 +481,7 @@
                 data: formData,              // Serialized form data
                 type: "POST",                // HTTP method
             })
-            // .done(function (response) {
-            //     // Add success class to the message container
-            //     formMessages.removeClass("error");
-            //     formMessages.addClass("success");
-            //     // Set the message text
-            //     formMessages.text(response.message || "Message sent successfully !!");
-            //     // Clear the form
-            //     $(form + ' input:not([type="submit"]),' + form + " textarea").val("");
-    
-            //     // Refresh the CSRF token
-                
-            // })
+           
             
             .done(function (response) {
                 // Add success class to the message container
@@ -510,9 +499,8 @@
                         formMessages.text("").removeClass("success");
                         formMessages.show(); // Ensure it's visible for the next message
                     });
-                }, 5000); // 10000 milliseconds = 10 seconds
-                
-                // Refresh the CSRF token (if needed)
+                }, 5000); 
+                            
             })
 
             .fail(function (data) {
