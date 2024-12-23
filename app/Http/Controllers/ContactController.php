@@ -55,7 +55,7 @@ class ContactController extends Controller
                 <th>name</th>
                 <th>email</th>
                 <th>mobile</th>
-                <th>web</th>
+                
                 <th>contact date</th>
 
                 <th>Action</th>
@@ -70,7 +70,7 @@ class ContactController extends Controller
                 <td>' . $rs->cont_name . '</td>
                 <td>' . $rs->cont_email . '</td>
                 <td>' . $rs->cont_phone . '</td>
-                <td>' . $rs->cont_web . '</td>
+                
                 
                 <td>'.$rs->created_at->format("d-m-y").'</td>
                 <td>

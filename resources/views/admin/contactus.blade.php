@@ -205,9 +205,7 @@
               <div class="form-group">
                 <strong>Email :</strong> <span id="view_description"></span>
               </div>
-              <div class="form-group">
-                <strong>Web :</strong> <span id="view_category"></span>
-              </div>
+            
               <div class="form-group">
                 <strong>Created at :</strong> <span id="view_created"></span>
               </div>
@@ -378,28 +376,10 @@
           _token: '{{ csrf_token() }}',
         },
         success: function (response) {
-          // $("#view_title").html(response.cont_phone);
-          // $("#view_description").html(response.cont_email);
-          // $("#view_category").html(response.cont_web);
-          // $("#view_sub_category").html(response.cont_name);
-          // $("#view_name").html(response.cont_name);
-          // $("#view_message").html(response.cont_message);
-          
-          // $("#view_created").html(response.created_at);
-
-          // // Use .attr("src", ...) to set the src attribute
-         
-          // $(".img-holder img").attr("src", `{{asset('storage/images')}}/${response.testst_image}`);
-
-          
-
-          // $("#gallery_id").val(response.id);
-          // $("#gallery_avatar").val(response.avatar);
-
-
+        
+      
           var galleryData = response.gallery;
         var formattedDate = response.formatted_date;
-
         // Update HTML content
         $("#view_title").html(galleryData.cont_phone);
         $("#view_description").html(galleryData.cont_email);

@@ -95,7 +95,7 @@ class RegisterController extends Controller {
                 <th>name</th>
                 <th>email</th>
                 <th>mobile</th>
-                <th>category</th>
+                <th>profesion</th>
                 <th>register date</th>
                 <th>Action</th>
               </tr>
@@ -110,7 +110,7 @@ class RegisterController extends Controller {
                 <td>'.$rs->reg_name.'</td>
                 <td>'.$rs->reg_email.'</td>
                 <td>'.$rs->reg_mobile.'</td>
-                <td>'.$rs->reg_type.'</td>
+                <td>'.$rs->reg_occupation.'</td>
                 <td>'.$rs->created_at->format("d-m-y").'</td>
                 <td>
                     <button id="'.$rs->id.'" class="btn btn-sm btn-info viewIcon" data-bs-toggle="modal" data-bs-target="#viewGalleryModal">view</button>

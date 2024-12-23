@@ -86,11 +86,11 @@
                             <button type="submit" class="th-btn style5"><i class="fas fa-paper-plane"></i></button>
                         </form>
                         <div class="th-social style6">
-                            <a href="https://www.facebook.com/p/Amar-sewa-ashram-Trust-Nanded-100069984164768/"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://www.behance.com/"><i class="fab fa-behance"></i></a>
-                            <a href="https://www.vimeo.com/"><i class="fab fa-vimeo-v"></i></a>
+                            <a href="https://www.facebook.com/p/Amar-sewa-ashram-Trust-Nanded-100069984164768/" target="_hello"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://www.twitter.com/" target="_hello"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.linkedin.com/" target="_hello"><i class="fab fa-linkedin-in"></i></a>
+                            <a href="https://www.behance.com/" target="_hello"><i class="fab fa-behance"></i></a>
+                            <a href="https://www.vimeo.com/" target="_hello"><i class="fab fa-vimeo-v"></i></a>
                         </div>
                     </div>
                 </div>

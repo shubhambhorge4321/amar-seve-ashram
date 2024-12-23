@@ -74,9 +74,10 @@ Route::group(['middleware' => 'auth'], function () {
     Route::delete('/delete/register/admin', [RegisterController::class, 'admin_delete'])->name('register.admin.delete');
     Route::get('/register/admin/show/{id}', [RegisterController::class, 'admin_show'])->name('register.admin.id');
 
+    Route::get('/contact/admin/show/{id}', [ContactController::class, 'contact_show'])->name('contact.admin.show');
 
 
-    Route::get('/map/view/admin', [EventController::class, 'event_view'])->name('event.admin.view');
+    
     Route::get('/Register/store/admin', [RegisterController::class, 'register_show'])->name('register.admin.view');
     Route::get('/contact/view/admin', [ContactController::class, 'contact_view'])->name('contact.admin.view');
     Route::delete('/contact/admin/delete', [ContactController::class, 'admin_delete'])->name('contactus.admin.delete');

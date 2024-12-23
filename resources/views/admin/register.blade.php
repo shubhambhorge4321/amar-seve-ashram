@@ -16,7 +16,7 @@
           <li class="breadcrumb-item"><a href="#">
               <h1>Dashboard</h1>
             </a></li>
-          <li class="breadcrumb-item active"><a href="javascript:void(0);">Register</a></li>
+          <li class="breadcrumb-item active"><a href="javascript:void(0);">Become a volunteer</a></li>
         </ul>
       </div>
       <div class="right-breadcrumb">
@@ -39,7 +39,7 @@
         <div class="col-12">
           <div class="card">
             <div class="card-header d-flex justify-content-between align-items-center">
-              <h3 class="text-light">Manage Register</h3>
+              <h3 class="text-light">Manage volunteer</h3>
 
             </div>
             <div class="card-body" id="show_all_galleries">
@@ -189,7 +189,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">View Register</h5>
+          <h5 class="modal-title" id="exampleModalLabel">View Volunteer Register</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -206,7 +206,14 @@
                 <strong>Email :</strong> <span id="view_description"></span>
               </div>
               <div class="form-group">
-                <strong>Category :</strong> <span id="view_category"></span>
+                <strong>Address :</strong> <span id="view_address"></span>
+              </div>
+              <div class="form-group">
+                <strong>Profession :</strong> <span id="view_category"></span>
+              </div>
+             
+              <div class="form-group">
+                <strong>Message :</strong> <span id="view_message"></span>
               </div>
               <div class="form-group">
                 <strong>Register at :</strong> <span id="view_created"></span>
@@ -381,8 +388,10 @@
           var dateupdated = response.formatted_date;
           $("#view_title").html(res.reg_mobile);
           $("#view_description").html(res.reg_email);
-          $("#view_category").html(res.reg_type);
+          $("#view_category").html(res.reg_occupation);
           $("#view_sub_category").html(res.reg_name);
+          $("#view_message").html(res.reg_message);
+          $("#view_address").html(res.reg_address);
           $("#view_name").html(res.reg_name);
           $("#view_created").html(dateupdated);
 
