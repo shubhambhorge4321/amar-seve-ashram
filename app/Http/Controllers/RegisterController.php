@@ -24,7 +24,6 @@ class RegisterController extends Controller {
         ]);
         
         Register::create([
-            'reg_type' => request('hidden_name'), 
             'reg_name' => request('name'),
             'reg_mobile' => request('mobile_no'),
             'reg_email' => request('email'),
@@ -34,7 +33,8 @@ class RegisterController extends Controller {
         ]);
         \Session::flash('success', 'Your form has been submitted successfully!');
 
-        return back()->with('success', 'Your form has been submitted successfully!');
+        return response()->json('Your volunteer form has  been submited succesfully !!');   
+        
     }
     public function front_store(Request $req) {
         // dd($req);

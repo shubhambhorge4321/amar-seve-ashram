@@ -422,46 +422,115 @@
         '[name="name"],[name="email"],[name="subject"],[name="number"],[name="message"]'; // Must be use (,) without any space
     var formMessages = $(".form-messages");
 
+    // function sendContact() {
+    //     var formData = $(form).serialize();
+    //     var valid;
+    //     valid = validateContact();
+    //     if (valid) {
+    //         jQuery
+    //             .ajax({
+    //                 url: $(form).attr("action"),
+    //                 data: formData,
+    //                 type: "POST",
+    //             })
+    //             .done(function (response) {
+    //                 // Make sure that the formMessages div has the 'success' class.
+    //                 formMessages.removeClass("error");
+    //                 formMessages.addClass("success");
+    //                 // Set the message text.
+    //                 formMessages.text(response);
+    //                 // Clear the form.
+    //                 $(
+    //                     form +
+    //                         ' input:not([type="submit"]),' +
+    //                         form +
+    //                         " textarea"
+    //                 ).val("");
+    //             })
+    //             .fail(function (data) {
+    //                 // Make sure that the formMessages div has the 'error' class.
+    //                 formMessages.removeClass("success");
+    //                 formMessages.addClass("error");
+    //                 // Set the message text.
+    //                 if (data.responseText !== "") {
+    //                     formMessages.html(data.responseText);
+    //                 } else {
+    //                     formMessages.html(
+    //                         "Oops! An error occured and your message could not be sent."
+    //                     );
+    //                 }
+    //             });
+    //     }
+    // }
+
     function sendContact() {
         var formData = $(form).serialize();
         var valid;
         valid = validateContact();
+    
         if (valid) {
-            jQuery
-                .ajax({
-                    url: $(form).attr("action"),
-                    data: formData,
-                    type: "POST",
-                })
-                .done(function (response) {
-                    // Make sure that the formMessages div has the 'success' class.
-                    formMessages.removeClass("error");
-                    formMessages.addClass("success");
-                    // Set the message text.
-                    formMessages.text(response);
-                    // Clear the form.
-                    $(
-                        form +
-                            ' input:not([type="submit"]),' +
-                            form +
-                            " textarea"
-                    ).val("");
-                })
-                .fail(function (data) {
-                    // Make sure that the formMessages div has the 'error' class.
-                    formMessages.removeClass("success");
-                    formMessages.addClass("error");
-                    // Set the message text.
-                    if (data.responseText !== "") {
-                        formMessages.html(data.responseText);
-                    } else {
-                        formMessages.html(
-                            "Oops! An error occured and your message could not be sent."
-                        );
-                    }
-                });
+            // Include CSRF token in the AJAX request
+            $.ajaxSetup({
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf-token"]').attr('content')
+                }
+            });
+    
+            $.ajax({
+                url: $(form).attr("action"), // Form action URL
+                data: formData,              // Serialized form data
+                type: "POST",                // HTTP method
+            })
+            // .done(function (response) {
+            //     // Add success class to the message container
+            //     formMessages.removeClass("error");
+            //     formMessages.addClass("success");
+            //     // Set the message text
+            //     formMessages.text(response.message || "Message sent successfully !!");
+            //     // Clear the form
+            //     $(form + ' input:not([type="submit"]),' + form + " textarea").val("");
+    
+            //     // Refresh the CSRF token
+                
+            // })
+            
+            .done(function (response) {
+                // Add success class to the message container
+                formMessages.removeClass("error");
+                formMessages.addClass("success");
+                // Set the message text
+                formMessages.text(response.message || "Message sent successfully !!");
+                
+                // Clear the form
+                $(form + ' input:not([type="submit"]),' + form + " textarea").val("");
+                
+                // Automatically hide the message after 10-15 seconds
+                setTimeout(function () {
+                    formMessages.fadeOut("slow", function () {
+                        formMessages.text("").removeClass("success");
+                        formMessages.show(); // Ensure it's visible for the next message
+                    });
+                }, 5000); // 10000 milliseconds = 10 seconds
+                
+                // Refresh the CSRF token (if needed)
+            })
+
+            .fail(function (data) {
+                // Add error class to the message container
+                formMessages.removeClass("success");
+                formMessages.addClass("error");
+                // Display error message
+                if (data.responseJSON && data.responseJSON.message) {
+                    formMessages.text(data.responseJSON.message);
+                } else {
+                    formMessages.text("Oops! An error occurred and your message could not be sent.");
+                }
+            });
         }
     }
+
+   
+    
 
     function validateContact() {
         var valid = true;

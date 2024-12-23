@@ -19,12 +19,12 @@ use App\Http\Controllers\{TestimonialController,SidegalleryController,GalleryCon
 Route::get('/',[FrontController::class,'home']);    
 
 
-Route::get('/home',[FrontController::class,'home'])->name('home');    
-Route::get('/about-us',[FrontController::class,'aboutus'])->name('aboutus');      
-Route::get('/donation-details',[FrontController::class,'donation'])->name('donation.details');        
-Route::get('/contact-us',[FrontController::class,'contact'])->name('contact.us');        
-Route::get('/volunteer',[FrontController::class,'volunteer'])->name('volunteer');        
-Route::get('/become-volunteer',[FrontController::class,'becomevolunteer'])->name('become.volunteer');        
+Route::get('/home.html',[FrontController::class,'home'])->name('home');    
+Route::get('/about-us.html',[FrontController::class,'aboutus'])->name('aboutus');      
+Route::get('/donation-details.html',[FrontController::class,'donation'])->name('donation.details');        
+Route::get('/contact-us.html',[FrontController::class,'contact'])->name('contact.us');        
+Route::get('/volunteer.html',[FrontController::class,'volunteer'])->name('volunteer');        
+Route::get('/become-volunteer.html',[FrontController::class,'becomevolunteer'])->name('become.volunteer');        
 Route::get('/gallery-view.html',[FrontController::class,'gallery'])->name('gallery');        
 
 
@@ -56,7 +56,6 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/admindashboard/gallery', [AdminController::class, 'sidegallery_view'])->name("gallery.admin.view");
     Route::get("/admindashboard/upcomingevent.html",function(){return view("admin.upcomingevent");})->name("upcomingevent");
 
-    Route::post('volunteer/store', [RegisterController::class, 'volunteer_store'])->name('volunteer.register');
     Route::post('/store', [GalleryController::class, 'store'])->name('store');
     Route::get('/edit', [GalleryController::class, 'edit'])->name('edit');
     Route::post('/update', [GalleryController::class, 'update'])->name('update');
@@ -95,3 +94,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::any('sponsor/admin/update', [SponsorController::class, 'admin_update'])->name('sponsor.admin.update');
 
 });
+
+
+Route::post('/contactus/store/admin', [ContactController::class, 'front_store'])->name('contactus.admin.store');
+Route::any('volunteer/store', [RegisterController::class, 'volunteer_store'])->name('volunteer.register');

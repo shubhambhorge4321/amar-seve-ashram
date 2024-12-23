@@ -1,6 +1,6 @@
     <!-- footer start-->
     <footer class="codex-footer">
-        <p>Copyright 2022-23 CampusClub</p>
+        <p>Copyright 2024  Amar Seve Ashram Trust. All Rights Reserved.</p>
       </footer>
     <!-- footer end-->
     <!-- back to top start //-->

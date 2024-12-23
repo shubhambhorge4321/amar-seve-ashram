@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Contact;
+use Illuminate\Support\Facades\Session;
 
 
 class ContactController extends Controller
@@ -15,13 +17,11 @@ class ContactController extends Controller
     }
     public function front_store(Request $request)
     {
-        // dd($request);
-    //    Contact::create();
+    
     $request->validate([
         'name' => 'required|string',
         'email' => 'required|email',
         'phone' => 'required|string',
-        'web' => 'required|string',
         'message' => 'required|string',
     ]);
 
@@ -29,16 +29,14 @@ class ContactController extends Controller
     Contact::create([
         'cont_name' => $request->input('name'),
         'cont_email' => $request->input('email'),
-        'cont_phone' => $request->input('phone'),
-        'cont_web' => $request->input('web'),
+        'cont_phone' => $request->input('phone'),    
         'cont_message' => $request->input('message'),
     ]);
     
-    Session::flash('success', 'Your form has been submitted successfully!');
+    \Session::flash('success', 'Your form has been submitted successfully!');
     
     // return redirect()->route("message.front.show");
-    
-    return redirect()->route("contactus.front.show");
+    return response()->json('Your contact form has  been submited succesfully !!');   
     
     }
 

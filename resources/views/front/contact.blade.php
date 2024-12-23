@@ -83,7 +83,8 @@ Contact Area
 Contact Area  
 ==============================-->
                         <div class="contact-form-v1 contact-page-form">
-                            <form action="mail.php" method="POST" class="contact-form style-border ajax-contact">
+                            <form action="{{route('contactus.admin.store')}}" method="POST" class="contact-form style-border ajax-contact">
+                                @csrf
                                 <div class="row">
                                     <div class="form-group style-border col-12">
                                         <input type="text" class="form-control" name="name" id="name" placeholder="Your Name">
@@ -92,7 +93,7 @@ Contact Area
                                         <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
                                     </div>
                                     <div class="form-group style-border col-12">
-                                        <input type="number" class="form-control" name="number" id="number" placeholder="Phone Number">
+                                        <input type="number" class="form-control" name="phone" id="number" placeholder="Phone Number">
                                     </div>
                                     <div class="form-group style-border col-12">
                                         <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Type Your Message"></textarea>

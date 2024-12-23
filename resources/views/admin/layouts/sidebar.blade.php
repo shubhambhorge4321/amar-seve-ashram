@@ -41,7 +41,7 @@
           </a></li>
           */ ?>
         <li class="menu-item"><a href="{{ route('register.admin.view') }}">
-            <div class="icon-item"><i data-feather="command"></i></div><span>Register</span>
+            <div class="icon-item"><i data-feather="command"></i></div><span>Become a volunteer</span>
           </a></li>
         <li class="menu-item"><a href="{{ route('contact.admin.view') }}">
             <div class="icon-item"><i data-feather="phone-call"></i></div><span>Contact us</span>

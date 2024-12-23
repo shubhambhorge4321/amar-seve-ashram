@@ -68,10 +68,10 @@ Team Area
                                 </div>
                                 <div class="form-group style-border col-md-6">
                                     <select name="reg_occupation" id="subject" class="form-select">
-                                        <option value="" disabled selected hidden>Occupation</option>
-                                        <option value="Volunteer">Volunteer</option>
+                                        {{-- <option  disabled selected hidden>Occupation</option> --}}
+                                        <option value="Volunteer" selected>Volunteer</option>
                                         <option value="Health Advisor">Health Advisor</option>
-                                        <option value="Supervisor">Supervisor</option>
+                                        <option value="other">other</option>
                                     </select>
                                 </div>
                                 <div class="form-group style-border col-12">
