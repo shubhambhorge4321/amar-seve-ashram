@@ -15,9 +15,7 @@
                 </ul>
             </div>
         </div>
-    </div><!--==============================
-Team Area  
-==============================-->
+    </div>
     <section class="space">
         <div class="container">
             <div class="row gy-40 gx-80">

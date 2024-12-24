@@ -44,7 +44,9 @@ class FrontController extends Controller
     
     public function aboutus ()
     {
-        return view('front.about');
+        $volunteer=Testimonial::all();
+
+        return view('front.about',compact('volunteer'));
     }
     public function donation ()
     {

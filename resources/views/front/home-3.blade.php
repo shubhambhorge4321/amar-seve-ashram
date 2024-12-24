@@ -205,15 +205,15 @@
             <div class="row gx-40 align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-style3">
-                        <span class="sub-title after-none">Give Hope For Homeless</span>
+                        <span class="sub-title after-none">Give Hope For Cancer Patients</span>
                         <h1 class="hero-title">
                             <span class="title1">Donate For A</span>
                             <span class="title2">Better <span class="text-theme2 d-inline-block">World</span></span>
                         </h1>
-                        <p class="hero-text">Explore the variety of volunteer opportunities available. From event planning
-                            and fundraising to fieldwork and administrative support</p>
+                        <p class="hero-text">Explore the variety of volunteer opportunities available. From event planning and fundraising to fieldwork and administrative support, Amar Sewa Ashram Trust Nanded works tirelessly as a nonprofit to support cancer patients in need.
+                        </p>
                         <div class="btn-wrap">
-                            <a href="about.html" class="th-btn">Discover Now<i
+                            <a href="{{route('donation.details');}}        " class="th-btn">Discover Now<i
                                     class="fa-solid fa-arrow-up-right ms-2"></i></a>
                             <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style3 popup-video"><i
                                     class="fas fa-play"></i></a>
@@ -242,9 +242,11 @@
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
                         <h3 class="box-title">Fundraising Trust</h3>
-                        <p class="box-text">Stay updated with the latest news, events, and impact stories from our
-                            organization. Subscribe to our newsletter.</p>
-                        <a class="link-btn style2" href="about.html">View Details <i
+                        <p class="box-text">
+                         
+Your contribution plays a vital role in providing essential care, Ayurvedic treatments, and support to cancer patients through Amar Sewa Ashram Trust Nanded.
+                        </p>
+                        <a class="link-btn style2" href="{{route('donation.details')}}">donate now <i
                                 class="fa-solid fa-arrow-up-right ms-2"></i></a>
                     </div>
                 </div>
@@ -257,9 +259,11 @@
                             <img src="assets/img/icon/feature-icon1-2.svg" alt="icon">
                         </div>
                         <h3 class="box-title">Charity Donate</h3>
-                        <p class="box-text">Stay updated with the latest news, events, and impact stories from our
-                            organization. Subscribe to our newsletter.</p>
-                        <a class="link-btn style2" href="about.html">View Details <i
+                        <p class="box-text">
+                            Support cancer patients with your donations. Stay updated with the latest news, events, and inspiring stories from Amar Sewa Ashram Trust Nanded. Subscribe to our newsletter today!
+
+                        </p>
+                        <a class="link-btn style2" href="{{route('donation.details')}}"> donate now<i 
                                 class="fa-solid fa-arrow-up-right ms-2"></i></a>
                     </div>
                 </div>
@@ -272,9 +276,10 @@
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
                         <h3 class="box-title">Treatment Help</h3>
-                        <p class="box-text">Stay updated with the latest news, events, and impact stories from our
-                            organization. Subscribe to our newsletter.</p>
-                        <a class="link-btn style2" href="about.html">View Details <i
+                        <p class="box-text">
+                            Take cancer treatment through Ayurveda at Amar Sewa Ashram Trust Nanded, using natural remedies and holistic therapies to support healing. Subscribe to our newsletter for updates!
+                        </p>
+                        <a class="link-btn style2" href="{{route('contact.us')}}">contact us <i
                                 class="fa-solid fa-arrow-up-right ms-2"></i></a>
                     </div>
                 </div>
@@ -310,9 +315,10 @@
                             </div>
                         </div>
                         <div class="year-counter movingX">
-                            <div class="year-counter_number"><span class="counter-number">266300</span>+ Children in
-                                Africa Need School</div>
-                            <a class="link-btn style2" href="contact.html">Become a Volunteer</a>
+                            <div class="year-counter_number"><span class="counter-number">9.6</span>+ 
+                                 Million Lives Are Lost to Cancer Annually Without Proper Treatment and Support
+                            </div>
+                            <a class="link-btn style2" href="{{route('become.volunteer')}}">Become a Volunteer</a>
                         </div>
                     </div>
                 </div>
@@ -320,15 +326,19 @@
                     <div class="title-area mb-40">
                         <span class="sub-title after-none before-none"><i class="text-theme far fa-heart"></i> About
                             Us</span>
-                        <h2 class="sec-title">Give Time, Change Lives Volunteer Opportunities</h2>
-                        <p>Our secure online donation platform allows you to make contribution quickly and safely. Choose
-                            from various payment methods and set up one-time or recurring donations with ease. Your support
-                            helps us continue our mission.</p>
+                        <h2 class="sec-title">We Help Cancer Patients.  </h2>
+                        <p>
+                            At <b>Amar Sewa Ashram Trust Nanded</b> , we are dedicated to providing  <b>cancer</b> care through <b>Ayurveda</b> . We offer holistic treatments, including natural remedies and personalized therapies, to support healing and improve the quality of life for cancer patients.     
+                        </p> 
+                      
                     </div>
                     <div class="about-wrap3">
-                        <p class="mb-30">Discover the inspiring stories of individuals and communities transformed by our
-                            programs. Our success stories highlight the real-life impact of your donations and the
-                            resilience of those we help. These narratives showcase the power of compassion & generosity.</p>
+                        <p class="mb-30">
+                            <span>
+                                Our secure online donation platform allows you to make contributions quickly and safely. Choose from various payment methods and set up one-time or recurring payments with ease. As a <b>nonprofit organization</b> , your support enables us to continue our mission of offering Ayurvedic cancer care and healing.
+                            </span> <br> <br>
+                            Explore inspiring stories of individuals and communities transformed by our programs. Our success stories highlight the real-life impact of your donations and the resilience of those we serve. These narratives showcase the power of compassion and generosity in transforming lives.
+                        </p>
                         <div class="about-feature-grid">
                             <div class="box-icon">
                                 <img src="assets/img/icon/about-icon3-1.svg" alt="icon">
@@ -340,7 +350,7 @@
                             </div>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="th-btn style3 style-radius">About More <i
+                            <a href="{{route('aboutus')}}" class="th-btn style3 style-radius">About More <i
                                     class="fa-solid fa-arrow-up-right ms-2"></i></a>
                         </div>
                     </div>
@@ -745,9 +755,9 @@
                                     <h3 class="box-title"><a href="team-details.html">{{$volunt->volunteer_name}}</a></h3>
                                     <span class="team-desig">{{$volunt->volunteer_designation}}</span>
                                     <div class="th-social style2">
-                                        <a target="_blank" href="{{$volunt->volunteer_fblink?:'https://facebook.com/'}}"><i
+                                        <a @if($volunt->volunteer_fblink) target="_blank" @endif href="{{$volunt->volunteer_fblink?:'#'}}"><i
                                                 class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="{{$volunt->volunteer_instlink?:'https://instagram.com/'}}"><i
+                                        <a @if($volunt->volunteer_instlink) target="_blank" @endif href="{{$volunt->volunteer_instlink?:'#'}}"><i
                                                 class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>

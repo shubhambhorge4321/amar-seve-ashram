@@ -31,7 +31,7 @@
                                 </div>
                                 <div class="box-content">
                                     <p class="box-text">Call us any time:</p>
-                                    <h4 class="box-title"><a href="tel:16336547896">+163-3654-7896</a></h4>
+                                    <h4 class="box-title"><a href="tel:16336547896">9422189855</a></h4>
                                 </div>
                             </div>
                             <div class="info-card style2">

@@ -151,157 +151,25 @@ Team Area
             <div class="slider-area">
                 <div class="swiper th-slider has-shadow" id="teamSlider3" data-slider-options='{"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"}}}'>
                     <div class="swiper-wrapper">
-                        <!-- Single Item -->
+                        @foreach($volunteer as $volunt)
                         <div class="swiper-slide">
                             <div class="th-team team-card3">
                                 <div class="team-img">
-                                    <img src="assets/img/team/team_3_1.png" alt="Team">
+                                    <img class="img-custom-h-w" src="{{asset('storage/images/'.$volunt->volunteer_image)}}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Michel Connor</a></h3>
-                                    <span class="team-desig">Volunteer</span>
+                                    <h3 class="box-title"><a href="team-details.html">{{$volunt->volunteer_name}}</a></h3>
+                                    <span class="team-desig">{{$volunt->volunteer_designation}}</span>
                                     <div class="th-social style2">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a target="_blank" href="https://behance.com/"><i class="fab fa-behance"></i></a>
+                                        <a @if($volunt->volunteer_fblink) target="_blank" @endif href="{{$volunt->volunteer_fblink?:'#'}}"><i
+                                                class="fab fa-facebook-f"></i></a>
+                                        <a @if($volunt->volunteer_instlink) target="_blank" @endif href="{{$volunt->volunteer_instlink?:'#'}}"><i
+                                                class="fab fa-instagram"></i></a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card3">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_3_2.png" alt="Team">
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Jessica Lauren</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                    <div class="th-social style2">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a target="_blank" href="https://behance.com/"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card3">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_3_3.png" alt="Team">
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Daniel Thomas</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                    <div class="th-social style2">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a target="_blank" href="https://behance.com/"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card3">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_3_4.png" alt="Team">
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Michel Vetory</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                    <div class="th-social style2">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a target="_blank" href="https://behance.com/"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card3">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_3_5.png" alt="Team">
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Emma Mary</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                    <div class="th-social style2">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a target="_blank" href="https://behance.com/"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card3">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_3_6.png" alt="Team">
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Alexander Joseph</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                    <div class="th-social style2">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a target="_blank" href="https://behance.com/"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card3">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_3_7.png" alt="Team">
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Olivia Patricia</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                    <div class="th-social style2">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a target="_blank" href="https://behance.com/"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- Single Item -->
-                        <div class="swiper-slide">
-                            <div class="th-team team-card3">
-                                <div class="team-img">
-                                    <img src="assets/img/team/team_3_8.png" alt="Team">
-                                </div>
-                                <div class="team-card-content">
-                                    <h3 class="box-title"><a href="team-details.html">Ethan David</a></h3>
-                                    <span class="team-desig">Volunteer</span>
-                                    <div class="th-social style2">
-                                        <a target="_blank" href="https://facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                                        <a target="_blank" href="https://twitter.com/"><i class="fab fa-twitter"></i></a>
-                                        <a target="_blank" href="https://instagram.com/"><i class="fab fa-instagram"></i></a>
-                                        <a target="_blank" href="https://behance.com/"><i class="fab fa-behance"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                        @endforeach
 
                     </div>
                 </div>

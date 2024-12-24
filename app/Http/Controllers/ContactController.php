@@ -110,9 +110,7 @@ class ContactController extends Controller
             'formatted_date' => $dateshow,
         ];
     
-        // Return the associative array as JSON
-        // return response()->json($data);
-
+        
         return response()->json($data);
     }
 }
