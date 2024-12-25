@@ -42,7 +42,7 @@ class TestimonialController extends Controller
                 <tr>
                 <th>ID</th>
                 <th>Image</th>
-                <th>Page</th>
+                
                 <th>Created date</th>
                 
               
@@ -60,7 +60,7 @@ class TestimonialController extends Controller
                 $output .= '<tr>
                 <td>' . $serialnumber . '</td>
                 <td><img src="' . $urlo . '/storage/images/' . $rs->volunteer_image . '" width="50" class="img-thumbnail rounded-circle"></td>
-                <td>' . $rs->testst_type .$displayValue. '</td>
+                
                 <td>' . $rs->created_at->format("d-m-y"). '</td>
                 
 

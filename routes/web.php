@@ -73,6 +73,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::any('/register/fetchall/admin', [RegisterController::class, 'admin_fetchAll'])->name('register.admin.fetchall');
     Route::delete('/delete/register/admin', [RegisterController::class, 'admin_delete'])->name('register.admin.delete');
     Route::get('/register/admin/show/{id}', [RegisterController::class, 'admin_show'])->name('register.admin.id');
+    Route::get('/show/{id}', [GalleryController::class, 'show'])->name('show');
 
     Route::get('/contact/admin/show/{id}', [ContactController::class, 'contact_show'])->name('contact.admin.show');
 

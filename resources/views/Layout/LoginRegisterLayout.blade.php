@@ -9,10 +9,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		
 		<!-- Site Title -->
-		<title>Campus Club</title>
+		<title>Amar Sewa Ashram Trust</title>
 		
 		<!-- Fav Icon -->
-		<link rel="icon" href="img/favicon.png">
+		<link rel="icon" href="assets/img/favicons/favicon-32x32.ico">
 		
 		<!-- NFTMax Stylesheet -->
 		<link rel="stylesheet" href="{{asset('admin/assets/css/bootstrap.min.css')}}">

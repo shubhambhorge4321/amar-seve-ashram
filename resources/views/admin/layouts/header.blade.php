@@ -20,7 +20,7 @@
             <div class="form-group mb-0">
               <div class="input-group">
                 {{-- <input class="form-control" type="text" value="" placeholder="Search Here....."><span class="input-group-text"><i data-feather="search"></i></span> --}}
-                <a href="{{route('home')}}" target="_trial"><span class="input-group-text">visit site &nbsp; &nbsp; &nbsp; <i data-feather="fas fa-arrow-up-right ms-2"></i></span></a>
+                <a href="{{route('home')}}" target="_blank"><span class="input-group-text">visit site &nbsp; &nbsp; &nbsp; <i data-feather="fas fa-arrow-up-right ms-2"></i></span></a>
               </div>
             </div>
 </div>

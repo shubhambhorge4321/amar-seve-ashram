@@ -4,116 +4,7 @@
     <!--==============================
     Hero Area
     ==============================-->
-    {{-- <div class="th-hero-wrapper hero-3" id="hero">
-
-        <div class="shape-mockup hero-shape-3-1 d-lg-block d-none" data-top="20%" data-left="50%">
-            <div class="color-masking shake">
-                <div class="masking-src" data-mask-src="assets/img/hero/hero-bg-shape2-3.png"></div>
-                <img src="assets/img/hero/hero-bg-shape2-3.png" alt="shape">
-            </div>
-        </div>
-        <div class="shape-mockup hero-shape-3-2 jump" data-top="25%" data-left="5%">
-            <div class="color-masking">
-                <div class="masking-src" data-mask-src="assets/img/hero/hero-bg-shape2-1.png"></div>
-                <img src="assets/img/hero/hero-bg-shape2-1.png" alt="shape">
-            </div>
-        </div>
-        <div class="shape-mockup hero-shape-3-3 jump" data-bottom="0" data-left="-2%">
-            <div class="color-masking2">
-                <div class="masking-src" data-mask-src="assets/img/shape/hand-shape3.png"></div>
-                <img src="assets/img/shape/hand-shape3.png" alt="shape">
-            </div>
-        </div>
-
-        <div class="swiper th-slider hero-slider1" id="heroSlide1" data-slider-options='{"effect":"fade", "autoHeight": "true"}'>
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <div class="hero-inner" data-bg-src="assets/img/hero/hero_bg_1_1.jpg" data-mask-src="assets/img/hero/hero-bg-shape3-1.png" data-opacity="5">
-                        <div class="hero-bg-shape1-1">
-                            <img src="assets/img/hero/hero-bg-shape1-1.png" alt="img">
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-xl-12">
-                                    <div class="hero-style1 text-center">
-                                        <span class="sub-title justify-content-center" data-ani="slideinup" data-ani-delay="0.2s">إعطاء الأمل للمشردين
-                                        </span>
-                                        <h1 class="hero-title text-white">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                مساعدة بعضنا البعض يمكن
-                                            </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                جعل العالم أفضل
-                                            </span>
-                                        </h1>
-                                        <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.html" class="th-btn style4">اكتشف الآن
-                                                <i class="fas fa-arrow-up-right ms-2"></i></a>
-                                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="th-btn style5 popup-video"><i class="fas fa-play me-2"></i> شاهد الفيديو
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="swiper-slide">
-                    <div class="hero-inner" data-bg-src="assets/img/hero/hero_bg_1_2.jpg" data-overlay="black4" data-opacity="5">
-                        <div class="hero-bg-shape1-1">
-                            <img src="assets/img/hero/hero-bg-shape1-1.png" alt="img">
-                        </div>
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-xl-12">
-                                    <div class="hero-style1 text-center">
-                                        <span class="sub-title justify-content-center" data-ani="slideinup" data-ani-delay="0.2s">مرحبا بكم في دونات الخيرية
-                                        </span>
-                                        <h1 class="hero-title text-white">
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                مساعدة بعضنا البعض يمكن
-                                            </span>
-                                            <span class="title1" data-ani="slideinup" data-ani-delay="0.4s">
-                                                جعل العالم أفضل
-                                            </span>
-                                        </h1>
-                                        <div class="btn-wrap justify-content-center" data-ani="slideinup" data-ani-delay="0.7s">
-                                            <a href="contact.html" class="th-btn style4">اكتشف الآن
-                                                <i class="fas fa-arrow-up-right ms-2"></i></a>
-                                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="th-btn style5 popup-video"><i class="fas fa-play me-2"></i> شاهد الفيديو
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-
-        <div class="hero-bg-3-1" data-bg-src="assets/img/hero/hero_bg_3_1.jpg" data-mask-src="assets/img/hero/hero-bg-shape3-1.png"></div>
-        <div class="container">
-            <div class="row gx-40 align-items-center">
-                <div class="col-lg-6">
-                    <div class="hero-style3">
-                        <span class="sub-title after-none">Give Hope For Homeless</span>
-                        <h1 class="hero-title">
-                            <span class="title1">Donate For A</span>
-                            <span class="title2">Better <span class="text-theme2 d-inline-block">World</span></span>
-                        </h1>
-                        <p class="hero-text">Explore the variety of volunteer opportunities available. From event planning and fundraising to fieldwork and administrative support</p>
-                        <div class="btn-wrap">
-                            <a href="about.html" class="th-btn">Discover Now<i class="fa-solid fa-arrow-up-right ms-2"></i></a>
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style3 popup-video"><i class="fas fa-play"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> --}}
+   
 
     <div class="th-hero-wrapper hero-3" id="hero">
 
@@ -205,12 +96,13 @@
             <div class="row gx-40 align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-style3">
-                        <span class="sub-title after-none">Give Hope For Cancer Patients</span>
+                        <span class="sub-title after-none">Give Hope For Cancer Patients</span>Amar Seva Ashram Trust Nanded
                         <h1 class="hero-title">
-                            <span class="title1">Donate For A</span>
-                            <span class="title2">Better <span class="text-theme2 d-inline-block">World</span></span>
+                            <span class="title1">Fight Against </span>
+                            <span class="title2"> <span class="text-theme2 d-inline-block">Deadly Cancer</span></span>
                         </h1>
-                        <p class="hero-text">Explore the variety of volunteer opportunities available. From event planning and fundraising to fieldwork and administrative support, Amar Sewa Ashram Trust Nanded works tirelessly as a nonprofit to support cancer patients in need.
+                        <p class="hero-text">
+                            Amar Seva Ashram Trust Nanded is dedicated to providing essential services to cancer patients in need. From offering personalized Ayurveda treatments to providing emotional and physical support, we are committed to improving the lives of those battling this deadly disease. Every effort, whether through event planning, fundraising, or fieldwork, plays a vital role in delivering hope and critical care to those who need it most. Together, we can make a lasting impact on the lives of cancer patients.
                         </p>
                         <div class="btn-wrap">
                             <a href="{{route('donation.details');}}        " class="th-btn">Discover Now<i
@@ -302,11 +194,12 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
             <div class="row gy-60 align-items-center">
                 <div class="col-xl-6">
                     <div class="img-box3">
-                        <div class="img1">
-                            <img src="assets/img/normal/about_3_1.png" alt="About">
+                        <div class="img1 ">
+                            <img src="assets/img/normal/about_3_2.png" alt="About">
+                            
                         </div>
                         <div class="img2 jump">
-                            <img src="assets/img/normal/about_3_2.png" alt="img">
+                            <img src="assets/img/normal/about_3_1.png" alt="img">
                         </div>
                         <div class="about-shape3-1 jump-reverse">
                             <div class="color-masking2">
@@ -346,8 +239,7 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                             <div class="media-body">
                                 <h4 class="box-title">2 Years of Experiences</h4>
                                 <p class="box-text">
-                                    Join our monthly giving program to provide consistent support to our
-                                    initiatives. Regular contributions,
+                                    Together, we can make a difference. Donate to Amar Seva Ashram and help us bring hope and care to those battling cancer.
                                 </p>
                             </div>
                         </div>
@@ -374,12 +266,13 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                         <div class="title-area">
                             <span class="sub-title after-none before-none"><i class="far fa-heart text-theme"></i> Our
                                 Services</span>
-                            <h2 class="sec-title">We’re Helping People i
-                                Need Around the World</h2>
-                            <p class="sec-text">Discover the inspiring stories of individuals and communities transformed
-                                by our programs. Our success stories highlight the real-life impact of your donations and
-                                the resilience of those we help. These narratives showcase the power of compassion and
-                                generosity.</p>
+                            <h2 class="sec-title">
+                                We’re Helping Cancer Patients in Need, Bringing Hope and Healing
+                            </h2>
+                            <p class="sec-text">
+                                Providing Ayurveda Treatment and Support for Cancer Patients in Need
+At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment to cancer patients, particularly those from underprivileged backgrounds. We offer personalized care to individuals and families, ensuring that those who are most in need receive the support and treatment they deserve. Our programs focus on healing the body, mind, and spirit, while improving the quality of life and managing cancer symptoms. Through compassionate care and holistic therapies, we bring hope and strength to those affected by cancer, especially those who lack the resources to access proper treatment.
+                            </p>
                         </div>
                         <div class="service-bg-shape2-2">
                             <img src="assets/img/service/service-thumb3-1.png" alt="img">

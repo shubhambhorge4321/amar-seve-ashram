@@ -200,15 +200,7 @@
                 </div>
               </div>
             </div>
-            <div class="col">
-
-              <div class="form-group">
-                <strong>Page :</strong> <span id="view_category"></span>
-              </div>
-              <div class="form-group">
-                <strong>Sub Event :</strong> <span id="view_sub_category"></span>
-              </div>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -418,6 +410,7 @@ $("#add_gallery_form").submit(function (e) {
           $("#view_sub_category").html(response.sub_category);
 
           // Use .attr("src", ...) to set the src attribute
+
 
           $(".img-holder img").attr("src", `{{asset('storage/images')}}/${response.avatar}`);
 
