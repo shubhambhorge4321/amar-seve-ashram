@@ -344,9 +344,11 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                                 <img src="assets/img/icon/about-icon3-1.svg" alt="icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="box-title">32 Years of Experiences</h4>
-                                <p class="box-text">Join our monthly giving program to provide consistent support to our
-                                    initiatives. Regular contributions,</p>
+                                <h4 class="box-title">2 Years of Experiences</h4>
+                                <p class="box-text">
+                                    Join our monthly giving program to provide consistent support to our
+                                    initiatives. Regular contributions,
+                                </p>
                             </div>
                         </div>
                         <div class="btn-wrap mt-40">
