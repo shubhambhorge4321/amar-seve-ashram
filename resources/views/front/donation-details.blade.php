@@ -125,29 +125,7 @@
                             </li>
                         </ul>
                     </div> <!-- Comment end --> <!-- Comment Form -->
-                    <div class="th-comment-form p-0 shadow-none mt-60">
-                        <div class="form-title">
-                            <h3 class="blog-inner-title h4 mb-2">Leave a Reply</h3>
-                            <p class="form-text">Your email address will not be published. Required fields are marked</p>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 form-group style-border">
-                                <input type="text" placeholder="Your Name" class="form-control">
-                            </div>
-                            <div class="col-md-6 form-group style-border">
-                                <input type="text" placeholder="Your Email" class="form-control">
-                            </div>
-                            <div class="col-12 form-group style-border">
-                                <input type="text" placeholder="Website" class="form-control">
-                            </div>
-                            <div class="col-12 form-group style-border">
-                                <textarea placeholder="Type Your Message" class="form-control"></textarea>
-                            </div>
-                            <div class="col-12 form-group mb-0">
-                                <button class="th-btn btn-fw">SUBMIT COMMENT</button>
-                            </div>
-                        </div>
-                    </div>
+                   
                 </div>
                 <div class="col-xxl-4 col-lg-5">
                     <aside class="sidebar-area donation-sidebar">
