@@ -39,6 +39,34 @@ class ContactController extends Controller
     return response()->json('Your contact form has  been submited succesfully !!');   
     
     }
+    public function calltoaction(Request $request)
+    {
+       
+
+    
+        
+    $request->validate([
+        'name' => 'required|string',
+        'email' => 'required|email',
+        'number' => 'required',
+        'zip' => 'required',
+    ]);
+
+    // Create a new Contact record using the request data
+    Contact::create([
+        'cont_type' => $request->input('name'),
+        'cont_name' => $request->input('name'),
+        'cont_email' => $request->input('email'),
+        'cont_phone' => $request->input('number'),    
+        'cont_message' => $request->input('zip'),
+    ]);
+    
+    // \Session::flash('success', 'Your form has been submitted successfully!');
+    
+    // return redirect()->route("message.front.show");
+    return response()->json('Your contact form has  been submited succesfully !!');   
+    
+    }
 
 
     public function admin_fetchall() {

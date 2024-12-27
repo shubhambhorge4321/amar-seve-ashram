@@ -96,7 +96,7 @@
             <div class="row gx-40 align-items-center">
                 <div class="col-lg-6">
                     <div class="hero-style3">
-                        <span class="sub-title after-none">Give Hope For Cancer Patients</span>Amar Seva Ashram Trust Nanded
+                        <span class="sub-title after-none">Give Hope For Cancer Patients</span>
                         <h1 class="hero-title">
                             <span class="title1">Fight Against </span>
                             <span class="title2"> <span class="text-theme2 d-inline-block">Deadly Cancer</span></span>
@@ -105,10 +105,9 @@
                             Amar Seva Ashram Trust Nanded is dedicated to providing essential services to cancer patients in need. From offering personalized Ayurveda treatments to providing emotional and physical support, we are committed to improving the lives of those battling this deadly disease. Every effort, whether through event planning, fundraising, or fieldwork, plays a vital role in delivering hope and critical care to those who need it most. Together, we can make a lasting impact on the lives of cancer patients.
                         </p>
                         <div class="btn-wrap">
-                            <a href="{{route('donation.details');}}        " class="th-btn">Discover Now<i
+                            <a href="{{route('donation.details')}}" class="th-btn">Donate Now<i
                                     class="fa-solid fa-arrow-up-right ms-2"></i></a>
-                            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style3 popup-video"><i
-                                    class="fas fa-play"></i></a>
+                          
                         </div>
                     </div>
                 </div>
@@ -237,9 +236,9 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                                 <img src="assets/img/icon/about-icon3-1.svg" alt="icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="box-title">2 Years of Experiences</h4>
+                                <h4 class="box-title">Amarjeetsingh Gill is the founder of Amar Seva Ashram Trust</h4>
                                 <p class="box-text">
-                                    Together, we can make a difference. Donate to Amar Seva Ashram and help us bring hope and care to those battling cancer.
+                                    
                                 </p>
                             </div>
                         </div>
@@ -294,9 +293,12 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     <img src="assets/img/icon/service-icon/service-card-icon1-1.svg" alt="Icon">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="about.html">Healthy Foods</a></h3>
-                                    <p class="box-text">Share stories and experiences from current volunteers to inspire
-                                        others to join. Allow user to sign up for volunteer opportunities.</p>
+                                    <h3 class="box-title"><a href="#">Healthy Foods</a></h3>
+                                    <p class="box-text">
+                                        
+
+ we provide Ayurvedic meals to support cancer patients' recovery and well-being. These meals help strengthen immunity and promote healing. Join us in delivering this essential care by volunteering and making a difference in patients' lives.
+                                    </p>
                                     <a href="about.html" class="icon-btn"><i class="fas fa-arrow-up-right"></i></a>
                                 </div>
                             </div>
@@ -307,10 +309,11 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     <img src="assets/img/icon/service-icon/service-card-icon1-2.svg" alt="Icon">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="about.html">Education Support</a></h3>
-                                    <p class="box-text">Share stories and experiences from current volunteers to inspire
-                                        others to join. Allow user to sign up for volunteer opportunities.</p>
-                                    <a href="about.html" class="icon-btn"><i class="fas fa-arrow-up-right"></i></a>
+                                    <h3 class="box-title"><a href="#">Conslution Support</a></h3>
+                                    <p class="box-text">
+                                        Amar Seva Ashram Trust Nanded offers expert consultation to cancer patients, providing personalized guidance and Ayurvedic treatment plans. Our goal is to empower patients with the knowledge and care needed to navigate their journey to recovery. Together, we bring clarity, support, and hope.
+                                    </p>
+                                    <a href="#" class="icon-btn"><i class="fas fa-arrow-up-right"></i></a>
                                 </div>
                             </div>
                         </div>
@@ -320,9 +323,10 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     <img src="assets/img/icon/service-icon/service-card-icon1-3.svg" alt="Icon">
                                 </div>
                                 <div class="box-content">
-                                    <h3 class="box-title"><a href="about.html">Medical Help</a></h3>
-                                    <p class="box-text">Share stories and experiences from current volunteers to inspire
-                                        others to join. Allow user to sign up for volunteer opportunities.</p>
+                                    <h3 class="box-title"><a href="#">Medical Help</a></h3>
+                                    <p class="box-text">
+                                        At Amar Seva Ashram Trust Nanded, we provide natural Ayurvedic treatments using highly potent herbs to transform the body and promote healing for cancer patients. These herbal remedies are carefully designed to support recovery and improve overall well-being.
+                                    </p>
                                     <a href="about.html" class="icon-btn"><i class="fas fa-arrow-up-right"></i></a>
                                 </div>
                             </div>
@@ -348,7 +352,8 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 To Action</span>
                             <h2 class="sec-title text-white">Give Your Big Hand Forever</h2>
                         </div>
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact">
+                        <form action="{{route('call.to.action')}}" method="POST" class="contact-form ajax-contact">
+                            @csrf
                             <div class="row">
                                 <div class="form-group col-md-6 style-dark">
                                     <input type="text" class="form-control" name="name" id="name"
@@ -391,10 +396,12 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="title-area text-center">
-                        <span class="sub-title before-none after-none"><i class="far fa-heart text-theme"></i> Lets Start
-                            Donating</span>
-                        <h2 class="sec-title">See Your Impact: Transparent
-                            Donation Causes</h2>
+                        <span class="sub-title before-none after-none"><i class="far fa-heart text-theme"></i>
+                            Let’s Start Donating
+                        </span>
+                        <h2 class="sec-title">
+                            Help cancer patients through your essential donations.
+                        </h2>
                     </div>
                 </div>
             </div>
@@ -544,23 +551,18 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                 <div class="col-xl-6">
                     <div class="why-wrap-1">
                         <div class="title-area mb-25">
-                            <span class="sub-title after-none before-none"><i class="far fa-heart text-theme"></i> Why
-                                Choose Us</span>
+                            <span class="sub-title after-none before-none"><i class="far fa-heart text-theme"></i> 
+                                Why Choose Amar Seva Trust
+                            </span>
                             <h2 class="sec-title">Together, We Can Make A Difference</h2>
-                            <p>Our secure online donation platform allows you to make contribution quickly and safely.
-                                Choose from various payment methods and set up one-time or recurring donations with ease.
-                                Your support helps us continue our mission.</p>
+                            <p>
+                                At Amar Seva Trust, we specialize in supporting cancer patients through every stage of their journey. From early diagnosis to advanced stages, including critical cases, your contribution directly funds life-saving treatments, care, and recovery. <br> <br>
+                            We are dedicated to serving humanity with compassion and commitment. We specialize in providing care and support to cancer patients, offering life-saving treatments and hope to those in need. Our mission is to heal lives, not for profit, but for the profound joy of making a difference. Together, we strive to bring light and life to even the darkest moments.
+                            </p>
                         </div>
-                        <div class="progress-bar-wrap">
-                            <h3 class="progress-bar_title">Donations</h3>
-                            <div class="progress">
-                                <div class="progress-bar bg-theme" style="width: 55%;">
-                                </div>
-                                <div class="progress-value text-theme"><span class="counter-number">55</span>%</div>
-                            </div>
-                        </div>
+                        
                         <div class="progress-bar-wrap mt-20">
-                            <h3 class="progress-bar_title">Charity</h3>
+                            <h3 class="progress-bar_title">our Cancer success rate  in every stage</h3>
                             <div class="progress">
                                 <div class="progress-bar bg-theme2" style="width: 85%;">
                                 </div>
@@ -575,9 +577,10 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                             <img src="assets/img/icon/why-icon1-1.svg" alt="icon">
                                         </div>
                                         <div class="media-body">
-                                            <h4 class="box-title">Global Community</h4>
-                                            <p class="box-text">Volunteers are the heart of our organization. Join our team
-                                                to make a hands.</p>
+                                            <h4 class="box-title">out of city</h4>
+                                            <p class="box-text">
+                                                visit first to connect, then commit to monthly check-ups to ensure lasting impact.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
@@ -587,16 +590,17 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                             <img src="assets/img/icon/why-icon1-2.svg" alt="icon">
                                         </div>
                                         <div class="media-body">
-                                            <h4 class="box-title">Crowdfunding</h4>
-                                            <p class="box-text">Join our monthly giving program to provide consistent
-                                                support</p>
+                                            <h4 class="box-title">Donation</h4>
+                                            <p class="box-text">
+                                                Your donation strengthens our mission and plays a crucial role in supporting poor and needy individuals.
+                                            </p>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div class="btn-wrap mt-35">
-                            <a href="about.html" class="th-btn">Learn More <i class="fas fa-arrow-up-right ms-2"></i></a>
+                            <a href="{{route('aboutus')}}" class="th-btn">Learn More <i class="fas fa-arrow-up-right ms-2"></i></a>
                         </div>
                     </div>
                 </div>

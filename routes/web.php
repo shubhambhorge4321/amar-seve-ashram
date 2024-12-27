@@ -17,6 +17,7 @@ use App\Http\Controllers\{TestimonialController,SidegalleryController,GalleryCon
 */
 
 Route::get('/',[FrontController::class,'home']);    
+Route::get('/home',[FrontController::class,'home']);    
 
 
 Route::get('/home.html',[FrontController::class,'home'])->name('home');    
@@ -99,4 +100,5 @@ Route::group(['middleware' => 'auth'], function () {
 
 
 Route::post('/contactus/store/admin', [ContactController::class, 'front_store'])->name('contactus.admin.store');
+Route::post('/call/to/action', [ContactController::class, 'calltoaction'])->name('call.to.action');
 Route::any('volunteer/store', [RegisterController::class, 'volunteer_store'])->name('volunteer.register');

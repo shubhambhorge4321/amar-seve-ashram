@@ -14,6 +14,7 @@ class VerifyCsrfToken extends Middleware
     protected $except = [
         
             "/contactus/store/admin",
-            "volunteer/store"
+            "volunteer/store",
+            "/call/to/action"
     ];
 }

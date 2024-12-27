@@ -377,6 +377,7 @@
     $(document).on('click', '.viewIcon', function (e) {
       e.preventDefault();
       let id = $(this).attr('id');
+      console.log(id);
       $.ajax({
         url: '/register/admin/show/' + id,
         method: 'get',
