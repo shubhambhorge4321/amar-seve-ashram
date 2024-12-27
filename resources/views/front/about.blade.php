@@ -101,7 +101,8 @@ About Area
                         <div class="title-area mb-30">
                             <span class="sub-title before-none">About Us Donat</span>
                             <h2 class="sec-title">We Believe that We can Save More Life's with you</h2>
-                            <p class="">Donet is the largest global crowdfunding community connecting nonprofits, donors, and companies in nearly every country. We help nonprofits from Afghanistan to Zimbabwe (and hundreds of places in between) access the tools, training, and support they need to be more effective and make our world a better place.</p>
+                            <p class="">At Amarseva Ashram Trust, we believe that together, we can save more lives. Your support plays a critical role in helping us provide life-saving treatments, essential care, and hope to those battling cancer. Every donation directly impacts the lives of patients, enabling us to cover medical expenses, provide emotional support, and ensure that no one faces this journey alone.
+                                      We are committed to transparency, showing you exactly how your generous contributions are making a difference in the lives of those in need. With your help, we can continue to expand our efforts, reach more individuals, and bring life-changing healthcare and support to underserved communities.By donating, you are not just offering financial assistance; you are offering hope, strength, and a second chance at life. Together, we can make a lasting impact and help save more lives, one donation at a time. Join us in our mission to transform the lives of cancer patients across India and beyond.</p>
                         </div>
                         <div class="checklist style2 list-two-column">
                             <ul>
@@ -368,32 +369,32 @@ Testimonial Area
                             <div class="swiper-wrapper">
                                 <div class="swiper-slide">
                                     <div class="testi-card">
-                                        <p class="box-text">“Stay informed about our upcoming events and campaigns. Whether it's a fundraising gala, a charity run, or a community outreach program, there are plenty of ways to get involved and support our cause. Check our event calendar for details. We prioritize your security. Our donation process uses the latest encryption technology to protect your personal and financial information. Donate with confidence knowing”</p>
-                                        <h3 class="box-title">Alex Furnandes</h3>
+                                        <p class="box-text">“Stay updated on our upcoming events and initiatives. From fundraising galas and charity runs to community outreach programs, there are many ways for you to get involved and support our mission. Be sure to check our event calendar for more information. We take your security seriously. Our donation system uses advanced encryption to safeguard your personal and financial details. You can contribute with peace of mind, knowing that your donation is both secure and making a meaningful impact.</p>
+                                        <h3 class="box-title">Vikram Deshmukh</h3>
                                         <p class="box-desig">CEO, Founder</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testi-card">
-                                        <p class="box-text">“Our donation process uses the latest encryption technology to protect your personal and financial information. Donate with confidence knowing Stay informed about our upcoming events and campaigns. Whether it's a fundraising gala, a charity run, or a community outreach program, there are plenty of ways to get involved and support our cause. Check our event calendar for details. We prioritize your security.”</p>
-                                        <h3 class="box-title">Mustafa Kamal</h3>
+                                        <p class="box-text">"Our donation system is designed with the latest encryption technology to ensure the safety of your personal and financial information. You can contribute confidently, knowing your details are secure. Stay connected with us to learn about our upcoming events and campaigns. Whether it’s a charity run, a fundraising gala, or a community outreach initiative, there are numerous opportunities to participate and support our mission. Visit our event calendar for more details. Your security and involvement are our top priorities."</p>
+                                        <h3 class="box-title">Rohan Kulkarni</h3>
                                         <p class="box-desig">CEO, Founder</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testi-card">
-                                        <p class="box-text">“Stay informed about our upcoming events and campaigns. Whether it's a fundraising gala, a charity run, or a community outreach program, there are plenty of ways to get involved and support our cause. Check our event calendar for details. We prioritize your security. Our donation process uses the latest encryption technology to protect your personal and financial information. Donate with confidence knowing”</p>
-                                        <h3 class="box-title">Alex Furnandes</h3>
+                                        <p class="box-text">"Keep up-to-date with our upcoming events and initiatives. From charity runs and fundraising galas to community outreach programs, there are numerous ways for you to participate and contribute to our mission. Visit our event calendar for more information. Your security is our top priority. Our donation system is equipped with advanced encryption to ensure the protection of your personal and financial data. Give with assurance, knowing your support is secure and impactful."</p>
+                                        <h3 class="box-title">Aadarsh Patil</h3>
                                         <p class="box-desig">CEO, Founder</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
                                 <div class="swiper-slide">
                                     <div class="testi-card">
-                                        <p class="box-text">“Our donation process uses the latest encryption technology to protect your personal and financial information. Donate with confidence knowing Stay informed about our upcoming events and campaigns. Whether it's a fundraising gala, a charity run, or a community outreach program, there are plenty of ways to get involved and support our cause. Check our event calendar for details. We prioritize your security.”</p>
-                                        <h3 class="box-title">Mustafa Kamal</h3>
+                                        <p class="box-text">“"Our donation system utilizes state-of-the-art encryption technology to safeguard your personal and financial details. Contribute with peace of mind, knowing your information is secure. Stay updated on our latest events and initiatives. From fundraising galas and charity runs to impactful community programs, there are many ways to join us in making a difference. Explore our event calendar for more details. Your safety and engagement are our highest priorities."</p>
+                                        <h3 class="box-title">Axar Patel</h3>
                                         <p class="box-desig">CEO, Founder</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
