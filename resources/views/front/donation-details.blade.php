@@ -25,8 +25,9 @@
                         <div class="tag">Educations</div>
                     </div>
                     <div class="blog-content">
-                        <h2 class="h3 page-title mt-n2">Help us touch their lives of these youths</h2>
-                        <p class="mb-35">Join our fundraising campaigns to raise awareness and funds for specific projects. Participate in seasonal drives, crowdfunding efforts, and special appeals to help us meet our goals and address urgent needs. Stay updated with the latest news, events, and impact stories from our organization. Subscribe to our newsletter to receive regular updates directly in your inbox. Be the first to know about new initiatives and how you can help. Use your voice to support our cause. Learn about our advocacy efforts and how you can get involved. From signing petitions to contacting policymakers, your advocacy can drive meaningful change and amplify our impact.</p>
+                        <h2 class="h3 page-title mt-n2">About Amarseva Ashram Trust - Cancer Patient Donation and Funding</h2>
+                        <p class="mb-35">Learn how your generous donations help us provide life-changing support to cancer patients. At Amarseva Ashram Trust, we focus on offering critical healthcare, treatment funding, and emotional support to those battling cancer. From medical care to financial assistance, every dollar you contribute goes directly to improving the lives of patients in need. Your generosity enables us to provide vital resources and ensure that no one faces cancer alone.
+                        Join our community of compassionate supporters by becoming a member. Enjoy exclusive benefits, including invitations to special events, regular updates on our initiatives, and opportunities to engage with the families and individuals whose lives you help transform. Together, we can make a lasting impact on the fight against cancer.</p>
                         <div class="donation-progress-wrap mb-55">
                             <div class="media-left">
                                 <div class="progress">
@@ -43,12 +44,13 @@
                                 <a class="th-btn" href="#">Donate Now <i class="fas fa-arrow-up-right ms-2"></i></a>
                             </div>
                         </div>
-                        <h3 class="mb-15">About The Charity</h3>
-                        <p class="mb-45">Learn how we utilize your donations to create lasting change. From education and healthcare to disaster relief and community development, see how every dollar is allocated and the tangible outcomes it produces. Your generosity fuels our mission. Join our community of dedicated supporters by becoming a member. Enjoy exclusive benefits, including special event invitations,</p>
+                        <h3 class="mb-15">About Amarseva Charity Trust</h3>
+                        <p class="mb-45">Learn how your donations help us create lasting change at Amarseva Ashram Charity Trust. From providing healthcare and education to supporting disaster relief and community development, every dollar you contribute is carefully allocated to make a meaningful impact. Your generosity fuels our mission to uplift those in need and bring positive transformation to communities.
+                        Join our community of dedicated supporters by becoming a member. Enjoy exclusive benefits, including special event invitations, regular updates on our projects, and the opportunity to witness the direct impact of your contributions. Together, we can continue to make a difference and build a better, brighter future for all.</p>
                         <h3 class="mb-15">Summary</h3>
-                        <p class="mb-45">Partner with us to make a greater impact. Our corporate sponsorship program offers businesses the opportunity to support our mission while gaining visibility and fulfilling corporate social responsibility goals. Learn about the benefits and how your company can get involved.</p>
+                        <p class="mb-45">Partner with Amarseva Ashram Trust to make a meaningful impact. Our programs offer individuals and organizations the opportunity to support our mission of providing healthcare, education, and community development to those in need. Learn about the benefits of supporting our initiatives and how you can get involved in creating lasting change. Your partnership helps us reach more people and provide vital resources, making a real difference in the lives of vulnerable communities. Join us in our mission to build a brighter future for all.</p>
                         <h3 class="mb-15">Challenge</h3>
-                        <p class="mb-35">Explore the variety of volunteer opportunities available. From event planning and fundraising to fieldwork and administrative support, there are many ways to lend your talents. Find the perfect fit for your skills and interests.</p>
+                        <p class="mb-35">Explore the challenges faced by Amarseva Ashram Trust as we strive to make a meaningful impact in the lives of those in need. From securing adequate funding for healthcare and education initiatives to addressing the growing demand for support in disaster relief and community development, we are constantly working to overcome obstacles. Your involvement can help us tackle these challenges and bring about positive change. Join us in finding innovative solutions and contributing to the trust’s mission to create a better future for vulnerable communities.</p>
                         <div class="row gx-40 gy-30 align-items-center">
                             <div class="col-xl-6">
                                 <div class="page-img mb-0">
@@ -58,18 +60,18 @@
                             <div class="col-xl-6">
                                 <div class="checklist">
                                     <ul>
-                                        <li><i class="fas fa-check"></i>From the streets to safety</li>
-                                        <li><i class="fas fa-check"></i>I wish to feed the orangutansy</li>
-                                        <li><i class="fas fa-check"></i>Lorem ipsum dolor sit amet, adipiscing</li>
-                                        <li><i class="fas fa-check"></i>Nemo enim ipsam voluptatem quia</li>
-                                        <li><i class="fas fa-check"></i>Get Involved: Upcoming Events</li>
-                                        <li><i class="fas fa-check"></i>Safe and Secure Donations</li>
-                                        <li><i class="fas fa-check"></i>Help Us Spread the Word</li>
+                                        <li><i class="fas fa-check"></i>Financial Barriers</li>
+                                        <li><i class="fas fa-check"></i>Lack of Awareness</li>
+                                        <li><i class="fas fa-check"></i>Emotional and Psychological Strain</li>
+                                        <li><i class="fas fa-check"></i>Access to Healthcare</li>
+                                        <li><i class="fas fa-check"></i>Insufficient Funding</li>
+                                        <li><i class="fas fa-check"></i>Growing Demand for Support</li>
+                                        <li><i class="fas fa-check"></i>Sustaining Long-term Care</li>
                                     </ul>
                                 </div>
                             </div>
                         </div>
-                        <p class="mb-40 mt-30">Amplify our message by sharing our mission with your network. Use social media, word of mouth, and community engagement to raise awareness about our work. Every share brings us closer to achieving our mission and reaching more people in need. From signing petitions to contacting policymakers, your advocacy can drive meaningful change and amplify our impact.</p>
+                        <p class="mb-40 mt-30">From diagnosis to treatment, Amarseva Ashram Trust faces several challenges in supporting cancer patients. Many individuals battling cancer are without adequate access to medical care or financial resources to cover the high cost of treatment. The emotional and physical toll on patients and their families is immense, and there is a constant need for more funding and support. We strive to provide essential medical assistance, emotional care, and financial aid, but these challenges require continuous effort and collaboration.</p>
                     </div>
                     <div class="th-comments-wrap p-0 shadow-none mt-60">
                         <h2 class="blog-inner-title h4"><i class="far fa-comments"></i> Comments (03)</h2>
@@ -80,9 +82,9 @@
                                         <img src="assets/img/blog/comment-author-1.jpg" alt="Comment Author">
                                     </div>
                                     <div class="comment-content">
-                                        <h3 class="name">Mariya Dsuza</h3>
+                                        <h3 class="name">Ravi Kumar</h3>
                                         <span class="commented-on">14 March, 2024<span class="ms-2">06:30pm</span></span>
-                                        <p class="text">Provide regular updates to donors and supporters through newsletters, social media, & the charity website, detailing how funds are being used and the impact achieved.</p>
+                                        <p class="text">Provide regular updates to donors and supporters through newsletters, social media, and the charity website, detailing how funds are being used and the impact achieved.</p>
                                         <div class="reply_and_edit">
                                             <a href="blog-details.html" class="reply-btn"><i class="fas fa-reply"></i>Reply</a>
                                         </div>
@@ -95,7 +97,7 @@
                                                 <img src="assets/img/blog/comment-author-2.jpg" alt="Comment Author">
                                             </div>
                                             <div class="comment-content">
-                                                <h3 class="name">Michel Phelops</h3>
+                                                <h3 class="name">Arjun Patel</h3>
                                                 <span class="commented-on">15 March, 2024<span class="ms-2">04:30pm</span></span>
                                                 <p class="text">Use metrics and feedback to assess the success of projects and programs, and share these results with the community to demonstrate accountability.</p>
                                                 <div class="reply_and_edit">
@@ -112,7 +114,7 @@
                                         <img src="assets/img/blog/comment-author-3.jpg" alt="Comment Author">
                                     </div>
                                     <div class="comment-content">
-                                        <h3 class="name">Hamilton Barason</h3>
+                                        <h3 class="name">Anil Sharma</h3>
                                         <span class="commented-on">16 March, 2024<span class="ms-2">02:30pm</span></span>
                                         <p class="text">Stay updated with the latest news, events, and impact stories from our organization. Subscribe to our newsletter to receive regular updates directly in your inbox.</p>
                                         <div class="reply_and_edit">
