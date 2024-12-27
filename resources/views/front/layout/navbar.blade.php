@@ -28,7 +28,7 @@ Sidemenu
         <div class="widget woocommerce widget_shopping_cart">
             <h3 class="widget_title">Shopping cart</h3>
             <div class="widget_shopping_cart_content">
-                <ul class="woocommerce-mini-cart cart_list product_list_widget ">
+                <ul class="woocommerce-mini-cart cart_list product_list_widget">
                     <li class="woocommerce-mini-cart-item mini_cart_item">
                         <a href="#" class="remove remove_from_cart_button"><i class="far fa-times"></i></a>
                         <a href="#"><img src="assets/img/product/product_thumb_1_1.png" alt="Cart Image">Books</a>
@@ -191,32 +191,16 @@ Header Area
                             <li class="menu-item-has-children">
                                 <a href="#">Volunteer</a>
                                 <ul class="sub-menu">
-                                    {{-- <li class="menu-item-has-children">
-                                        <a href="#">Shop</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="shop.html">Shop</a></li>
-                                            <li><a href="shop-details.html">Shop Details</a></li>
-                                            <li><a href="cart.html">Cart Page</a></li>
-                                            <li><a href="checkout.html">Checkout</a></li>
-                                            <li><a href="wishlist.html">Wishlist</a></li>
-                                        </ul>
-                                    </li> --}}
+                                    
                                     <li><a href="{{route('volunteer')}}">Volunteers</a></li>
-                                    {{-- <li><a href="team-details.html">Volunteer Details</a></li> --}}
+                                   
                                     <li><a href="{{route('become.volunteer')}}">Become A Volunteer</a></li>
-                                    {{-- <li><a href="gallery.html">Gallery</a></li>
-                                    <li><a href="pricing.html">Pricing</a></li>
-                                    <li><a href="faq.html">FAQS</a></li>
-                                    <li><a href="testimonial.html">Testimonials</a></li>
-                                    <li><a href="error.html">Error Page</a></li> --}}
+                                    
                                 </ul>
                             </li>
-                            <li class="menu-item-has-children">
-                                <a href="#">Gallery</a>
-                                <ul class="sub-menu">
-                                    <li><a href="{{route('gallery')}}">Gallery</a></li>
-                                    <li><a href="blog-details.html">Blog Details</a></li>
-                                </ul>
+                            <li class="menu-item-has-children-cancell">
+                                <a href="{{route('gallery')}}">Gallery</a>
+                                
                             </li>
                             <li>
                                 <a href="{{route('contact.us')}}">Contact Us</a>
