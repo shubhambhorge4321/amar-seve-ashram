@@ -92,10 +92,7 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/slidegallery/admin/fetchall', [SidegalleryController::class, 'admin_fetchall'])->name('sidegallery.fetchall');
     Route::get('/sidegallery/admin/show/{id}', [SidegalleryController::class, 'admin_show'])->name('sidegallery.view');
     Route::delete('/slidegallery/delete/admin/', [SidegalleryController::class, 'admin_delete'])->name('sidegallery.delete');
-    Route::get('Sponsor/admin/edit', [SponsorController::class, 'admin_edit'])->name('sponsor.admin.edit');
-
-    Route::any('sponsor/admin/update', [SponsorController::class, 'admin_update'])->name('sponsor.admin.update');
-
+   
 });
 
 
