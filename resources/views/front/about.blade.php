@@ -7,7 +7,7 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/about-bg.png" data-overlay="theme">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/about-bg.jpg" data-overlay="theme">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>

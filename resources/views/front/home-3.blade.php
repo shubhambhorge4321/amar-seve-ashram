@@ -30,13 +30,13 @@
         <div class="swiper th-slider hero-slider1" id="heroSlide1"
             data-slider-options='{"effect":"fade", "autoHeight": "true"}'>
             <div class="swiper-wrapper">
-                {{-- @foreach ($galleryimages as $key => $image)
+                @foreach ($galleryimages as $key => $image)
                 <div class="swiper-slide">
                     <div class="hero-inner" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}"
                         data-mask-src="assets/img/hero/hero-bg-shape3-1.png" data-opacity="5">
-                        <div class="hero-bg-shape1-1">
+                        {{-- <div class="hero-bg-shape1-1">
                             <img src="assets/img/hero/hero-bg-shape1-1.png" alt="img">
-                        </div>
+                        </div> --}}
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-xl-12">
@@ -44,9 +44,7 @@
                                         <span class="sub-title justify-content-center" data-ani="slideinup"
                                             data-ani-delay="0.2s">
                                         </span>
-                                        <h1 class="hero-title text-white">
-                                           
-                                        </h1>
+                                       
                                         <div class="btn-wrap justify-content-center" data-ani="slideinup"
                                             data-ani-delay="0.7s">
                                            
@@ -58,8 +56,8 @@
                     </div>
 
                 </div>
-                @endforeach --}}
-                @foreach ($galleryimages as $key => $image)
+                @endforeach
+                {{-- @foreach ($galleryimages as $key => $image)
                 <div class="swiper-slide">
                     <div class="hero-inner" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}" data-overlay="black4" data-opacity="5">
                         <div class="hero-bg-shape1-1">
@@ -83,14 +81,14 @@
                     </div>
 
                 </div>
-                @endforeach
+                @endforeach --}}
 
 
                 
             </div>
         </div>
 
-        <div class="hero-bg-3-1" data-bg-src="assets/img/hero/hero_bg_3_1.jpg"
+        {{-- <div class="hero-bg-3-1" data-bg-src="assets/img/hero/hero_bg_3_1.jpg"
             data-mask-src="assets/img/hero/hero-bg-shape3-1.png"></div>
         <div class="container">
             <div class="row gx-40 align-items-center">
@@ -112,7 +110,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
+        
     </div>
     <!--======== / Hero Section ========--><!--==============================
     Feature Area

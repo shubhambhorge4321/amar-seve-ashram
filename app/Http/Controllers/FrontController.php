@@ -50,7 +50,7 @@ class FrontController extends Controller
     }
     public function donation ()
     {
-        return view('front.donation-details');
+        return view('front.donate-now');
     }
     public function contact ()
     {

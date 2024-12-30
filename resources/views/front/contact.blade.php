@@ -40,8 +40,8 @@ Contact Area
                             </div>
                             <div class="media-body">
                                 <h3 class="box-title">Phone</h3>
-                                <p class="box-text"><a href="tel:16363599852">(+58-125) 25-3158</a></p>
-                                <p class="box-text"><a href="tel:16363599852">+163-524-4521</a></p>
+                                <p class="box-text"><a href="tel:9422189855">+9422189855</a></p>
+                                {{-- <p class="box-text"><a href="tel:16363599852">+163-524-4521</a></p> --}}
                             </div>
                         </div>
                         <div class="contact-feature">
@@ -50,8 +50,8 @@ Contact Area
                             </div>
                             <div class="media-body">
                                 <h3 class="box-title">Email</h3>
-                                <p class="box-text"><a href="mailto:info@donet.com">info@donet.com</a></p>
-                                <p class="box-text"><a href="mailto:allinfo@donet.com">allinfo@donet.com</a></p>
+                                <p class="box-text"><a href="mailto:info@amarsevaashram.com">info@amarsevaashram.com</a></p>
+                                <p class="box-text"><a href="mailto:info@amarsevaashram.com">info@amarsevaashram.com</a></p>
                             </div>
                         </div>
                         <div class="contact-feature" data-theme-color="#FF5528">

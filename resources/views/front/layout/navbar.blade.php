@@ -96,7 +96,7 @@ Mobile Menu
     <div class="th-menu-area text-center">
         <button class="th-menu-toggle"><i class="fal fa-times"></i></button>
         <div class="mobile-logo">
-            <a href="index.html"><img src="assets/img/logo.png" alt="Donat"></a>
+            <a href="index.html"><img src="assets/img/logo.png" alt="amar seva aashram"></a>
         </div>
         <div class="th-mobile-menu">
             <ul>
@@ -174,7 +174,7 @@ Header Area
         <div class="container">
             <div class="menu-area">
                 <div class="header-logo">
-                    <a href="index.html"><img src="assets/img/logo.png" alt="Donat"></a>
+                    <a href="{{route('home')}}"><img src="assets/img/logo.png" alt="amar seva aashram"></a>
                 </div>
                 <div class="menu-area-wrap">
                     <nav class="main-menu d-none d-lg-block">

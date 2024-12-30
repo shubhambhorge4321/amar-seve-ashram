@@ -86,7 +86,11 @@ Route::group(['middleware' => 'auth'], function () {
     Route::delete('/contact/admin/delete', [ContactController::class, 'admin_delete'])->name('contactus.admin.delete');
     Route::get('/contact/fetchall/admin', [ContactController::class, 'admin_fetchAll'])->name('contact.admin.fetchall');
 
+    Route::post('/sponsor/store/admin', [SponsorController::class, 'admin_store'])->name('sponsor.admin.store');
 
+    Route::get('Sponsor/admin/edit', [SponsorController::class, 'admin_edit'])->name('sponsor.admin.edit');
+    Route::any('sponsor/admin/update', [SponsorController::class, 'admin_update'])->name('sponsor.admin.update');
+    
     
     Route::any('/slidegallery/store/admin/', [SidegalleryController::class, 'admin_store'])->name('sidegallery.admin.store');
     Route::get('/slidegallery/admin/fetchall', [SidegalleryController::class, 'admin_fetchall'])->name('sidegallery.fetchall');
