@@ -3,11 +3,11 @@
 @section('content')
 
 
-<!-- changs check  -->
+
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/about-bg.jpg" data-overlay="theme">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg" data-overlay="theme">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>
@@ -86,7 +86,7 @@ About Area
                 <div class="col-xl-5">
                     <div class="about-wrap1">
                         <div class="title-area mb-30">
-                            <span class="sub-title before-none">About Amar Seva Ashram Trust </span>
+                            <span class="sub-title before-none">About Us Donat</span>
                             <h2 class="sec-title">We Believe that We can Save More Life's with you</h2>
                             <p class="">At Amarseva Ashram Trust, we believe that together, we can save more lives. Your support plays a critical role in helping us provide life-saving treatments, essential care, and hope to those battling cancer. Every donation directly impacts the lives of patients, enabling us to cover medical expenses, provide emotional support, and ensure that no one faces this journey alone.
                                       We are committed to transparency, showing you exactly how your generous contributions are making a difference in the lives of those in need. With your help, we can continue to expand our efforts, reach more individuals, and bring life-changing healthcare and support to underserved communities.By donating, you are not just offering financial assistance; you are offering hope, strength, and a second chance at life. Together, we can make a lasting impact and help save more lives, one donation at a time. Join us in our mission to transform the lives of cancer patients across India and beyond.</p>
@@ -280,7 +280,7 @@ Process Area
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Impact On Cancer Patients</h3>
-                            <p class="box-text">Your support can create a profound impact on cancer patients, offering them not just medical care, but also emotional strength, financial relief, and a chance for recovery.</p>
+                            <p class="box-text"Your support can create a profound impact on cancer patients, offering them not just medical care, but also emotional strength, financial relief, and a chance for recovery.</p>
                         </div>
                     </div>
                 </div>
@@ -403,4 +403,5 @@ Testimonial Area
     <!--==============================
 Brand Area  
 ==============================-->
-   
+    
+   @endsection
