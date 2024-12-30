@@ -280,7 +280,7 @@ Process Area
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Impact On Cancer Patients</h3>
-                            <p class="box-text"Your support can create a profound impact on cancer patients, offering them not just medical care, but also emotional strength, financial relief, and a chance for recovery.</p>
+                            <p class="box-text">Your support can create a profound impact on cancer patients, offering them not just medical care, but also emotional strength, financial relief, and a chance for recovery.</p>
                         </div>
                     </div>
                 </div>
