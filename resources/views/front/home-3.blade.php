@@ -831,7 +831,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
         <div class="container">
             <div class="title-area text-center">
                 <span class="sub-title after-none before-none"><i class="far fa-heart text-theme"></i>Testimonials</span>
-                <h2 class="sec-title">What Our Customers Say?</h2>
+                <h2 class="sec-title">What Our patients Say?</h2>
             </div>
             <div class="testi-slider3 slider-area">
                 <div class="swiper th-slider" id="testiSlide3"
@@ -853,7 +853,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         </div>
                                     </div>
                                     <div class="media-left">
-                                        <h3 class="testi-card_name">Brandon Dixon</h3>
+                                        <h3 class="testi-card_name">Vikram Deshmukh</h3>
                                         <span class="testi-card_desig">CEO, Founder</span>
                                     </div>
                                 </div>
@@ -879,7 +879,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         </div>
                                     </div>
                                     <div class="media-left">
-                                        <h3 class="testi-card_name">Brooklyn Simmons</h3>
+                                        <h3 class="testi-card_name">Rohan Kulkarni</h3>
                                         <span class="testi-card_desig">CEO, Founder</span>
                                     </div>
                                 </div>
@@ -905,7 +905,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         </div>
                                     </div>
                                     <div class="media-left">
-                                        <h3 class="testi-card_name">Michel Connor</h3>
+                                        <h3 class="testi-card_name">Aadarsh Mane</h3>
                                         <span class="testi-card_desig">CEO, Founder</span>
                                     </div>
                                 </div>
@@ -931,7 +931,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         </div>
                                     </div>
                                     <div class="media-left">
-                                        <h3 class="testi-card_name">Ethan David</h3>
+                                        <h3 class="testi-card_name">Mahesh Patil</h3>
                                         <span class="testi-card_desig">CEO, Founder</span>
                                     </div>
                                 </div>
@@ -957,7 +957,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         </div>
                                     </div>
                                     <div class="media-left">
-                                        <h3 class="testi-card_name">Daniel Thomas</h3>
+                                        <h3 class="testi-card_name">Amar Singh</h3>
                                         <span class="testi-card_desig">CEO, Founder</span>
                                     </div>
                                 </div>
@@ -983,7 +983,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         </div>
                                     </div>
                                     <div class="media-left">
-                                        <h3 class="testi-card_name">Michel Vetory</h3>
+                                        <h3 class="testi-card_name">Atul save</h3>
                                         <span class="testi-card_desig">CEO, Founder</span>
                                     </div>
                                 </div>
