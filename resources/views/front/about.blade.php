@@ -303,7 +303,7 @@ Testimonial Area
                     <div class="title-area text-center">
                         <span class="sub-title">Testimonials</span>
                         <h2 class="sec-title">What People Say About
-                            Our Charity</h2>
+                            Amar Seva Ashram Trust</h2>
                     </div>
                 </div>
             </div>
@@ -373,7 +373,7 @@ Testimonial Area
                                 <div class="swiper-slide">
                                     <div class="testi-card">
                                         <p class="box-text">"Keep up-to-date with our upcoming events and initiatives. From charity runs and fundraising galas to community outreach programs, there are numerous ways for you to participate and contribute to our mission. Visit our event calendar for more information. Your security is our top priority. Our donation system is equipped with advanced encryption to ensure the protection of your personal and financial data. Give with assurance, knowing your support is secure and impactful."</p>
-                                        <h3 class="box-title">Aadarsh Patil</h3>
+                                        <h3 class="box-title">Aadarsh Mane</h3>
                                         <p class="box-desig">CEO, Founder</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
@@ -381,7 +381,7 @@ Testimonial Area
                                 <div class="swiper-slide">
                                     <div class="testi-card">
                                         <p class="box-text">“"Our donation system utilizes state-of-the-art encryption technology to safeguard your personal and financial details. Contribute with peace of mind, knowing your information is secure. Stay updated on our latest events and initiatives. From fundraising galas and charity runs to impactful community programs, there are many ways to join us in making a difference. Explore our event calendar for more details. Your safety and engagement are our highest priorities."</p>
-                                        <h3 class="box-title">Axar Patel</h3>
+                                        <h3 class="box-title">Mahesh Patil</h3>
                                         <p class="box-desig">CEO, Founder</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>

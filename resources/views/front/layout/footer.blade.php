@@ -24,7 +24,7 @@
                             <div class="about-logo">
                                 <a href="index.html"><img src="assets/img/logo.png" alt="Donat"></a>
                             </div>
-                            <p class="about-text mb-3"> Our secure online donation platform allows you to make contributions quickly</p>
+                            <p class="about-text mb-3"> We believe in the power of humanity and kindness.</p>
                             <div class="info-card style2">
                                 <div class="box-icon bg-theme">
                                     <i class="fal fa-phone"></i>
