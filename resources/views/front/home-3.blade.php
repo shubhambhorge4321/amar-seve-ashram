@@ -131,13 +131,9 @@
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Fundraising Trust</h3>
-                        <p class="box-text">
-                         
-Your contribution plays a vital role in providing essential care, Ayurvedic treatments, and support to cancer patients through Amar Sewa Ashram Trust Nanded.
-                        </p>
-                        <a class="link-btn style2" href="{{route('donation.details')}}">donate now <i
-                                class="fa-solid fa-arrow-up-right ms-2"></i></a>
+                        <h3 class="box-title">Cancer Treatment</h3>
+                        <p class="box-text"> <b>Amar Seva Ashram Trust in Nanded</b>
+is dedicated to providing compassionate care and support to cancer patients. Our mission is to offer accessible and affordable cancer treatment while improving the quality of life for patients and their families.we can make a meaningful impact and bring hope to those battling cancer.</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4">
@@ -148,13 +144,9 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-2.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Charity Donate</h3>
-                        <p class="box-text">
-                            Support cancer patients with your donations. Stay updated with the latest news, events, and inspiring stories from Amar Sewa Ashram Trust Nanded. Subscribe to our newsletter today!
-
-                        </p>
-                        <a class="link-btn style2" href="{{route('donation.details')}}"> donate now<i 
-                                class="fa-solid fa-arrow-up-right ms-2"></i></a>
+                        <h3 class="box-title">Ayurvedic Treatment</h3>
+                        <p class="box-text"> <b>Amar Seva Ashram Trust in Nanded </b>
+is committed to promoting holistic health and wellness through Ayurvedic treatments. Rooted in ancient Indian traditions, our Ayurveda center provides natural and personalized care to improve physical, mental, and emotional well-being.</p>
                     </div>
                 </div>
                 <div class="col-xl-3 col-lg-4">
@@ -165,12 +157,9 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Treatment Help</h3>
-                        <p class="box-text">
-                            Take cancer treatment through Ayurveda at Amar Sewa Ashram Trust Nanded, using natural remedies and holistic therapies to support healing. Subscribe to our newsletter for updates!
-                        </p>
-                        <a class="link-btn style2" href="{{route('contact.us')}}">contact us <i
-                                class="fa-solid fa-arrow-up-right ms-2"></i></a>
+                        <h3 class="box-title">Long-term Help</h3>
+                        <p class="box-text"> <b>Amar Seva Ashram Trust in Nanded </b>
+is committed to providing sustainable, long-term support to those in need. Our programs focus on creating lasting change by addressing the root causes of challenges and empowering individuals and communities for a better future.</p>
                     </div>
                 </div>
             </div>
@@ -216,8 +205,8 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                 <div class="col-xl-6">
                     <div class="title-area mb-40">
                         <span class="sub-title after-none before-none"><i class="text-theme far fa-heart"></i> About
-                            Us</span>
-                        <h2 class="sec-title">We Help Cancer Patients.  </h2>
+                            Amar Seva Ashram Trust</span>
+                        <h2 class="sec-title">We Cure Cancer Patients.  </h2>
                         <p>
                             At <b>Amar Sewa Ashram Trust Nanded</b> , we are dedicated to providing  <b>cancer</b> care through <b>Ayurveda</b> . We offer holistic treatments, including natural remedies and personalized therapies, to support healing and improve the quality of life for cancer patients.     
                         </p> 
@@ -242,8 +231,7 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                             </div>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="{{route('aboutus')}}" class="th-btn style3 style-radius">About More <i
-                                    class="fa-solid fa-arrow-up-right ms-2"></i></a>
+                            
                         </div>
                     </div>
                 </div>
@@ -265,7 +253,7 @@ Your contribution plays a vital role in providing essential care, Ayurvedic trea
                             <span class="sub-title after-none before-none"><i class="far fa-heart text-theme"></i> Our
                                 Services</span>
                             <h2 class="sec-title">
-                                We’re Helping Cancer Patients in Need, Bringing Hope and Healing
+                                We’re Cure Cancer Patients in Need, Bringing Hope and Healing
                             </h2>
                             <p class="sec-text">
                                 Providing Ayurveda Treatment and Support for Cancer Patients in Need
@@ -340,54 +328,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
     <!--==============================
     Cta Area
     ==============================-->
-    <section class="" id="contact-sec">
-        <div class="cta-wrap3 style2 bg-theme-dark">
-            <div class="row gx-0">
-                <div class="col-xl-7">
-                    <div class="cta-content-wrap">
-                        <div class="title-area text-xl-start text-center mb-40">
-                            <span
-                                class="sub-title after-none before-none justify-content-xl-start justify-content-center">Call
-                                To Action</span>
-                            <h2 class="sec-title text-white">Give Your Big Hand Forever</h2>
-                        </div>
-                        <form action="{{route('call.to.action')}}" method="POST" class="contact-form ajax-contact">
-                            @csrf
-                            <div class="row">
-                                <div class="form-group col-md-6 style-dark">
-                                    <input type="text" class="form-control" name="name" id="name"
-                                        placeholder="Your name">
-                                </div>
-                                <div class="form-group col-md-6 style-dark">
-                                    <input type="email" class="form-control" name="email" id="email"
-                                        placeholder="Your Email Address...">
-                                </div>
-                                <div class="form-group col-xxl-4 col-md-6 style-dark">
-                                    <input type="number" class="form-control" name="number" id="number"
-                                        placeholder="Phone Number...">
-                                </div>
-                                <div class="form-group col-xxl-4 col-md-6 style-dark">
-                                    <input type="number" class="form-control" name="zip" id="zip"
-                                        placeholder="Zip Code...">
-                                </div>
-                                <div class="form-group col-xxl-4 col-xl-12">
-                                    <button class="th-btn style3 w-100">Get Involved Today</button>
-                                </div>
-                            </div>
-                            <p class="form-messages mb-0 mt-3"></p>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-xl-5">
-                    <div class="contact-map">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sAngfuztheme!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd"
-                            allowfullscreen="" loading="lazy"></iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section><!--==============================
+   <!--==============================
     Donation Area
     ==============================-->
     <section class="space overflow-hidden" id="donation-sec">
@@ -409,14 +350,14 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                     <div class="donation-card style3">
                         <div class="box-thumb">
                             <img src="assets/img/donation/donation2-1.png" alt="image">
-                            <div class="donation-card-tag">85%</div>
+                            <div class="donation-card-tag"></div>
                             <div class="donation-card-shape"
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Your Little Help Can Heal Their Helps</a>
                             </h3>
-                            <p>Join our community of dedicated supporter by becoming member. Enjoy exclusive benefit.</p>
+                            <p>Support cancer patients with your generous donations. Even a small contribution can make a big difference in their journey to healing.</p>
                             <div class="donation-card_progress-wrap">
 
                                 <div class="progress">
@@ -440,14 +381,14 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                     <div class="donation-card style3">
                         <div class="box-thumb">
                             <img src="assets/img/donation/donation2-2.png" alt="image">
-                            <div class="donation-card-tag bg-theme2">85%</div>
+                            <div class="donation-card-tag bg-theme2"></div>
                             <div class="donation-card-shape"
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Help Children poor Insurance & Medical</a>
                             </h3>
-                            <p>Join our community of dedicated supporter by becoming member. Enjoy exclusive benefit.</p>
+                            <p>Support cancer patients and provide essential care for underprivileged children with your donations Support cancer patients.</p>
                             <div class="donation-card_progress-wrap">
 
                                 <div class="progress">
@@ -471,14 +412,14 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                     <div class="donation-card style3">
                         <div class="box-thumb">
                             <img src="assets/img/donation/donation2-3.png" alt="image">
-                            <div class="donation-card-tag">85%</div>
+                            <div class="donation-card-tag"></div>
                             <div class="donation-card-shape"
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Help us touch their lives of these
                                     youths</a></h3>
-                            <p>Join our community of dedicated supporter by becoming member. Enjoy exclusive benefit.</p>
+                            <p>Your support can provide the care, treatment, and hope they need, touching the lives of these brave individuals.</p>
                             <div class="donation-card_progress-wrap">
 
                                 <div class="progress">
@@ -502,14 +443,14 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                     <div class="donation-card style3">
                         <div class="box-thumb">
                             <img src="assets/img/donation/donation2-4.png" alt="image">
-                            <div class="donation-card-tag bg-theme2">85%</div>
+                            <div class="donation-card-tag bg-theme2"></div>
                             <div class="donation-card-shape"
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
                             <h3 class="box-title"><a href="blog-details.html">Raise Fund for Clean & Healthy Water</a>
                             </h3>
-                            <p>Join our community of dedicated supporter by becoming member. Enjoy exclusive benefit.</p>
+                            <p>Your support not only aids in providing life-saving also helps raise funds for clean and healthy water.</p>
                             <div class="donation-card_progress-wrap">
 
                                 <div class="progress">
@@ -760,70 +701,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
     <!--==============================
     Brand Area
     ==============================-->
-    <div class="bg-theme-dark overflow-hidden brand-area-1" data-mask-src="assets/img/shape/brand-bg-shape1.png">
-        <div class="container">
-            <div class="brand-wrap1 text-center">
-                <h3 class="brand-wrap-title text-white">Trusted by over <span class="text-theme2"><span
-                            class="counter-number">90</span>K+</span> companies worldwide</h3>
-                <div class="swiper th-slider" id="brandSlider1"
-                    data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5", "spaceBetween": "90"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-1.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-2.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-3.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-4.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-5.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-1.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-2.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-3.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-4.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand2-5.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
+   
     <!--==============================
     Testimonial Area
     ==============================-->
@@ -854,7 +732,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     </div>
                                     <div class="media-left">
                                         <h3 class="testi-card_name">Vikram Deshmukh</h3>
-                                        <span class="testi-card_desig">CEO, Founder</span>
+                                        <span class="testi-card_desig">Teacher</span>
                                     </div>
                                 </div>
                                 <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
@@ -880,7 +758,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     </div>
                                     <div class="media-left">
                                         <h3 class="testi-card_name">Rohan Kulkarni</h3>
-                                        <span class="testi-card_desig">CEO, Founder</span>
+                                        <span class="testi-card_desig">Lawyer</span>
                                     </div>
                                 </div>
                                 <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
@@ -906,7 +784,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     </div>
                                     <div class="media-left">
                                         <h3 class="testi-card_name">Aadarsh Mane</h3>
-                                        <span class="testi-card_desig">CEO, Founder</span>
+                                        <span class="testi-card_desig">Businessman</span>
                                     </div>
                                 </div>
                                 <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
@@ -932,7 +810,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     </div>
                                     <div class="media-left">
                                         <h3 class="testi-card_name">Mahesh Patil</h3>
-                                        <span class="testi-card_desig">CEO, Founder</span>
+                                        <span class="testi-card_desig">Engineer</span>
                                     </div>
                                 </div>
                                 <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
@@ -958,7 +836,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     </div>
                                     <div class="media-left">
                                         <h3 class="testi-card_name">Amar Singh</h3>
-                                        <span class="testi-card_desig">CEO, Founder</span>
+                                        <span class="testi-card_desig">IPS</span>
                                     </div>
                                 </div>
                                 <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
@@ -984,7 +862,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                     </div>
                                     <div class="media-left">
                                         <h3 class="testi-card_name">Atul save</h3>
-                                        <span class="testi-card_desig">CEO, Founder</span>
+                                        <span class="testi-card_desig">Farmer</span>
                                     </div>
                                 </div>
                                 <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether

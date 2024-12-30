@@ -7,7 +7,7 @@
     <!--==============================
     Breadcumb
 ============================== -->
-    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/breadcumb-bg.jpg" data-overlay="theme">
+    <div class="breadcumb-wrapper " data-bg-src="assets/img/bg/about-bg.jpg" data-overlay="theme">
         <div class="container">
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">About Us</h1>
@@ -31,9 +31,8 @@ Feature Area
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-2.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Donor Friendly</h3>
-                        <p class="box-text">Creating a donor-friendly experience is essential for building strong, lasting relationships with donors.</p>
-                        <a class="link-btn style2" href="about.html">View Details <i class="fa-solid fa-arrow-up-right ms-2"></i></a>
+                        <h3 class="box-title">Cancer Treatment</h3>
+                        <p class="box-text">Amar Seva Ashram Trust in Nanded is dedicated to providing compassionate care and support to cancer patients. Our mission is to offer accessible and affordable cancer treatment while improving the quality of life for patients and their families.we can make a meaningful impact and bring hope to those battling cancer.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -44,9 +43,8 @@ Feature Area
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Charity Donate</h3>
-                        <p class="box-text">Giving is a powerful act of compassion that transforms lives. When you choose to donate to charity.</p>
-                        <a class="link-btn style2" href="about.html">View Details <i class="fa-solid fa-arrow-up-right ms-2"></i></a>
+                        <h3 class="box-title">Ayurvedic Treatment</h3>
+                        <p class="box-text">Amar Seva Ashram Trust in Nanded is committed to promoting holistic health and wellness through Ayurvedic treatments. Rooted in ancient Indian traditions, our Ayurveda center provides natural and personalized care to improve physical, mental, and emotional well-being.</p>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -57,9 +55,8 @@ Feature Area
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Treatment Help</h3>
-                        <p class="box-text">Treatment Help is a program designed to offer financial assistance, resources, and guidance to individuals.</p>
-                        <a class="link-btn style2" href="about.html">View Details <i class="fa-solid fa-arrow-up-right ms-2"></i></a>
+                        <h3 class="box-title">Long-term Help</h3>
+                        <p class="box-text">Amar Seva Ashram Trust in Nanded is committed to providing sustainable, long-term support to those in need. Our programs focus on creating lasting change by addressing the root causes of challenges and empowering individuals and communities for a better future.</p>
                     </div>
                 </div>
             </div>
@@ -86,21 +83,21 @@ About Area
                 <div class="col-xl-5">
                     <div class="about-wrap1">
                         <div class="title-area mb-30">
-                            <span class="sub-title before-none">About Us Donat</span>
-                            <h2 class="sec-title">We Believe that We can Save More Life's with you</h2>
+                            <span class="sub-title before-none">About Amar Seva Ashram Trust</span>
+                            <h2 class="sec-title">We Cure cancer patients in any Stage.</h2>
                             <p class="">At Amarseva Ashram Trust, we believe that together, we can save more lives. Your support plays a critical role in helping us provide life-saving treatments, essential care, and hope to those battling cancer. Every donation directly impacts the lives of patients, enabling us to cover medical expenses, provide emotional support, and ensure that no one faces this journey alone.
                                       We are committed to transparency, showing you exactly how your generous contributions are making a difference in the lives of those in need. With your help, we can continue to expand our efforts, reach more individuals, and bring life-changing healthcare and support to underserved communities.By donating, you are not just offering financial assistance; you are offering hope, strength, and a second chance at life. Together, we can make a lasting impact and help save more lives, one donation at a time. Join us in our mission to transform the lives of cancer patients across India and beyond.</p>
                         </div>
                         <div class="checklist style2 list-two-column">
                             <ul>
-                                <li>Charity For Foods</li>
-                                <li data-theme-color="var(--theme-color2)">Charity For Water</li>
-                                <li data-theme-color="#FF5528">Charity For Education</li>
-                                <li data-theme-color="#122F2A">Charity For Medical</li>
+                                <li>Ayurvedic Treatment</li>
+                                <li data-theme-color="var(--theme-color2)">Expert Doctors</li>
+                                <li data-theme-color="#FF5528">Working as a Not-for-Profit Organization</li>
+                                <li data-theme-color="#122F2A">24-Hour Supportive Staff</li>
                             </ul>
                         </div>
                         <div class="btn-wrap mt-40">
-                            <a href="about.html" class="th-btn">About More<i class="fas fa-arrow-up-right ms-2"></i></a>
+
                         </div>
                     </div>
                 </div>
@@ -358,7 +355,7 @@ Testimonial Area
                                     <div class="testi-card">
                                         <p class="box-text">“Stay updated on our upcoming events and initiatives. From fundraising galas and charity runs to community outreach programs, there are many ways for you to get involved and support our mission. Be sure to check our event calendar for more information. We take your security seriously. Our donation system uses advanced encryption to safeguard your personal and financial details. You can contribute with peace of mind, knowing that your donation is both secure and making a meaningful impact.</p>
                                         <h3 class="box-title">Vikram Deshmukh</h3>
-                                        <p class="box-desig">CEO, Founder</p>
+                                        <p class="box-desig">Teacher</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
@@ -366,7 +363,7 @@ Testimonial Area
                                     <div class="testi-card">
                                         <p class="box-text">"Our donation system is designed with the latest encryption technology to ensure the safety of your personal and financial information. You can contribute confidently, knowing your details are secure. Stay connected with us to learn about our upcoming events and campaigns. Whether it’s a charity run, a fundraising gala, or a community outreach initiative, there are numerous opportunities to participate and support our mission. Visit our event calendar for more details. Your security and involvement are our top priorities."</p>
                                         <h3 class="box-title">Rohan Kulkarni</h3>
-                                        <p class="box-desig">CEO, Founder</p>
+                                        <p class="box-desig">Lawyer</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
@@ -374,7 +371,7 @@ Testimonial Area
                                     <div class="testi-card">
                                         <p class="box-text">"Keep up-to-date with our upcoming events and initiatives. From charity runs and fundraising galas to community outreach programs, there are numerous ways for you to participate and contribute to our mission. Visit our event calendar for more information. Your security is our top priority. Our donation system is equipped with advanced encryption to ensure the protection of your personal and financial data. Give with assurance, knowing your support is secure and impactful."</p>
                                         <h3 class="box-title">Aadarsh Mane</h3>
-                                        <p class="box-desig">CEO, Founder</p>
+                                        <p class="box-desig">Businessman</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
@@ -382,7 +379,7 @@ Testimonial Area
                                     <div class="testi-card">
                                         <p class="box-text">“"Our donation system utilizes state-of-the-art encryption technology to safeguard your personal and financial details. Contribute with peace of mind, knowing your information is secure. Stay updated on our latest events and initiatives. From fundraising galas and charity runs to impactful community programs, there are many ways to join us in making a difference. Explore our event calendar for more details. Your safety and engagement are our highest priorities."</p>
                                         <h3 class="box-title">Mahesh Patil</h3>
-                                        <p class="box-desig">CEO, Founder</p>
+                                        <p class="box-desig">Engineer</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
