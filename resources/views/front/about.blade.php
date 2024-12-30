@@ -32,7 +32,7 @@ Feature Area
                             <img src="assets/img/icon/feature-icon1-2.svg" alt="icon">
                         </div>
                         <h3 class="box-title">Donor Friendly</h3>
-                        <p class="box-text">Stay updated with the latest news, events, and impact stories from our organization. Subscribe to our newsletter.</p>
+                        <p class="box-text">Creating a donor-friendly experience is essential for building strong, lasting relationships with donors.</p>
                         <a class="link-btn style2" href="about.html">View Details <i class="fa-solid fa-arrow-up-right ms-2"></i></a>
                     </div>
                 </div>
@@ -44,21 +44,8 @@ Feature Area
                         <div class="box-icon">
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
-                        <h3 class="box-title">Fundraising Trust</h3>
-                        <p class="box-text">Stay updated with the latest news, events, and impact stories from our organization. Subscribe to our newsletter.</p>
-                        <a class="link-btn style2" href="about.html">View Details <i class="fa-solid fa-arrow-up-right ms-2"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <div class="feature-card">
-                        <div class="feature-card-bg-shape">
-                            <img src="assets/img/shape/feature-card-bg-shape1-1.png" alt="img">
-                        </div>
-                        <div class="box-icon">
-                            <img src="assets/img/icon/feature-icon1-2.svg" alt="icon">
-                        </div>
                         <h3 class="box-title">Charity Donate</h3>
-                        <p class="box-text">Stay updated with the latest news, events, and impact stories from our organization. Subscribe to our newsletter.</p>
+                        <p class="box-text">Giving is a powerful act of compassion that transforms lives. When you choose to donate to charity.</p>
                         <a class="link-btn style2" href="about.html">View Details <i class="fa-solid fa-arrow-up-right ms-2"></i></a>
                     </div>
                 </div>
@@ -71,7 +58,7 @@ Feature Area
                             <img src="assets/img/icon/feature-icon1-1.svg" alt="icon">
                         </div>
                         <h3 class="box-title">Treatment Help</h3>
-                        <p class="box-text">Stay updated with the latest news, events, and impact stories from our organization. Subscribe to our newsletter.</p>
+                        <p class="box-text">Treatment Help is a program designed to offer financial assistance, resources, and guidance to individuals.</p>
                         <a class="link-btn style2" href="about.html">View Details <i class="fa-solid fa-arrow-up-right ms-2"></i></a>
                     </div>
                 </div>
@@ -255,7 +242,7 @@ Process Area
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Awareness & Engagement</h3>
-                            <p class="box-text">To inform and engage potential donors and supporters about the charity’s mission and the cause it supports. Utilize various channels such as social media.</p>
+                            <p class="box-text">Awareness and Engagement are the pillars of impactful change. By spreading knowledge and inspiring action, we empower communities to address critical issues and create lasting solutions.</p>
                         </div>
                     </div>
                 </div>
@@ -274,7 +261,7 @@ Process Area
                         </div>
                         <div class="box-content">
                             <h3 class="box-title">Donation Collection</h3>
-                            <p class="box-text">Set up a secure and user-friendly online donation platform that accepts multiple payment methods and allows for both one-time and recurring donations.</p>
+                            <p class="box-text">Donation collection is a vital effort that brings together the generosity of individuals and organizations to support those in need. Every contribution, big or small, fuels impactful change and provides hope to countless lives.</p>
                         </div>
                     </div>
                 </div>
@@ -292,8 +279,8 @@ Process Area
                             </div>
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title">Impact and Accountability</h3>
-                            <p class="box-text">Allocate funds to specific projects and initiatives that align with the charity’s mission, ensuring that resources are used efficiently and effectively.</p>
+                            <h3 class="box-title">Impact On Cancer Patients</h3>
+                            <p class="box-text">Your support can create a profound impact on cancer patients, offering them not just medical care, but also emotional strength, financial relief, and a chance for recovery.</p>
                         </div>
                     </div>
                 </div>
@@ -416,66 +403,4 @@ Testimonial Area
     <!--==============================
 Brand Area  
 ==============================-->
-    <div class="space-bottom overflow-hidden brand-area-1">
-        <div class="container">
-            <div class="brand-wrap1 p-0 m-0 text-center">
-                <h3 class="brand-wrap-title">Trusted by over <span class="text-theme2"><span class="counter-number">90</span>K+</span> companies worldwide</h3>
-                <div class="swiper th-slider" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5", "spaceBetween": "90"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-1.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-2.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-3.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-4.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-5.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-1.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-2.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-3.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-4.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-5.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-        </div>
-    </div>
-   @endsection
+   
