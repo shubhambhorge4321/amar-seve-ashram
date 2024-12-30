@@ -10,7 +10,7 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Donate Now</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{route('home')}}">Home</a></li>
                     <li>Donation</li>
                 </ul>
             </div>
