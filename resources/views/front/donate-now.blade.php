@@ -28,28 +28,29 @@
                             <div class="form-group donate-input">
                                 <input type="text" value="100" required class="donate_amount">
                                 <span class="icon">
-                                    $
+                                    
+                                    ₹
                                 </span>
                             </div>
                             <ul class="donate-amount-button-list list-unstyled">
                                 <li class="donate-amount-button" data-amount="20">
-                                    $20
+                                    ₹20
                                 </li>
 
                                 <li class="donate-amount-button" data-amount="50">
-                                    $50
+                                    ₹50
                                 </li>
 
                                 <li class="donate-amount-button active" data-amount="100">
-                                    $100
+                                    ₹100
                                 </li>
 
                                 <li class="donate-amount-button" data-amount="150">
-                                    $150
+                                    ₹150
                                 </li>
 
                                 <li class="donate-amount-button" data-amount="200">
-                                    $200
+                                    ₹200
                                 </li>
                                 <li class="donate-amount-button" data-amount="Custom Amount">
                                     Custom Amount
@@ -123,17 +124,17 @@
                         </div>
                         <div class="widget  " data-bg-src="assets/img/bg/gray-bg2.png" data-overlay="gray" data-opacity="5">
                             <div class="author-widget-wrap">
-                                <div class="author-tag">Organizer:</div>
+                                <div class="author-tag">Founder:</div>
                                 <div class="avater">
                                     <img src="assets/img/blog/blog-author.jpg" alt="avater">
                                 </div>
                                 <div class="author-info">
-                                    <h4 class="name"><a class="text-inherit" href="blog.html">Emanuel Marko</a></h4>
+                                    <h4 class="name"><a class="text-inherit" href="#">Amarjeetsingh Gill</a></h4>
                                     <span class="meta">
-                                        <a href="blog.html"><i class="fas fa-tags"></i>Education</a>
+                                        <a href="#"><i class="fas fa-tags"></i>Education</a>
                                     </span>
                                     <span class="meta">
-                                        <a href="blog.html"><i class="fas fa-map-marker-alt"></i>New Jersey, USA</a>
+                                        <a href="#"><i class="fas fa-map-marker-alt"></i>New Jersey, USA</a>
                                     </span>
                                 </div>
                             </div>
