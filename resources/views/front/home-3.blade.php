@@ -30,13 +30,13 @@
         <div class="swiper th-slider hero-slider1" id="heroSlide1"
             data-slider-options='{"effect":"fade", "autoHeight": "true"}'>
             <div class="swiper-wrapper">
-                {{-- @foreach ($galleryimages as $key => $image)
+                @foreach ($galleryimages as $key => $image)
                 <div class="swiper-slide">
                     <div class="hero-inner" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}"
                         data-mask-src="assets/img/hero/hero-bg-shape3-1.png" data-opacity="5">
-                        <div class="hero-bg-shape1-1">
+                        {{-- <div class="hero-bg-shape1-1">
                             <img src="assets/img/hero/hero-bg-shape1-1.png" alt="img">
-                        </div>
+                        </div> --}}
                         <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-xl-12">
@@ -44,9 +44,7 @@
                                         <span class="sub-title justify-content-center" data-ani="slideinup"
                                             data-ani-delay="0.2s">
                                         </span>
-                                        <h1 class="hero-title text-white">
-                                           
-                                        </h1>
+                                       
                                         <div class="btn-wrap justify-content-center" data-ani="slideinup"
                                             data-ani-delay="0.7s">
                                            
@@ -58,8 +56,8 @@
                     </div>
 
                 </div>
-                @endforeach --}}
-                @foreach ($galleryimages as $key => $image)
+                @endforeach
+                {{-- @foreach ($galleryimages as $key => $image)
                 <div class="swiper-slide">
                     <div class="hero-inner" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}" data-overlay="black4" data-opacity="5">
                         <div class="hero-bg-shape1-1">
@@ -83,14 +81,14 @@
                     </div>
 
                 </div>
-                @endforeach
+                @endforeach --}}
 
 
                 
             </div>
         </div>
 
-        <div class="hero-bg-3-1" data-bg-src="assets/img/hero/hero_bg_3_1.jpg"
+        {{-- <div class="hero-bg-3-1" data-bg-src="assets/img/hero/hero_bg_3_1.jpg"
             data-mask-src="assets/img/hero/hero-bg-shape3-1.png"></div>
         <div class="container">
             <div class="row gx-40 align-items-center">
@@ -112,7 +110,8 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> --}}
+        
     </div>
     <!--======== / Hero Section ========--><!--==============================
     Feature Area
@@ -691,16 +690,15 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="accordion-card style2">
                                 <div class="accordion-header" id="collapse-item-1">
                                     <button class="accordion-button " type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">What
-                                        motivates you to donate to our charity?</button>
+                                        data-bs-target="#collapse-1" aria-expanded="true" aria-controls="collapse-1">
+                                        What motivates you to support Amar Seva Ashram?</button>
                                 </div>
                                 <div id="collapse-1" class="accordion-collapse collapse show"
                                     aria-labelledby="collapse-item-1" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="faq-text">Explore the variety of volunteer opportunities available. From
-                                            event planning and fundraising to fieldwork and administrative support, there
-                                            are many ways to lend your talents. Find the perfect fit for your skills and
-                                            interests.</p>
+                                        <p class="faq-text">
+                                            Your contributions help us provide Ayurvedic treatments, holistic care, and essential support to cancer patients in need. Witnessing lives transform through compassion and natural healing inspires many to join our mission.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -709,16 +707,16 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="accordion-card style2">
                                 <div class="accordion-header" id="collapse-item-2">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">How
-                                        did you hear about our organization?</button>
+                                        data-bs-target="#collapse-2" aria-expanded="false" aria-controls="collapse-2">
+                                        How can you contribute to Amar Seva Ashram?
+                                    </button>
                                 </div>
                                 <div id="collapse-2" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-2" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="faq-text">Explore the variety of volunteer opportunities available. From
-                                            event planning and fundraising to fieldwork and administrative support, there
-                                            are many ways to lend your talents. Find the perfect fit for your skills and
-                                            interests.</p>
+                                        <p class="faq-text">
+                                            Explore meaningful ways to support our cause, from donations to offering your skills in event planning, fundraising, or fieldwork. Together, we can create a positive impact and bring hope to those battling cancer. Find the best way to make a difference with your unique talents.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -727,16 +725,17 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="accordion-card style2">
                                 <div class="accordion-header" id="collapse-item-3">
                                     <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">How
-                                        frequently do you prefer to volunteer?</button>
+                                        data-bs-target="#collapse-3" aria-expanded="false" aria-controls="collapse-3">
+                                        
+                                        How often can you contribute your time?
+                                    </button>
                                 </div>
                                 <div id="collapse-3" class="accordion-collapse collapse "
                                     aria-labelledby="collapse-item-3" data-bs-parent="#faqAccordion">
                                     <div class="accordion-body">
-                                        <p class="faq-text">Explore the variety of volunteer opportunities available. From
-                                            event planning and fundraising to fieldwork and administrative support, there
-                                            are many ways to lend your talents. Find the perfect fit for your skills and
-                                            interests.</p>
+                                        <p class="faq-text">
+                                            Amar Seva Ashram offers various ways to get involved in supporting cancer patients. Whether you have a few hours to spare or can commit regularly, your time is valuable. From assisting with Ayurvedic care and treatment programs to event planning and administrative tasks, there’s an opportunity for everyone to make a meaningful impact. Choose what aligns with your availability and skills to help those in need.
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -1007,7 +1006,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
     <!--==============================
     Blog Area
     ==============================-->
-    <section class="blog-area-3 overflow-hidden space-bottom" id="blog-sec" data-bg-src="assets/img/bg/gray-bg2.png">
+    {{-- <section class="blog-area-3 overflow-hidden space-bottom" id="blog-sec" data-bg-src="assets/img/bg/gray-bg2.png">
         <div class="shape-mockup blog-bg-shape3-1" data-top="0" data-left="0" data-right="0">
             <img src="assets/img/shape/testi_bg_shape3_1.png" alt="img">
         </div>
@@ -1127,5 +1126,5 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 @endsection

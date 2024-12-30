@@ -31,7 +31,7 @@
                                 </div>
                                 <div class="box-content">
                                     <p class="box-text">Call us any time:</p>
-                                    <h4 class="box-title"><a href="tel:16336547896">9422189855</a></h4>
+                                    <h4 class="box-title"><a href="tel:9422189855">+9422189855</a></h4>
                                 </div>
                             </div>
                             <div class="info-card style2">
@@ -40,7 +40,7 @@
                                 </div>
                                 <div class="box-content">
                                     <p class="box-text">Email us any time:</p>
-                                    <h4 class="box-title"><a href="mailto:info@donat.com">info@donat.com</a></h4>
+                                    <h4 class="box-title"><a href="mailto:info@amarsevaashram.com">info@amarsevaashram.com</a></h4>
                                 </div>
                             </div>
                         </div>
@@ -60,7 +60,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-6 col-xl-auto">
+                {{-- <div class="col-sm-6 col-xl-auto">
                     <div class="widget widget_nav_menu footer-widget">
                         <h3 class="widget_title">Our Service</h3>
                         <div class="menu-all-pages-container">
@@ -73,7 +73,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>
+                </div> --}}
                 <div class="col-md-6 col-xl-auto">
                     <div class="widget newsletter-widget footer-widget">
                         <h3 class="widget_title">Newsletter</h3>
@@ -87,10 +87,8 @@
                         </form>
                         <div class="th-social style6">
                             <a href="https://www.facebook.com/p/Amar-sewa-ashram-Trust-Nanded-100069984164768/" target="_hello"><i class="fab fa-facebook-f"></i></a>
-                            <a href="https://www.twitter.com/" target="_hello"><i class="fab fa-twitter"></i></a>
-                            <a href="https://www.linkedin.com/" target="_hello"><i class="fab fa-linkedin-in"></i></a>
-                            <a href="https://www.behance.com/" target="_hello"><i class="fab fa-behance"></i></a>
-                            <a href="https://www.vimeo.com/" target="_hello"><i class="fab fa-vimeo-v"></i></a>
+                            
+                            
                         </div>
                     </div>
                 </div>
@@ -99,7 +97,7 @@
     </div>
     <div class="copyright-wrap bg-theme text-center">
         <div class="container">
-            <p class="copyright-text">Copyright 2024 <a href="index.html">Amar Seve Ashram Trust.</a> All Rights Reserved.</p>
+            <p class="copyright-text">Copyright 2024 <a href="{{route('home')}}">Amar Seve Ashram Trust.</a> All Rights Reserved.</p>
         </div>
     </div>
 </footer>
