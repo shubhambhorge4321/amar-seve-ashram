@@ -75,7 +75,7 @@ Contact Area
                 <div class="row gy-40">
                     <div class="col-xl-6 align-self-end">
                         <div class="contact-thumb1-1">
-                            <img src="assets/img/normal/contact_1_1.png" alt="img">
+                            <img src="assets/img/normal/contact-3.jpg" alt="img">
                         </div>
                     </div>
                     <div class="col-xl-6">

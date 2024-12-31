@@ -198,7 +198,7 @@ is committed to providing sustainable, long-term support to those in need. Our p
                             <div class="year-counter_number"><span class="counter-number">9.6</span>+ 
                                  Million Lives Are Lost to Cancer Annually Without Proper Treatment and Support
                             </div>
-                            <a class="link-btn style2" href="{{route('become.volunteer')}}">Become a Volunteer</a>
+                            <!-- <a class="link-btn style2" href="{{route('become.volunteer')}}">Become a Volunteer</a> -->
                         </div>
                     </div>
                 </div>
@@ -224,7 +224,7 @@ is committed to providing sustainable, long-term support to those in need. Our p
                                 <img src="assets/img/icon/about-icon3-1.svg" alt="icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="box-title">Amarjeetsingh Gill is the founder of Amar Seva Ashram Trust</h4>
+                                <h4 class="box-title">Amarjeetsingh Gill is the founder of Amar Seva Ashram Trust.</h4>
                                 <p class="box-text">
                                     
                                 </p>
