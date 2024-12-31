@@ -198,7 +198,7 @@ is committed to providing sustainable, long-term support to those in need. Our p
                             <div class="year-counter_number"><span class="counter-number">9.6</span>+ 
                                  Million Lives Are Lost to Cancer Annually Without Proper Treatment and Support
                             </div>
-                            <!-- <a class="link-btn style2" href="{{route('become.volunteer')}}">Become a Volunteer</a> -->
+                            <a class="link-btn style2" href="{{route('become.volunteer')}}">Become a Volunteer</a>
                         </div>
                     </div>
                 </div>
@@ -224,7 +224,7 @@ is committed to providing sustainable, long-term support to those in need. Our p
                                 <img src="assets/img/icon/about-icon3-1.svg" alt="icon">
                             </div>
                             <div class="media-body">
-                                <h4 class="box-title">Amarjeetsingh Gill is the founder of Amar Seva Ashram Trust.</h4>
+                                <h4 class="box-title">Amarjeetsingh Gill is the founder of Amar Seva Ashram Trust</h4>
                                 <p class="box-text">
                                     
                                 </p>
@@ -261,7 +261,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             </p>
                         </div>
                         <div class="service-bg-shape2-2">
-                            <img src="assets/img/service/service-3.jpg" alt="img">
+                            <img src="assets/img/service/service-2.jpg" alt="img">
                             <div class="service-bg-shape2-3">
                                 <div class="color-masking2">
                                     <div class="masking-src" data-mask-src="assets/img/shape/service_bg_shape3_2.png">
@@ -349,7 +349,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                 <div class="col-xl-6">
                     <div class="donation-card style3">
                         <div class="box-thumb">
-                            <img src="assets/img/donation/donation-2.jpg" alt="image">
+                            <img src="assets/img/donation/donation_2.jpg" alt="image">
                             <div class="donation-card-tag"></div>
                             <div class="donation-card-shape"
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
@@ -371,8 +371,8 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                             class="donation-card_goal-number">$60,000.00</span></span>
                                 </div>
                             </div>
-                            <a href="blog-details.html" class="th-btn style6">Donate Now <i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
+                            <!-- <a href="blog-details.html" class="th-btn style6">Donate Now  -->
+                             <!-- <i class="fas fa-arrow-up-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -380,7 +380,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                 <div class="col-xl-6">
                     <div class="donation-card style3">
                         <div class="box-thumb">
-                            <img src="assets/img/donation/donation2-2.jpg" alt="image">
+                            <img src="assets/img/donation/donation2_2.jpg" alt="image">
                             <div class="donation-card-tag bg-theme2"></div>
                             <div class="donation-card-shape"
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
@@ -402,8 +402,8 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                             class="donation-card_goal-number">$60,000.00</span></span>
                                 </div>
                             </div>
-                            <a href="blog-details.html" class="th-btn style6">Donate Now <i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
+                            <!-- <a href="blog-details.html" class="th-btn style6">Donate Now <i -->
+                                    <!-- class="fas fa-arrow-up-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -411,7 +411,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                 <div class="col-xl-6">
                     <div class="donation-card style3">
                         <div class="box-thumb">
-                            <img src="assets/img/donation/donation2-3.jpg" alt="image">
+                            <img src="assets/img/donation/donation2_3.jpg" alt="image">
                             <div class="donation-card-tag"></div>
                             <div class="donation-card-shape"
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
@@ -433,8 +433,8 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                             class="donation-card_goal-number">$60,000.00</span></span>
                                 </div>
                             </div>
-                            <a href="blog-details.html" class="th-btn style6">Donate Now <i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
+                            <!-- <a href="blog-details.html" class="th-btn style6">Donate Now <i -->
+                                    <!-- class="fas fa-arrow-up-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -442,7 +442,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                 <div class="col-xl-6">
                     <div class="donation-card style3">
                         <div class="box-thumb">
-                            <img src="assets/img/donation/donation2-4.jpg alt="image">
+                            <img src="assets/img/donation/donation2_4.jpg" alt="image">
                             <div class="donation-card-tag bg-theme2"></div>
                             <div class="donation-card-shape"
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
@@ -464,8 +464,8 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                             class="donation-card_goal-number">$60,000.00</span></span>
                                 </div>
                             </div>
-                            <a href="blog-details.html" class="th-btn style6">Donate Now <i
-                                    class="fas fa-arrow-up-right ms-2"></i></a>
+                            <!-- <a href="blog-details.html" class="th-btn style6">Donate Now <i -->
+                                    <!-- class="fas fa-arrow-up-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -481,7 +481,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                 <div class="col-xl-6">
                     <div class="why-img-box1">
                         <div class="img1">
-                            <img src="assets/img/normal/why-thumb1-1.png" alt="img">
+                            <img src="assets/img/normal/why-thumb1-1.jpg" alt="img">
                         </div>
                         <div class="why-img-shape">
                             <img src="assets/img/shape/why_shape1_1.png" alt="img">
@@ -540,7 +540,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             </div>
                         </div>
                         <div class="btn-wrap mt-35">
-                            <a href="{{route('aboutus')}}" class="th-btn">Learn More <i class="fas fa-arrow-up-right ms-2"></i></a>
+                            <!-- <a href="{{route('aboutus')}}" class="th-btn">Learn More <i class="fas fa-arrow-up-right ms-2"></i></a> -->
                         </div>
                     </div>
                 </div>
@@ -689,7 +689,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <img src="assets/img/normal/faq_2_1.png" alt="img">
                         </div>
                         <div class="faq-img-shape">
-                            <img src="assets/img/shape/faq-shape2-1.png" alt="img">
+                            <img src="assets/img/shape/faq-shape2_1.jpg" alt="img">
                         </div>
                     </div>
                 </div>
