@@ -355,7 +355,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a href="blog-details.html">Your Little Help Can Heal Their Helps</a>
+                            <h3 class="box-title"><a href="#">Your Little Help Can Heal Their Helps</a>
                             </h3>
                             <p>Support cancer patients with your generous donations. Even a small contribution can make a big difference in their journey to healing.</p>
                             <div class="donation-card_progress-wrap">
@@ -366,13 +366,12 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 </div>
                                 <div class="donation-card_progress-content">
                                     <span class="donation-card_raise">Raised <span
-                                            class="donation-card_raise-number">$45,000.00</span></span>
+                                            class="donation-card_raise-number">&#8377;45,000.00</span></span>
                                     <span class="donation-card_goal">Goal <span
-                                            class="donation-card_goal-number">$60,000.00</span></span>
+                                            class="donation-card_goal-number">&#8377;60,000.00</span></span>
                                 </div>
                             </div>
-                            <!-- <a href="blog-details.html" class="th-btn style6">Donate Now  -->
-                             <!-- <i class="fas fa-arrow-up-right ms-2"></i></a> -->
+                          
                         </div>
                     </div>
                 </div>
@@ -386,7 +385,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a href="blog-details.html">Help Children poor Insurance & Medical</a>
+                            <h3 class="box-title"><a href="#">Help Children poor Insurance & Medical</a>
                             </h3>
                             <p>Support cancer patients and provide essential care for underprivileged children with your donations Support cancer patients.</p>
                             <div class="donation-card_progress-wrap">
@@ -397,9 +396,9 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 </div>
                                 <div class="donation-card_progress-content">
                                     <span class="donation-card_raise">Raised <span
-                                            class="donation-card_raise-number">$45,000.00</span></span>
+                                            class="donation-card_raise-number">&#8377;45,000.00</span></span>
                                     <span class="donation-card_goal">Goal <span
-                                            class="donation-card_goal-number">$60,000.00</span></span>
+                                            class="donation-card_goal-number">&#8377;60,000.00</span></span>
                                 </div>
                             </div>
                             <!-- <a href="blog-details.html" class="th-btn style6">Donate Now <i -->
@@ -417,7 +416,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a href="blog-details.html">Help us touch their lives of these
+                            <h3 class="box-title"><a href="#">Help us touch their lives of these
                                     youths</a></h3>
                             <p>Your support can provide the care, treatment, and hope they need, touching the lives of these brave individuals.</p>
                             <div class="donation-card_progress-wrap">
@@ -428,13 +427,12 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 </div>
                                 <div class="donation-card_progress-content">
                                     <span class="donation-card_raise">Raised <span
-                                            class="donation-card_raise-number">$45,000.00</span></span>
+                                            class="donation-card_raise-number">&#8377;45,000.00</span></span>
                                     <span class="donation-card_goal">Goal <span
-                                            class="donation-card_goal-number">$60,000.00</span></span>
+                                            class="donation-card_goal-number">&#8377;60,000.00</span></span>
                                 </div>
                             </div>
-                            <!-- <a href="blog-details.html" class="th-btn style6">Donate Now <i -->
-                                    <!-- class="fas fa-arrow-up-right ms-2"></i></a> -->
+                           
                         </div>
                     </div>
                 </div>
@@ -448,7 +446,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 data-mask-src="assets/img/donation/donation-card-shape2-1.png"></div>
                         </div>
                         <div class="box-content">
-                            <h3 class="box-title"><a href="blog-details.html">Raise Fund for Clean & Healthy Water</a>
+                            <h3 class="box-title"><a href="#">Raise Fund for Clean & Healthy Water</a>
                             </h3>
                             <p>Your support not only aids in providing life-saving also helps raise funds for clean and healthy water.</p>
                             <div class="donation-card_progress-wrap">

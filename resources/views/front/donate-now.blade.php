@@ -100,9 +100,9 @@
                             <div class="widget-donation-card">
                                 <div class="box-content">
                                     <div class="box-thumb">
-                                        <a href="blog-details.html"><img src="assets/img/widget/widget-donation_card1_1.jpg" alt="Blog Image"></a>
+                                        <a href=""><img src="assets/img/widget/widget-donation_card1_1.jpg" alt="Blog Image"></a>
                                     </div>
-                                    <h4 class="box-title"><a class="text-inherit" href="blog-details.html">Give health support for every
+                                    <h4 class="box-title"><a class="text-inherit" href="">Give health support for every
                                             homeless poor children</a></h4>
                                     <p class="box-text">Join our community of dedicated supporters by
                                         becoming a member.</p>
@@ -144,6 +144,61 @@
             </div>
         </div>
     </section>
+     <!--==============================
+Video Area  
+==============================-->
+<div class="video-area-3">
+    <div class="shape-mockup video-bg-shape3-1" data-top="0" data-left="0" data-bottom="0">
+        <img src="assets/img/shape/video_bg_shape3_1.png" alt="img">
+    </div>
+    <div class="shape-mockup video-bg-shape3-2" data-top="0" data-right="0" data-bottom="0">
+        <img src="assets/img/shape/video_bg_shape3_2.png" alt="img">
+    </div>
+    <div class="video-thumb3-1 video-box-center">
+        <img src="assets/img/normal/video-thumb3-1.jpg" alt="img">
+        
+    </div>
+</div>
+<!--==============================
+Counter Area  
+==============================-->
+<div class="">
+    <div class="container">
+        <div class="counter-wrap style2 bg-light">
+            <div class="counter-card">
+                <div class="media-body">
+                    <h2 class="box-number text-white"><span class="counter-number">2</span>k<span class="fw-light">+</span></h2>
+                    <p class="box-text text-white">Incredible Volunteers</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="counter-card">
+                <div class="media-body">
+                    <h2 class="box-number text-white"><span class="counter-number">1</span>k<span class="fw-light">+</span></h2>
+                    <p class="box-text text-white">Patients Successfully Cured</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="counter-card">
+                <div class="media-body">
+                    <h2 class="box-number text-white"><span class="counter-number">400</span><span class="fw-light">+</span></h2>
+                    <p class="box-text text-white">Monthly Donors</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="counter-card">
+                <div class="media-body">
+                    <h2 class="box-number text-white"><span class="counter-number">5</span>k<span class="fw-light">+</span></h2>
+                    <p class="box-text text-white">Patients Treated Successfully</p>
+                </div>
+            </div>
+            <div class="divider"></div>
+        </div>
+    </div>
+</div>
+<br><br><!--==============================
+Process Area  
+==============================-->
     <!--==============================
 	Footer Area
 ==============================-->

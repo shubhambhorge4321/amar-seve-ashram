@@ -162,60 +162,7 @@ Team Area
         </div>
     </section>
 
-    <!--==============================
-Video Area  
-==============================-->
-    <div class="video-area-3">
-        <div class="shape-mockup video-bg-shape3-1" data-top="0" data-left="0" data-bottom="0">
-            <img src="assets/img/shape/video_bg_shape3_1.png" alt="img">
-        </div>
-        <div class="shape-mockup video-bg-shape3-2" data-top="0" data-right="0" data-bottom="0">
-            <img src="assets/img/shape/video_bg_shape3_2.png" alt="img">
-        </div>
-        <div class="video-thumb3-1 video-box-center">
-            <img src="assets/img/normal/video-thumb3-1.png" alt="img">
-            {{-- <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style7 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a> --}}
-        </div>
-    </div>
-    <!--==============================
-Counter Area  
-==============================-->
-    <div class="">
-        <div class="container">
-            <div class="counter-wrap style2 bg-light">
-                <div class="counter-card">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number">15</span>k<span class="fw-light">+</span></h2>
-                        <p class="box-text text-white">Incredible Volunteers</p>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <div class="counter-card">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number">1</span>k<span class="fw-light">+</span></h2>
-                        <p class="box-text text-white">Successful Campaigns</p>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <div class="counter-card">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number">400</span><span class="fw-light">+</span></h2>
-                        <p class="box-text text-white">Monthly Donors</p>
-                    </div>
-                </div>
-                <div class="divider"></div>
-                <div class="counter-card">
-                    <div class="media-body">
-                        <h2 class="box-number text-white"><span class="counter-number">35</span>k<span class="fw-light">+</span></h2>
-                        <p class="box-text text-white">Team Support</p>
-                    </div>
-                </div>
-                <div class="divider"></div>
-            </div>
-        </div>
-    </div><!--==============================
-Process Area  
-==============================-->
+    
     <section class="space-top">
         <div class="shape-mockup process-shape1-1 jump-reverse d-xxl-block d-none" data-top="20%" data-left="0"><img src="assets/img/shape/hand-bg-shape2-1.jpg" alt="img"></div>
         <div class="container">
