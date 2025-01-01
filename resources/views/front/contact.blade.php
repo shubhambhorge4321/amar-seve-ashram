@@ -30,7 +30,8 @@ Contact Area
                             <div class="media-body">
                                 <h3 class="box-title">Address</h3>
                                 <p class="box-text">
-                                    15 Maniel Lane, Front Line Berlin, Germany
+                                    Amar sewa ashram Trust Nanded.
+                                    pincode-431605.
                                 </p>
                             </div>
                         </div>
@@ -41,7 +42,7 @@ Contact Area
                             <div class="media-body">
                                 <h3 class="box-title">Phone</h3>
                                 <p class="box-text"><a href="tel:9422189855">+9422189855</a></p>
-                                {{-- <p class="box-text"><a href="tel:16363599852">+163-524-4521</a></p> --}}
+                                
                             </div>
                         </div>
                         <div class="contact-feature">
@@ -51,7 +52,7 @@ Contact Area
                             <div class="media-body">
                                 <h3 class="box-title">Email</h3>
                                 <p class="box-text"><a href="mailto:info@amarsevaashram.com">info@amarsevaashram.com</a></p>
-                                <p class="box-text"><a href="mailto:info@amarsevaashram.com">info@amarsevaashram.com</a></p>
+                                
                             </div>
                         </div>
                         <div class="contact-feature" data-theme-color="#FF5528">
@@ -60,7 +61,9 @@ Contact Area
                             </div>
                             <div class="media-body">
                                 <h3 class="box-title">Have Questions?</h3>
-                                <p class="box-text">Discover more by visiting us or joining our community</p>
+                                {{-- <p class="box-text">Discover more by visiting us or send us below form we will get back to you</p> --}}
+                                <p class="box-text">Discover more by visiting us or fill out the form below, and we will get back to you.</p>
+
                             </div>
                         </div>
                     </div>

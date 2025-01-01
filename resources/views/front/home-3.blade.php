@@ -30,14 +30,14 @@
         <div class="swiper th-slider hero-slider1" id="heroSlide1"
             data-slider-options='{"effect":"fade", "autoHeight": "true"}'>
             <div class="swiper-wrapper">
-                @foreach ($galleryimages as $key => $image)
+                {{-- @foreach ($galleryimages as $key => $image)
                 <div class="swiper-slide">
                     <div class="hero-inner" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}"
-                        data-mask-src="assets/img/hero/hero-bg-shape3-1.png" data-opacity="5">
+                        data-mask-src="assets/img/hero/hero-bg-shape3-1.png" data-opacity="5"> --}}
                         {{-- <div class="hero-bg-shape1-1">
                             <img src="assets/img/hero/hero-bg-shape1-1.png" alt="img">
                         </div> --}}
-                        <div class="container">
+                        {{-- <div class="container">
                             <div class="row justify-content-center">
                                 <div class="col-xl-12">
                                     <div class="hero-style1 text-center">
@@ -56,8 +56,8 @@
                     </div>
 
                 </div>
-                @endforeach
-                {{-- @foreach ($galleryimages as $key => $image)
+                @endforeach --}}
+                @foreach ($galleryimages as $key => $image)
                 <div class="swiper-slide">
                     <div class="hero-inner" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}" data-overlay="black4" data-opacity="5">
                         <div class="hero-bg-shape1-1">
@@ -81,7 +81,7 @@
                     </div>
 
                 </div>
-                @endforeach --}}
+                @endforeach
 
 
                 
@@ -198,7 +198,7 @@ is committed to providing sustainable, long-term support to those in need. Our p
                             <div class="year-counter_number"><span class="counter-number">9.6</span>+ 
                                  Million Lives Are Lost to Cancer Annually Without Proper Treatment and Support
                             </div>
-                            <a class="link-btn style2" href="{{route('become.volunteer')}}">Become a Volunteer</a>
+                            
                         </div>
                     </div>
                 </div>
@@ -725,7 +725,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 </div>
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
-                                        <img src="assets/img/testimonial/testi_3_1.png" alt="img">
+                                        <img src="assets/img/testimonial/testi_3_1.jpg" alt="img">
                                         <div class="quote-icon">
                                             <i class="fal fa-quote-right"></i>
                                         </div>

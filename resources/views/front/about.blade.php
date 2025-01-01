@@ -73,7 +73,7 @@ About Area
                 <div class="col-xl-7">
                     <div class="img-box1">
                         <div class="img1" data-mask-src="assets/img/normal/about_1_1-mask.png">
-                            <img src="assets/img/normal/about_1_1.png" alt="About">
+                            <img src="assets/img/normal/about_1_1.jpg" alt="About">
                         </div>
                         <div class="about-shape1-1 jump">
                             <img src="assets/img/shape/about_shape1_1.png" alt="img">
@@ -174,7 +174,7 @@ Video Area
         </div>
         <div class="video-thumb3-1 video-box-center">
             <img src="assets/img/normal/video-thumb3-1.png" alt="img">
-            <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style7 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a>
+            {{-- <a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="play-btn style7 popup-video"><i class="fa-sharp fa-solid fa-play"></i></a> --}}
         </div>
     </div>
     <!--==============================
@@ -217,7 +217,7 @@ Counter Area
 Process Area  
 ==============================-->
     <section class="space-top">
-        <div class="shape-mockup process-shape1-1 jump-reverse d-xxl-block d-none" data-top="20%" data-left="0"><img src="assets/img/shape/hand-bg-shape2-1.png" alt="img"></div>
+        <div class="shape-mockup process-shape1-1 jump-reverse d-xxl-block d-none" data-top="20%" data-left="0"><img src="assets/img/shape/hand-bg-shape2-1.jpg" alt="img"></div>
         <div class="container">
             <div class="title-area text-center">
                 <span class="sub-title after-none before-none">Work Process</span>
