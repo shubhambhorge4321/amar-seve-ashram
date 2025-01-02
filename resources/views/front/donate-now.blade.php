@@ -103,7 +103,7 @@
                                         <a href=""><img src="assets/img/widget/widget-donation_card1_1.jpg" alt="Blog Image"></a>
                                     </div>
                                     <h4 class="box-title"><a class="text-inherit" href="">Give health support for every
-                                            homeless poor children</a></h4>
+                                            homeless poor cancer patients</a></h4>
                                     <p class="box-text">Join our community of dedicated supporters by
                                         becoming a member.</p>
                                 </div>
@@ -115,8 +115,8 @@
                                             </div>
                                         </div>
                                         <div class="donation-progress-content">
-                                            <span class="donation-card_raise text-title">Raised<span class="ms-1 me-1">-</span>5M</span>
-                                            <span class="donation-card_goal text-theme">Goal<span class="ms-1 me-1">-</span>$10M</span>
+                                            <span class="donation-card_raise text-title">Raised<span class="ms-1 me-1">-</span>50k</span>
+                                            <span class="donation-card_goal text-theme">Goal<span class="ms-1 me-1">-</span>100k</span>
                                         </div>
                                     </div>
                                 </div>

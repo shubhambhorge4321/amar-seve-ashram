@@ -717,15 +717,12 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="testi-card3">
                                 <div class="testi-card-shape" data-mask-src="assets/img/shape/testi-card-bg-shape3-1.png">
                                 </div>
-                                <div class="testi-card_review">
-                                    <i class="fas fa-star"></i>
-                                    5.0
-                                </div>
+                               
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
                                         <img src="assets/img/testimonial/testi_3_1.jpg" alt="img">
                                         <div class="quote-icon">
-                                            <i class="fal fa-quote-right"></i>
+                                            
                                         </div>
                                     </div>
                                     <div class="media-left">
@@ -743,15 +740,12 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="testi-card3">
                                 <div class="testi-card-shape" data-mask-src="assets/img/shape/testi-card-bg-shape3-1.png">
                                 </div>
-                                <div class="testi-card_review">
-                                    <i class="fas fa-star"></i>
-                                    5.0
-                                </div>
+                              
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
                                         <img src="assets/img/testimonial/testi_3_2.png" alt="img">
                                         <div class="quote-icon">
-                                            <i class="fal fa-quote-right"></i>
+                                            
                                         </div>
                                     </div>
                                     <div class="media-left">
@@ -769,15 +763,12 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="testi-card3">
                                 <div class="testi-card-shape" data-mask-src="assets/img/shape/testi-card-bg-shape3-1.png">
                                 </div>
-                                <div class="testi-card_review">
-                                    <i class="fas fa-star"></i>
-                                    5.0
-                                </div>
+                             
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
                                         <img src="assets/img/testimonial/testi_3_2.png" alt="img">
                                         <div class="quote-icon">
-                                            <i class="fal fa-quote-right"></i>
+                                            
                                         </div>
                                     </div>
                                     <div class="media-left">
@@ -795,15 +786,11 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="testi-card3">
                                 <div class="testi-card-shape" data-mask-src="assets/img/shape/testi-card-bg-shape3-1.png">
                                 </div>
-                                <div class="testi-card_review">
-                                    <i class="fas fa-star"></i>
-                                    5.0
-                                </div>
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
                                         <img src="assets/img/testimonial/testi_3_1.png" alt="img">
                                         <div class="quote-icon">
-                                            <i class="fal fa-quote-right"></i>
+                                            
                                         </div>
                                     </div>
                                     <div class="media-left">
@@ -821,15 +808,11 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="testi-card3">
                                 <div class="testi-card-shape" data-mask-src="assets/img/shape/testi-card-bg-shape3-1.png">
                                 </div>
-                                <div class="testi-card_review">
-                                    <i class="fas fa-star"></i>
-                                    5.0
-                                </div>
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
                                         <img src="assets/img/testimonial/testi_3_1.png" alt="img">
                                         <div class="quote-icon">
-                                            <i class="fal fa-quote-right"></i>
+                                            
                                         </div>
                                     </div>
                                     <div class="media-left">
@@ -847,15 +830,11 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                             <div class="testi-card3">
                                 <div class="testi-card-shape" data-mask-src="assets/img/shape/testi-card-bg-shape3-1.png">
                                 </div>
-                                <div class="testi-card_review">
-                                    <i class="fas fa-star"></i>
-                                    5.0
-                                </div>
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
                                         <img src="assets/img/testimonial/testi_3_2.png" alt="img">
                                         <div class="quote-icon">
-                                            <i class="fal fa-quote-right"></i>
+                                            
                                         </div>
                                     </div>
                                     <div class="media-left">

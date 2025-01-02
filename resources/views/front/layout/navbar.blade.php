@@ -146,7 +146,7 @@ Mobile Menu
         </div>
     </div>
 </div>
-<div class="color-scheme-wrap active">
+{{-- <div class="color-scheme-wrap active">
     <button class="switchIcon"><i class="fa-solid fa-palette"></i></button>
     <h3 class="color-scheme-wrap-title text-center">Color Switcher</h3>
     <h4 class="color-scheme-wrap-subtitle text-center">Theme Color</h4>
@@ -165,7 +165,8 @@ Mobile Menu
         <button data-secondary-color="#FF4857"><i class="fa-solid fa-droplet"></i></button>
         <button data-secondary-color="#3843C1"><i class="fa-solid fa-droplet"></i></button>
     </div>
-</div><!--==============================
+</div> --}}
+<!--==============================
 Header Area
 ==============================-->
 <header class="th-header header-layout2">
