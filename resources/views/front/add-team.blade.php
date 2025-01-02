@@ -10,7 +10,7 @@
             <div class="breadcumb-content">
                 <h1 class="breadcumb-title">Become A Volunteer</h1>
                 <ul class="breadcumb-menu">
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="{{route('home')}}">Home</a></li>
                     <li>Become A Volunteer</li>
                 </ul>
             </div>
@@ -30,19 +30,19 @@
                         </div>
                         <div class="col-md-6">
                             <div class="page-img">
-                                <img src="assets/img/team/add_team_1_2.png" alt="team">
+                                <img src="assets/img/team/add_team_1_2.jpg" alt="team">
                             </div>
                         </div>
                     </div>
                     <h3 class="h5 mt-n2">Volunteer Requirements</h3>
-                    <p class="mb-30">Discover the inspiring stories of individuals and communities transformed by our programs. Our success stories highlight the real-life impact of your donations and the resilience of those we help. These narratives showcase the power of compassion and generosity.</p>
+                    <p class="mb-30">Explore the heartfelt stories of lives changed through our programs. These inspiring accounts reveal the profound impact your support creates, demonstrating the strength and determination of the people we serve. They stand as a testament to the transformative power of kindness and selflessness.</p>
                     <div class="checklist">
                         <ul>
-                            <li><i class="fas fa-check-circle"></i>Making this first true generator simply text</li>
-                            <li><i class="fas fa-check-circle"></i>Many desktop publish packages nothing</li>
-                            <li><i class="fas fa-check-circle"></i>If you are going to passage</li>
-                            <li><i class="fas fa-check-circle"></i>It has roots in a piece</li>
-                            <li><i class="fas fa-check-circle"></i>Sed ut perspiciatis unde iste natus</li>
+                            <li><i class="fas fa-check-circle"></i>Creating the first true generator is a milestone in innovation.</li>
+                            <li><i class="fas fa-check-circle"></i>Many desktop publishing packages lack this capability.</li>
+                            <li><i class="fas fa-check-circle"></i>If you're planning to explore this feature, it holds immense potential.</li>
+                            <li><i class="fas fa-check-circle"></i>Its origins trace back to a foundational concept.</li>
+                            <li><i class="fas fa-check-circle"></i>Sed ut perspiciatis unde iste natus" emphasizes the importance of clarity and purpose.</li>
                         </ul>
                     </div>
                 </div>
@@ -89,66 +89,5 @@
     <!--==============================
 Brand Area  
 ==============================-->
-    <div class="space-bottom overflow-hidden brand-area-1">
-        <div class="container">
-            <div class="brand-wrap1 p-0 m-0 text-center">
-                <h3 class="brand-wrap-title">Trusted by over <span class="text-theme2"><span class="counter-number">90</span>K+</span> companies worldwide</h3>
-                <div class="swiper th-slider" id="brandSlider1" data-slider-options='{"breakpoints":{"0":{"slidesPerView":2},"576":{"slidesPerView":"2"},"768":{"slidesPerView":"2"},"992":{"slidesPerView":"3"},"1200":{"slidesPerView":"4"},"1400":{"slidesPerView":"5", "spaceBetween": "90"}}}'>
-                    <div class="swiper-wrapper">
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-1.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-2.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-3.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-4.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-5.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-1.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-2.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-3.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-4.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                        <div class="swiper-slide">
-                            <a href="blog.html" class="brand-box">
-                                <img src="assets/img/brand/brand1-5.svg" alt="Brand Logo">
-                            </a>
-                        </div>
-                    </div>
 
-                </div>
-            </div>
-        </div>
-    </div>
    @endsection
