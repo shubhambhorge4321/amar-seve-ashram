@@ -236,7 +236,7 @@ Testimonial Area
 ==============================-->
     <section class="testi-area-1 space" id="testi-sec">
         <div class="shape-mockup testi-bg-shape1-1 jump-reverse d-xl-block d-none" data-top="5%" data-right="0">
-            <img src="assets/img/shape/footer-bg-shape3.png" alt="img">
+            <img src="assets/img/shape/footer-bg-3.jpg" alt="img">
         </div>
         <div class="shape-mockup testi-bg-shape1-2" data-top="28%" data-left="5%">
             <img src="assets/img/shape/testimonial_shape1_1.png" alt="img">
@@ -257,38 +257,26 @@ Testimonial Area
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="testi-box-img">
-                                    <img class="testi-img" src="assets/img/testimonial/testi_1.jpg" alt="img">
-                                    <div class="testi-card_review">
-                                        <i class="fas fa-star"></i>
-                                        5.0
-                                    </div>
+                                    <img class="testi-img" src="assets/img/testimonial/testi_1_1.jpg" alt="img">
+                                   
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="testi-box-img">
                                     <img class="testi-img" src="assets/img/testimonial/testi_1_2.jpg" alt="img">
-                                    <div class="testi-card_review">
-                                        <i class="fas fa-star"></i>
-                                        5.0
-                                    </div>
+                                    
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="testi-box-img">
-                                    <img class="testi-img" src="assets/img/testimonial/testi_1_1.jpg" alt="img">
-                                    <div class="testi-card_review">
-                                        <i class="fas fa-star"></i>
-                                        5.0
-                                    </div>
+                                    <img class="testi-img" src="assets/img/testimonial/testi_1-2.jpg" alt="img">
+                                    
                                 </div>
                             </div>
                             <div class="swiper-slide">
                                 <div class="testi-box-img">
                                     <img class="testi-img" src="assets/img/testimonial/testi-2.jpg" alt="img">
-                                    <div class="testi-card_review">
-                                        <i class="fas fa-star"></i>
-                                        5.0
-                                    </div>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -310,7 +298,7 @@ Testimonial Area
                                     <div class="testi-card">
                                         <p class="box-text">"Our donation system is designed with the latest encryption technology to ensure the safety of your personal and financial information. You can contribute confidently, knowing your details are secure. Stay connected with us to learn about our upcoming events and campaigns. Whether it’s a charity run, a fundraising gala, or a community outreach initiative, there are numerous opportunities to participate and support our mission. Visit our event calendar for more details. Your security and involvement are our top priorities."</p>
                                         <h3 class="box-title">Rohan Kulkarni</h3>
-                                        <p class="box-desig">Engineer</p>
+                                        <p class="box-desig">Lawyer</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
@@ -318,7 +306,7 @@ Testimonial Area
                                     <div class="testi-card">
                                         <p class="box-text">"Keep up-to-date with our upcoming events and initiatives. From charity runs and fundraising galas to community outreach programs, there are numerous ways for you to participate and contribute to our mission. Visit our event calendar for more information. Your security is our top priority. Our donation system is equipped with advanced encryption to ensure the protection of your personal and financial data. Give with assurance, knowing your support is secure and impactful."</p>
                                         <h3 class="box-title">Aadarsh Mane</h3>
-                                        <p class="box-desig">Farmer</p>
+                                        <p class="box-desig">Engineer</p>
                                         <div class="quote-icon" data-mask-src="assets/img/icon/quote2.svg"></div>
                                     </div>
                                 </div>
