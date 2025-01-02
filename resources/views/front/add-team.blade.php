@@ -25,12 +25,12 @@
                     <div class="row">
                         <div class="col-md-6">
                             <div class="page-img">
-                                <img src="assets/img/team/add_team_1_1.jpg" alt="team">
+                                <img src="assets/img/team/add team-1.jpg" alt="team">
                             </div>
                         </div>
                         <div class="col-md-6">
                             <div class="page-img">
-                                <img src="assets/img/team/add_team_1_2.jpg" alt="team">
+                                <img src="assets/img/team/add team-2.jpg" alt="team">
                             </div>
                         </div>
                     </div>
