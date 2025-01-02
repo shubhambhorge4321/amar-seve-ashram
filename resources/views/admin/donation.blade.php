@@ -16,7 +16,7 @@
           <li class="breadcrumb-item"><a href="#">
               <h1>Dashboard</h1>
             </a></li>
-          <li class="breadcrumb-item active"><a href="javascript:void(0);">Become a volunteer</a></li>
+          <li class="breadcrumb-item active"><a href="javascript:void(0);">donation </a></li>
         </ul>
       </div>
       <div class="right-breadcrumb">
@@ -39,7 +39,7 @@
         <div class="col-12">
           <div class="card">
             <div class="card-header d-flex justify-content-between align-items-center">
-              <h3 class="text-light">Manage volunteer</h3>
+              <h3 class="text-light">Manage donation</h3>
 
             </div>
             <div class="card-body" id="show_all_galleries">
@@ -189,7 +189,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">View Volunteer Register</h5>
+          <h5 class="modal-title" id="exampleModalLabel">View Donation Register</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -202,22 +202,23 @@
               <div class="form-group">
                 <strong>mobile :</strong> <span id="view_title"></span>
               </div>
-              <div class="form-group">
-                <strong>Email :</strong> <span id="view_description"></span>
-              </div>
+             
               <div class="form-group">
                 <strong>Address :</strong> <span id="view_address"></span>
               </div>
               <div class="form-group">
-                <strong>Profession :</strong> <span id="view_category"></span>
+                <strong>Type :</strong> <span id="view_category"></span>
               </div>
-             
               <div class="form-group">
-                <strong>Message :</strong> <span id="view_message"></span>
+                <strong>Amount :</strong> <span id="amout_donation"></span>
               </div>
               <div class="form-group">
                 <strong>Register at :</strong> <span id="view_created"></span>
               </div>
+              <div class="form-group">
+                <strong>Message :</strong> <span id="view_message"></span>
+              </div>
+              
 
 
             </div>
@@ -377,9 +378,9 @@
     $(document).on('click', '.viewIcon', function (e) {
       e.preventDefault();
       let id = $(this).attr('id');
-      console.log(id);
+      
       $.ajax({
-        url: '/register/admin/show/' + id,
+        url: '/donations/admin/show/' + id,
         method: 'get',
         data: {
           _token: '{{ csrf_token() }}',
@@ -387,12 +388,12 @@
         success: function (response) {
           var res = response.gallery;
           var dateupdated = response.formatted_date;
-          $("#view_title").html(res.reg_mobile);
-          $("#view_description").html(res.reg_email);
-          $("#view_category").html(res.reg_occupation);
-          $("#view_sub_category").html(res.reg_name);
-          $("#view_message").html(res.reg_message);
-          $("#view_address").html(res.reg_address);
+          $("#view_title").html(res.mobile);
+          $("#view_category").html(res.type);
+          $("#view_name").html(res.name);
+          $("#amout_donation").html(res.amount);
+          $("#view_message").html(res.message);
+          $("#view_address").html(res.address);
           $("#view_name").html(res.reg_name);
           $("#view_created").html(dateupdated);
 
@@ -439,7 +440,7 @@
 
     function fetchAllGalleries() {
       $.ajax({
-        url: "{{ route('register.admin.fetchall') }}",
+        url: "{{ route('donations.admin.fetchall') }}",
         method: 'get',
         success: function (response) {
           $("#show_all_galleries").html(response);

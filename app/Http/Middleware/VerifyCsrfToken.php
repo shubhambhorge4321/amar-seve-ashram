@@ -15,6 +15,7 @@ class VerifyCsrfToken extends Middleware
         
             "/contactus/store/admin",
             "volunteer/store",
-            "/call/to/action"
+            "/call/to/action",
+            "donations/store"
     ];
 }

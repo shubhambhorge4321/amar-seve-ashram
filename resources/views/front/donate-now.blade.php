@@ -59,7 +59,7 @@
                             </ul>
 
                             <h5 class="title">Select Payment Method</h5>
-                            <ul class="donate-payment-method list-unstyled">
+                            {{-- <ul class="donate-payment-method list-unstyled">
                                 <li>
                                     <input type="radio" id="test_donation" name="donate_method" class="donate_method">
                                     <label for="test_donation">Test Donation</label>
@@ -72,17 +72,32 @@
                                     <input type="radio" id="credit_card" name="donate_method" class="donate_method">
                                     <label for="credit_card">Credit Card</label>
                                 </li>
+                            </ul> --}}
+                            <ul class="donate-payment-method list-unstyled">
+                                <li>
+                                    <input type="radio" id="test_donation" name="donate_method" class="donate_method" value="test_donation">
+                                    <label for="test_donation">Test Donation</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="offline_donation" name="donate_method" class="donate_method" value="offline_donation" checked>
+                                    <label for="offline_donation">Offline Donation</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="credit_card" name="donate_method" class="donate_method" value="credit_card">
+                                    <label for="credit_card">Credit Card</label>
+                                </li>
                             </ul>
+                            
                             <h5 class="title mb-25">Personal Info</h5>
                             <div class="row">
                                 <div class="form-group style-border col-md-6">
                                     <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
                                 </div>
                                 <div class="form-group style-border col-md-6">
-                                    <input type="number" class="form-control" name="lastname" id="lastname" placeholder="mobile number">
+                                    <input type="number" class="form-control" name="lastname" id="lastname" placeholder="Mobile Number"  min="1000000000" max="9999999999">
                                 </div>
                                 <div class="form-group style-border col-md-12">
-                                    <input type="text" class="form-control" name="email" id="email" placeholder="Email Address">
+                                    <input type="hidden"  class="form-control" name="email" id="email" value="mahes@gmail.com" placeholder="Email Address">
                                     <input type="text" class="form-control" name="address"  placeholder="address">
 
                                 </div>
@@ -90,7 +105,7 @@
                                     <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Type Your Message"></textarea>
                                 </div>
                                 <div class="form-btn col-12">
-                                    <button class="th-btn"><i class="fas fa-heart me-2"></i> Donate Now</button>
+                                    <button class="th-btn"><i class="fas fa-heart me-2"></i>Show Intrest For Donation</button>
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
