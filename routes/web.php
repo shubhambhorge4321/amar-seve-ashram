@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 
 
-use App\Http\Controllers\{TestimonialController,SidegalleryController,GalleryController,AdminController,AuthController,FrontController,RegisterController,ContactController};
+use App\Http\Controllers\{TestimonialController,SidegalleryController,GalleryController,AdminController,AuthController,FrontController,RegisterController,ContactController,DonationController};
 
 /*
 |--------------------------------------------------------------------------
@@ -97,9 +97,14 @@ Route::group(['middleware' => 'auth'], function () {
     Route::get('/sidegallery/admin/show/{id}', [SidegalleryController::class, 'admin_show'])->name('sidegallery.view');
     Route::delete('/slidegallery/delete/admin/', [SidegalleryController::class, 'admin_delete'])->name('sidegallery.delete');
    
+
+
+    Route::get('/donations/admin/view', [DonationController::class, 'donation_show'])->name('donations.admin.view');
+
 });
 
 
 Route::post('/contactus/store/admin', [ContactController::class, 'front_store'])->name('contactus.admin.store');
 Route::post('/call/to/action', [ContactController::class, 'calltoaction'])->name('call.to.action');
 Route::any('volunteer/store', [RegisterController::class, 'volunteer_store'])->name('volunteer.register');
+Route::any('donations/store', [DonationController::class, 'donations_store'])->name('donations.register');
