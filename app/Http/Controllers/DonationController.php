@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Http\Models\Donation;
+use App\Models\Donation;
 
 class DonationController extends Controller
 {
@@ -13,27 +13,27 @@ class DonationController extends Controller
     
     public function donations_store(Request $req) {
         
-        dd($req->all());
+        
         $req->validate([
             'name' => 'required|string|max:255',
             'lastname' => 'required|numeric',
             'donate_amount' => 'required|numeric',
             'donate_method' => 'required',
             'address' => 'required',
-            'message' => 'required|numeric',
+            'message' => 'required',
         ]);
         
         Donation::create([
-            'reg_name' => request('name'),
-            'reg_mobile' => request('mobile_no'),
-            'reg_email' => request('email'),
-            'reg_address'=> request('reg_address'),
-            'reg_message'=> request('reg_message'),
-            'reg_occupation'=> request('reg_occupation'),
+            'name' => request('name'),
+            'mobile' => request('lastname'),
+            'type' => request('donate_method'),
+            'address'=> request('address'),
+            'message'=> request('message'),
+            'amount'=> request('donate_amount'),
         ]);
-        \Session::flash('success', 'Your form has been submitted successfully!');
+        
 
-        return response()->json('Your volunteer form has  been submited succesfully !!');   
+        return response()->json('Your donation form has  been submited succesfully !!');   
         
     }
     public function front_store(Request $req) {
@@ -83,7 +83,7 @@ class DonationController extends Controller
 
 
     public function admin_fetchall() {
-        $gallery = Register::all();
+        $gallery = Donation::all();
         $output = '';
         $urlo = url('/');
         $counter = 1;
@@ -93,9 +93,9 @@ class DonationController extends Controller
                 <tr>
                 <th>ID</th>
                 <th>name</th>
-                <th>email</th>
+                
                 <th>mobile</th>
-                <th>profesion</th>
+                
                 <th>register date</th>
                 <th>Action</th>
               </tr>
@@ -107,10 +107,10 @@ class DonationController extends Controller
                 <td>'.$counter.'</td>
 
               
-                <td>'.$rs->reg_name.'</td>
-                <td>'.$rs->reg_email.'</td>
-                <td>'.$rs->reg_mobile.'</td>
-                <td>'.$rs->reg_occupation.'</td>
+                <td>'.$rs->name.'</td>
+                
+                <td>'.$rs->mobile.'</td>
+                
                 <td>'.$rs->created_at->format("d-m-y").'</td>
                 <td>
                     <button id="'.$rs->id.'" class="btn btn-sm btn-info viewIcon" data-bs-toggle="modal" data-bs-target="#viewGalleryModal">view</button>
@@ -174,11 +174,11 @@ class DonationController extends Controller
     public function admin_delete(Request $request) {
 
         $id = $request->id;
-        Register::destroy($id);
+        Donation::destroy($id);
     }
 
     public function admin_show(Request $request, $id) {
-        $gallery = Register::find($id);
+        $gallery = Donation::find($id);
 
         $dateshow=$gallery->created_at->format('d-m-y');
 

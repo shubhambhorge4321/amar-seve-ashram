@@ -100,6 +100,10 @@ Route::group(['middleware' => 'auth'], function () {
 
 
     Route::get('/donations/admin/view', [DonationController::class, 'donation_show'])->name('donations.admin.view');
+    Route::any('/donations/fetchall/admin', [DonationController::class, 'admin_fetchAll'])->name('donations.admin.fetchall');
+    Route::get('/donations/admin/show/{id}', [DonationController::class, 'admin_show'])->name('donations.admin.id');
+    Route::delete('/delete/donations/admin', [DonationController::class, 'admin_delete'])->name('donations.admin.delete');
+
 
 });
 
