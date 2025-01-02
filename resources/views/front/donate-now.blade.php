@@ -23,38 +23,39 @@
             <div class="row gx-40">
                 <div class="col-xxl-8 col-lg-7">
                     <div class="donation-form-v1">
-                        <p class="donation-form-notice"><i class="fa-solid fa-triangle-exclamation"></i><span class="text-title">Notice:</span> Test mode is enabled. While in test mode no live donations are processed.</p>
-                        <form action="mail.php" method="POST" class="contact-form ajax-contact">
+                        <p class="donation-form-notice"><i class="fa-solid fa-triangle-exclamation"></i> <span class="text-title">Note:</span> Show your interest in donating by filling out the form, and we will get back to you soon.</p>
+                        <form action="{{route('donations.register')}}" method="POST" class="contact-form ajax-contact">
+                            @csrf
                             <div class="form-group donate-input">
-                                <input type="text" value="100" required class="donate_amount">
+                                <input type="number" name="donate_amount" value="100" required class="donate_amount">
                                 <span class="icon">
                                     
                                     ₹
                                 </span>
                             </div>
                             <ul class="donate-amount-button-list list-unstyled">
-                                <li class="donate-amount-button" data-amount="20">
-                                    ₹20
-                                </li>
-
                                 <li class="donate-amount-button" data-amount="50">
                                     ₹50
                                 </li>
 
-                                <li class="donate-amount-button active" data-amount="100">
-                                    ₹100
+                                <li class="donate-amount-button" data-amount="500">
+                                    ₹500
                                 </li>
 
-                                <li class="donate-amount-button" data-amount="150">
-                                    ₹150
+                                <li class="donate-amount-button active" data-amount="1000">
+                                    ₹1000
                                 </li>
 
-                                <li class="donate-amount-button" data-amount="200">
-                                    ₹200
+                                <li class="donate-amount-button" data-amount="5000">
+                                    ₹5000
                                 </li>
-                                <li class="donate-amount-button" data-amount="Custom Amount">
+
+                                <li class="donate-amount-button" data-amount="10000">
+                                    ₹10000
+                                </li>
+                                {{-- <li class="donate-amount-button" data-amount="Custom Amount">
                                     Custom Amount
-                                </li>
+                                </li> --}}
                             </ul>
 
                             <h5 class="title">Select Payment Method</h5>
@@ -78,10 +79,12 @@
                                     <input type="text" class="form-control" name="name" id="name" placeholder="Your name">
                                 </div>
                                 <div class="form-group style-border col-md-6">
-                                    <input type="text" class="form-control" name="lastname" id="lastname" placeholder="Last name">
+                                    <input type="number" class="form-control" name="lastname" id="lastname" placeholder="mobile number">
                                 </div>
                                 <div class="form-group style-border col-md-12">
-                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email Address">
+                                    <input type="text" class="form-control" name="email" id="email" placeholder="Email Address">
+                                    <input type="text" class="form-control" name="address"  placeholder="address">
+
                                 </div>
                                 <div class="form-group style-border col-12">
                                     <textarea name="message" id="message" cols="30" rows="3" class="form-control" placeholder="Type Your Message"></textarea>
