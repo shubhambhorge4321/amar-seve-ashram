@@ -339,8 +339,9 @@
     // delete gallery ajax request
     $(document).on('click', '.deleteIcon', function (e) {
       e.preventDefault();
-      console.log(id);
       let id = $(this).attr('id');
+      console.log(id);
+
       let csrf = '{{ csrf_token() }}';
       Swal.fire({
         title: 'Are you sure?',
@@ -353,7 +354,7 @@
       }).then((result) => {
         if (result.isConfirmed) {
           $.ajax({
-            url: "{{ route('register.admin.delete') }}",
+            url: "{{ route('donations.admin.delete') }}",
             method: 'DELETE',
             data: {
               id: id,
