@@ -339,6 +339,7 @@
     // delete gallery ajax request
     $(document).on('click', '.deleteIcon', function (e) {
       e.preventDefault();
+      console.log(id);
       let id = $(this).attr('id');
       let csrf = '{{ csrf_token() }}';
       Swal.fire({
