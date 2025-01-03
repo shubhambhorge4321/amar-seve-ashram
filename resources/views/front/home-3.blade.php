@@ -730,10 +730,10 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         <span class="testi-card_desig">Teacher</span>
                                     </div>
                                 </div>
-                                <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
-                                    it's a fundraising gala, a charity run, or a community outreach program, there are
-                                    plenty of ways to get involved and support our cause. Check our event calendar for
-                                    details.”</p>
+                                <p class="testi-card_text">
+                                    “The dedication and compassion of the team at Amar Seva Ashram are unmatched. From offering treatments to organizing events that raise awareness, they are making a profound impact. Supporting their mission is supporting a brighter tomorrow for cancer patients.”
+                                </p>
+                                
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -743,7 +743,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                               
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
-                                        <img src="assets/img/testimonial/testi_3_2.png" alt="img">
+                                        <img src="assets/img/testimonial/testi_3_2_adqarsh.png" alt="img">
                                         <div class="quote-icon">
                                             
                                         </div>
@@ -753,10 +753,10 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         <span class="testi-card_desig">Lawyer</span>
                                     </div>
                                 </div>
-                                <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
-                                    it's a fundraising gala, a charity run, or a community outreach program, there are
-                                    plenty of ways to get involved and support our cause. Check our event calendar for
-                                    details.”</p>
+                                <p class="testi-card_text">
+                                    “Amar Seva Ashram has been a sanctuary for countless individuals bravely battling cancer. From medical care to emotional support, their dedicated team ensures that no one faces this journey alone. Join us in making a difference by participating in our events, supporting our campaigns, or spreading awareness. Together, we can bring hope and healing to those who need it the most.”
+                                </p>
+                                
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -766,7 +766,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                              
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
-                                        <img src="assets/img/testimonial/testi_3_2.png" alt="img">
+                                        <img src="assets/img/testimonial/testi_3_2_adarsh.jpg" alt="img">
                                         <div class="quote-icon">
                                             
                                         </div>
@@ -776,10 +776,10 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         <span class="testi-card_desig">Businessman</span>
                                     </div>
                                 </div>
-                                <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
-                                    it's a fundraising gala, a charity run, or a community outreach program, there are
-                                    plenty of ways to get involved and support our cause. Check our event calendar for
-                                    details.”</p>
+                              <p class="testi-card_text">
+    “Amar Seva Ashram has been a pillar of strength for those affected by cancer. Their unwavering commitment to care, compassion, and community has transformed lives. Be a part of this meaningful journey by attending our events, contributing to our campaigns, or spreading the word. Together, we can create a brighter future for all.”
+</p>
+                                
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -788,7 +788,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 </div>
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
-                                        <img src="assets/img/testimonial/testi_3_1.png" alt="img">
+                                        <img src="assets/img/testimonial/testi_3_1_n.jpg" alt="img">
                                         <div class="quote-icon">
                                             
                                         </div>
@@ -798,10 +798,9 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         <span class="testi-card_desig">Engineer</span>
                                     </div>
                                 </div>
-                                <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
-                                    it's a fundraising gala, a charity run, or a community outreach program, there are
-                                    plenty of ways to get involved and support our cause. Check our event calendar for
-                                    details.”</p>
+                                <p class="testi-card_text">
+                                    "Amar Seva Ashram has been a beacon of hope for countless individuals battling cancer. Their dedication to providing support, resources, and care to those in need is truly inspiring. By participating in their events and campaigns, you can help make a real difference in the lives of patients and their families."
+                                </p>
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -810,7 +809,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 </div>
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
-                                        <img src="assets/img/testimonial/testi_3_1.png" alt="img">
+                                        <img src="assets/img/testimonial/testi_3_1_amar.png" alt="img">
                                         <div class="quote-icon">
                                             
                                         </div>
@@ -820,10 +819,10 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         <span class="testi-card_desig">IPS</span>
                                     </div>
                                 </div>
-                                <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
-                                    it's a fundraising gala, a charity run, or a community outreach program, there are
-                                    plenty of ways to get involved and support our cause. Check our event calendar for
-                                    details.”</p>
+                                <p class="testi-card_text">
+                                    “When I needed it the most, Amar Seva Ashram provided me with not just medical care but also a sense of hope and belonging. Their team truly understands the struggles of battling cancer and goes above and beyond to support every patient. I am forever grateful for their care.”
+                                </p>
+                                
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -832,7 +831,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                 </div>
                                 <div class="testi-card_profile">
                                     <div class="box-thumb">
-                                        <img src="assets/img/testimonial/testi_3_2.png" alt="img">
+                                        <img src="assets/img/testimonial/testi_3_2.jpg" alt="img">
                                         <div class="quote-icon">
                                             
                                         </div>
@@ -842,10 +841,10 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                                         <span class="testi-card_desig">Farmer</span>
                                     </div>
                                 </div>
-                                <p class="testi-card_text">“Stay informed about our upcoming events and campaigns. Whether
-                                    it's a fundraising gala, a charity run, or a community outreach program, there are
-                                    plenty of ways to get involved and support our cause. Check our event calendar for
-                                    details.”</p>
+                                <p class="testi-card_text">
+                                    “Amar Seva Ashram’s events and programs are life-changing. They bring the community together to fight cancer with compassion and determination. Participating in their initiatives has been a fulfilling experience, knowing that I’m helping make a difference in someone’s life.”
+                                </p>
+                                
                             </div>
                         </div>
                     </div>
