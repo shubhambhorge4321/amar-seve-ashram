@@ -9,8 +9,8 @@
       <title> Dashboard
       </title>
       <!-- shortcut icon--> 
-      <link rel="icon" href="{{ asset('front/img/logo/logo.png') }}" type="image/x-icon">
-      <link rel="shortcut icon" href="{{ asset('front/img/logo/logo.png') }}" type="image/x-icon">
+      <link rel="icon" href="{{ asset('assets/img/favicons/favicon-32x32.ico') }}" type="image/x-icon">
+      <link rel="shortcut icon" href="{{ asset('assets/img/favicons/favicon-32x32.ico') }}" type="image/x-icon">
       <!-- Fonts css-->
       <link rel="preconnect" href="https://fonts.googleapis.com">
       <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
