@@ -75,16 +75,16 @@
                             </ul> --}}
                             <ul class="donate-payment-method list-unstyled">
                                 <li>
-                                    <input type="radio" id="test_donation" name="donate_method" class="donate_method" value="test_donation">
-                                    <label for="test_donation">Test Donation</label>
+                                    <input type="radio" id="test_donation" name="donate_method" class="donate_method" value="UPI">
+                                    <label for="test_donation">UPI</label>
                                 </li>
                                 <li>
                                     <input type="radio" id="offline_donation" name="donate_method" class="donate_method" value="offline_donation" checked>
                                     <label for="offline_donation">Offline Donation</label>
                                 </li>
                                 <li>
-                                    <input type="radio" id="credit_card" name="donate_method" class="donate_method" value="credit_card">
-                                    <label for="credit_card">Credit Card</label>
+                                    <input type="radio" id="credit_card" name="donate_method" class="donate_method" value="Bank Transfer">
+                                    <label for="credit_card">Bank Transfer</label>
                                 </li>
                             </ul>
                             
