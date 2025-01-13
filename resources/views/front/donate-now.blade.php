@@ -109,6 +109,11 @@
                                 </div>
                             </div>
                             <p class="form-messages mb-0 mt-3"></p>
+                            <input type="hidden" name="form_time" id="form_time" value="{{ time() }}">
+
+                            <div class="form-group" style="display:none;">
+                                <input type="text" name="honeypot" id="honeypot" class="form-control" />
+                            </div>
                         </form>
                     </div>
                 </div>
@@ -220,4 +225,28 @@ Process Area
     <!--==============================
 	Footer Area
 ==============================-->
+@endsection
+
+@section('script')
+<script>
+    let userInteracted = false;
+
+    // Detect user interaction (mouse or key press)
+    document.addEventListener('mousemove', function() {
+        userInteracted = true;
+    });
+    
+    document.addEventListener('keypress', function() {
+        userInteracted = true;
+    });
+
+    // Add the check when submitting the form
+    document.querySelector('.contact-form').addEventListener('submit', function(e) {
+        if (!userInteracted) {
+            e.preventDefault(); // Stop the form submission
+            alert('Form submission blocked. Are you a bot?');
+        }
+    });
+</script>
+
 @endsection

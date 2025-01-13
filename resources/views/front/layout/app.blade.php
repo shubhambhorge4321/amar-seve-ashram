@@ -34,6 +34,7 @@
 <!--==============================
 All Js File
 ============================== -->
+@yield('script')
 @include('front.layout.script')
 
 </body>

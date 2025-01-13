@@ -18,6 +18,16 @@ class ContactController extends Controller
     public function front_store(Request $request)
     {
     
+        if ($request->honeypot) {
+            return redirect()->back()->with('error', 'Spam detected.');
+        }
+        $formTime = $request->input('form_time');
+    
+        // Ensure the form submission takes at least 5 seconds
+        if (time() - $formTime < 5) {
+            return redirect()->back()->with('error', 'Form submitted too quickly, potential spam.');
+        }
+    
     $request->validate([
         'name' => 'required|string',
         'email' => 'required|email',

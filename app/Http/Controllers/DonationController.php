@@ -13,6 +13,16 @@ class DonationController extends Controller
     
     public function donations_store(Request $req) {
         
+        if ($req->honeypot) {
+            return redirect()->back()->with('error', 'Spam detected.');
+        }
+        $formTime = $req->input('form_time');
+    
+        // Ensure the form submission takes at least 5 seconds
+        if (time() - $formTime < 5) {
+            return redirect()->back()->with('error', 'Form submitted too quickly, potential spam.');
+        }
+    
         
         $req->validate([
             'name' => 'required|string|max:255',
