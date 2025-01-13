@@ -43,7 +43,7 @@ class DonationController extends Controller
         ]);
         
 
-        return response()->json('Your donation form has  been submited succesfully !!');   
+        return response()->json('Your donation form has  been submited succesfully !! refresh page for next req');   
         
     }
     public function front_store(Request $req) {
