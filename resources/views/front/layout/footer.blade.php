@@ -97,7 +97,7 @@
     </div>
     <div class="copyright-wrap bg-theme text-center">
         <div class="container">
-            <p class="copyright-text">Copyright 2024 <a href="{{route('home')}}">Amar Seve Ashram Trust.</a> All Rights Reserved.</p>
+            <p class="copyright-text">Copyright 2024 <a href="{{route('home')}}">Amar Seva Ashram Trust.</a> All Rights Reserved.</p>
         </div>
     </div>
 </footer>
