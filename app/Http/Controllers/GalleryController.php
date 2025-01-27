@@ -56,7 +56,7 @@ class GalleryController extends Controller
                 $output .= '<tr>
                 <td>'.$counter.'</td>
                
-                <td><img src="'.$urlo.'/storage/images/' . $rs->avatar . '" width="50" class="img-thumbnail rounded-circle"></td>
+                <td><img src="'.$urlo.'/storage/public/images/' . $rs->avatar . '" width="50" class="img-thumbnail rounded-circle"></td>
                 <td>' . $rs->category .$displayValue. '</td>
                 <td>' . $rs->created_at->format("d-m-y"). '</td>
                 <td>
