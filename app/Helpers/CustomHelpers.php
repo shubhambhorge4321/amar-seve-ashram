@@ -9,7 +9,7 @@ if (!function_exists('custom_asset')) {
      */
     function custom_asset($path)
     {
-        return asset('storage/images/' . $path);
+        return asset('storage/public/images/' . $path);
     }
     
 }
