@@ -9,6 +9,12 @@ use App\Models\Sidegallery;
 
 class FrontController extends Controller
 {
+
+    public function helpertest()
+    {
+        $message = custom_asset(null); 
+        dd($message); 
+    }
     public function home ()
     {
         $galleryimages = Gallery::where('category', 'homepage')->get();

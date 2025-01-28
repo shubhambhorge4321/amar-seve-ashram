@@ -250,7 +250,7 @@
 
 
           // Use .attr("src", ...) to set the src attribute
-          $(".img-holder img").attr("src", `{{asset('storage/images')}}/${response.image_path}`);
+          $(".img-holder img").attr("src", `{{custom_asset(null)}}/${response.image_path}`);
 
 
           $("#gallery_id").val(response.id);
@@ -342,7 +342,7 @@
           $("#view_category").html(response.gal_category);
           $("#view_year").html(response.gal_year);
           // Use .attr("src", ...) to set the src attribute
-          $(".img-holder img").attr("src", `{{asset('storage/images')}}/${response.gal_image}`);
+          $(".img-holder img").attr("src", `{{custom_asset(null)}}/${response.gal_image}`);
 
           $("#gallery_id").val(response.id);
           $("#gallery_avatar").val(response.image_path);

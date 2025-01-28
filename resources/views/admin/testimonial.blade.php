@@ -115,7 +115,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Edit Testimonial</h5>
+          <h5 class="modal-title" id="exampleModalLabel">Edit volunteer</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <form action="#" method="POST" id="edit_gallery_form" enctype="multipart/form-data">
@@ -210,7 +210,7 @@
     <div class="modal-dialog modal-dialog-centered">
       <div class="modal-content">
         <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">View Testimonial</h5>
+          <h5 class="modal-title" id="exampleModalLabel">View volunteer</h5>
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
@@ -232,19 +232,17 @@
               </div>
 
               <div class="form-group">
-                <strong>Page :</strong> <span id="view_category"></span>
+                <strong>FB link :</strong> <span id="view_category"></span>
               </div>
               <div class="form-group">
-                <strong>Sub Event :</strong> <span id="view_subcategory"></span>
+                <strong>Insta link :</strong> <span id="view_subcategory"></span>
               </div>
 
 
             </div>
             <div class="row">
               <div class="col">
-                <div class="form-group">
-                  <strong>Message :</strong> <span id="view_sub_category"></span>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -411,16 +409,14 @@
           _token: '{{ csrf_token() }}',
         },
         success: function (response) {
-          $("#view_title").html(response.testst_title);
-          $("#view_description").html(response.testst_description);
-          $("#view_category").html(response.testst_type);
-          $("#view_sub_category").html(response.testst_message);
-          $("#view_name").html(response.testst_name);
+          $("#view_title").html(response.volunteer_designation);
+          $("#view_description").html(response.volunteer_designation);
+          $("#view_category").html(response.volunteer_fblink);
+          $("#view_sub_category").html(response.volunteer_instlink);
+          $("#view_name").html(response.volunteer_name);
           $("#view_subcategory").html(response.tests_subtype);
 
-          // Use .attr("src", ...) to set the src attribute
-
-          $(".img-holder img").attr("src", `{{asset('storage/images')}}/${response.testst_image}`);
+          $(".img-holder img").attr("src", `{{custom_asset(null)}}/${response.volunteer_image}`);
 
 
 

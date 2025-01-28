@@ -412,7 +412,7 @@ $("#add_gallery_form").submit(function (e) {
           // Use .attr("src", ...) to set the src attribute
 
 
-          $(".img-holder img").attr("src", `{{asset('storage/images')}}/${response.avatar}`);
+          $(".img-holder img").attr("src", `{{custom_asset(null)}}/${response.avatar}`);
 
           $("#gallery_id").val(response.id);
           $("#gallery_avatar").val(response.avatar);

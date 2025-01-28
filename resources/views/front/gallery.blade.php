@@ -25,8 +25,8 @@ Gallery Area
                 <div class="col-md-4 col-xxl-auto col-lg-4 filter-item">
                     <div class="gallery-card">
                         <div class="gallery-img">
-                            <img style="max-width:{{$side->gal_title}};" src="{{ asset('storage/images/' . $side->gal_image) }}" alt="gallery image">
-                            <a href="{{ asset('storage/images/' . $side->gal_image) }}" class="icon-btn popup-image"><i class="fas fa-eye"></i></a>
+                            <img style="max-width:{{$side->gal_title}};" src="{{  custom_asset( $side->gal_image) }}" alt="gallery image">
+                            <a href="{{ custom_asset( $side->gal_image) }}" class="icon-btn popup-image"><i class="fas fa-eye"></i></a>
                         </div>
                     </div>
                 </div>

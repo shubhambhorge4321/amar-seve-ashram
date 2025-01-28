@@ -59,7 +59,7 @@
                 @endforeach --}}
                 @foreach ($galleryimages as $key => $image)
                 <div class="swiper-slide">
-                    <div class="hero-inner" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}" data-overlay="black4" data-opacity="5">
+                    <div class="hero-inner" data-bg-src="{{ custom_asset($image->avatar) }}" data-overlay="black4" data-opacity="5">
                         <div class="hero-bg-shape1-1">
                             
                         </div>
@@ -586,7 +586,7 @@ At Amar Seva Ashram, we are committed to providing holistic Ayurveda treatment t
                         <div class="swiper-slide">
                             <div class="th-team team-card3">
                                 <div class="team-img">
-                                    <img class="img-custom-h-w" src="{{asset('storage/images/'.$volunt->volunteer_image)}}" alt="Team">
+                                    <img class="img-custom-h-w" src="{{custom_asset($volunt->volunteer_image)}}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">{{$volunt->volunteer_name}}</a></h3>

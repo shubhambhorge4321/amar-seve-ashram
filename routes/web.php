@@ -112,3 +112,8 @@ Route::post('/contactus/store/admin', [ContactController::class, 'front_store'])
 Route::post('/call/to/action', [ContactController::class, 'calltoaction'])->name('call.to.action');
 Route::any('volunteer/store', [RegisterController::class, 'volunteer_store'])->name('volunteer.register');
 Route::any('donations/store', [DonationController::class, 'donations_store'])->name('donations.register');
+
+
+Route::get('testimonial/admin/show/{id}', [TestimonialController::class, 'admin_show'])->name('testimonial.admin.show');
+
+Route::get('/test/helper',[FrontController::class,'helpertest']);        

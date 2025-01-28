@@ -15,7 +15,8 @@ class SidegalleryController extends Controller
         $gallery = Sidegallery::all();
         $output = '';
         $counter = 1;
-        $urlo = url('/');
+        $urlslash=custom_asset(null);
+        $urlo= $urlslash.'/';
         if ($gallery->count() > 0) {
             $output .= '<table class="table productlist-tbl display dataTable cell-border" id="basicdata-tbl" style="width:100%">
             <thead>
@@ -41,7 +42,7 @@ class SidegalleryController extends Controller
                 $output .= '<tr>
                 
                 <td>' . $counter . '</td>
-                <td><img src="' . $urlo . '/storage/images/' . $rs->gal_image . '" width="50" class="img-thumbnail rounded-circle"></td>
+                <td><img src="' . $urlo  . $rs->gal_image . '" width="50" class="img-thumbnail rounded-circle"></td>
                 <td>' . $rs->gal_title .$eventdata .'</td>
                 
                 <td>' . $rs->created_at->format("d-m-y") . '</td>

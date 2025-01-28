@@ -35,7 +35,8 @@ class TestimonialController extends Controller
         $gallery = Testimonial::all();
         $output = '';
         $serialnumber=1;
-        $urlo = url('/');
+        $urlslash=custom_asset(null);
+        $urlo= $urlslash.'/';
         if ($gallery->count() > 0) {
             $output .= '<table class="table productlist-tbl display dataTable cell-border" id="basicdata-tbl" style="width:100%">
             <thead>
@@ -59,19 +60,20 @@ class TestimonialController extends Controller
                  }
                 $output .= '<tr>
                 <td>' . $serialnumber . '</td>
-                <td><img src="' . $urlo . '/storage/images/' . $rs->volunteer_image . '" width="50" class="img-thumbnail rounded-circle"></td>
+                <td><img src="' . $urlo  . $rs->volunteer_image . '" width="50" class="img-thumbnail rounded-circle"></td>
                 
                 <td>' . $rs->created_at->format("d-m-y"). '</td>
                 
 
                 <td>
                     <button id="' . $rs->id . '" class="btn btn-sm btn-info viewIcon" data-bs-toggle="modal" data-bs-target="#viewGalleryModal">view</button>
-                    <button id="' . $rs->id . '" class="btn btn-sm btn-success editIcon" data-bs-toggle="modal" data-bs-target="#editGalleryModal">edit</button>
+                   
                     <button id="' . $rs->id . '" class="btn btn-sm btn-danger deleteIcon" data-bs-toggle="modal">delete</button>
                 </td>
               </tr>';
               $serialnumber +=1;
             }
+            // <button id="' . $rs->id . '" class="btn btn-sm btn-success editIcon" data-bs-toggle="modal" data-bs-target="#editGalleryModal">edit</button>
             $output .= '</tbody></table>';
             echo $output;
             

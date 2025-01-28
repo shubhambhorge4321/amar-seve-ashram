@@ -31,7 +31,8 @@ class GalleryController extends Controller
         
         $gallery = Gallery::all();
         $output = '';
-        $urlo=url('/');
+        $urlslash=custom_asset(null);
+        $urlo= $urlslash.'/';
         $counter = 1;
         if ($gallery->count() > 0) {
             
@@ -56,7 +57,7 @@ class GalleryController extends Controller
                 $output .= '<tr>
                 <td>'.$counter.'</td>
                
-                <td><img src="'.$urlo.'/storage/public/images/' . $rs->avatar . '" width="50" class="img-thumbnail rounded-circle"></td>
+                <td><img src="'.$urlo . $rs->avatar . '" width="50" class="img-thumbnail rounded-circle"></td>
                 <td>' . $rs->category .$displayValue. '</td>
                 <td>' . $rs->created_at->format("d-m-y"). '</td>
                 <td>

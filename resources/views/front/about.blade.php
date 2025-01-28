@@ -140,7 +140,7 @@ Team Area
                         <div class="swiper-slide">
                             <div class="th-team team-card3">
                                 <div class="team-img">
-                                    <img class="img-custom-h-w" src="{{asset('storage/images/'.$volunt->volunteer_image)}}" alt="Team">
+                                    <img class="img-custom-h-w" src="{{custom_asset($volunt->volunteer_image)}}" alt="Team">
                                 </div>
                                 <div class="team-card-content">
                                     <h3 class="box-title"><a href="team-details.html">{{$volunt->volunteer_name}}</a></h3>
