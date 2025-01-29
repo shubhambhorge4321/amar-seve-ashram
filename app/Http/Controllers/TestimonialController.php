@@ -141,7 +141,7 @@ class TestimonialController extends Controller
     {
         $id = $request->id;
         $gallery = Testimonial::find($id);
-        if (Storage::delete('public/images/' . $gallery->testst_image)) {
+        if (\Storage::delete('public/images/' . $gallery->volunteer_image)) {
             Testimonial::destroy($id);
         }
     }
