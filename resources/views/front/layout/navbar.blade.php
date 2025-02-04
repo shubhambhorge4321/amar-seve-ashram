@@ -109,36 +109,17 @@ Mobile Menu
                     <a href="{{route('donation.details')}}">Donations</a>
                    
                 </li>
+               
                 <li class="menu-item-has-children">
-                    <a href="#">Pages</a>
+                    <a href="#">Volunteers</a>
                     <ul class="sub-menu">
-                        <li class="menu-item-has-children">
-                            <a href="#">Shop</a>
-                            <ul class="sub-menu">
-                                <li><a href="shop.html">Shop</a></li>
-                                <li><a href="shop-details.html">Shop Details</a></li>
-                                <li><a href="cart.html">Cart Page</a></li>
-                                <li><a href="checkout.html">Checkout</a></li>
-                                <li><a href="wishlist.html">Wishlist</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="team.html">Volunteers</a></li>
-                        <li><a href="team-details.html">Volunteer Details</a></li>
-                        <li><a href="add-team.html">Become A Volunteer</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="pricing.html">Pricing</a></li>
-                        <li><a href="faq.html">FAQS</a></li>
-                        <li><a href="testimonial.html">Testimonials</a></li>
-                        <li><a href="error.html">Error Page</a></li>
+                       
+                        <li><a href="{{route('volunteer')}}">Volunteers</a></li>
+                        <li><a href="{{route('become.volunteer')}}">Become A Volunteer</a></li>
                     </ul>
                 </li>
-                <li class="menu-item-has-children">
-                    <a href="#">Our initiatives</a>
-                    <ul class="sub-menu">
-                        <li><a href="{{route('gallery')}}">Gallery</a></li>
-                        <li><a href="blog-details.html">Blog Details</a></li>
-                    </ul>
-                </li>
+                <li><a href="{{route('gallery')}}">Gallery</a></li>
+
                 <li>
                     <a href="{{route('contact.us')}}">Contact Us</a>
                 </li>

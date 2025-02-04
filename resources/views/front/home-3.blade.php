@@ -8,53 +8,46 @@
 
     <div class="th-hero-wrapper hero-3" id="hero">
 
-        <div class="shape-mockup hero-shape-3-1 d-lg-block d-none" data-top="20%" data-left="50%">
-            <div class="color-masking shake">
-                <div class="masking-src" data-mask-src="assets/img/hero/hero-bg-shape2-3.png"></div>
-                <img src="assets/img/hero/hero-bg-shape2-3.png" alt="shape">
-            </div>
-        </div>
-        <div class="shape-mockup hero-shape-3-2 jump" data-top="25%" data-left="5%">
-            <div class="color-masking">
-                <div class="masking-src" data-mask-src="assets/img/hero/hero-bg-shape2-1.png"></div>
-                <img src="assets/img/hero/hero-bg-shape2-1.png" alt="shape">
-            </div>
-        </div>
-        <div class="shape-mockup hero-shape-3-3 jump" data-bottom="0" data-left="-2%">
-            <div class="color-masking2">
-                <div class="masking-src" data-mask-src="assets/img/shape/hand-shape3.png"></div>
-                <img src="assets/img/shape/hand-shape3.png" alt="shape">
-            </div>
-        </div>
-
         <div class="swiper th-slider hero-slider1" id="heroSlide1"
             data-slider-options='{"effect":"fade", "autoHeight": "true"}'>
             <div class="swiper-wrapper">
                 {{-- @foreach ($galleryimages as $key => $image)
                 <div class="swiper-slide">
-                    <div class="hero-inner" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}"
-                        data-mask-src="assets/img/hero/hero-bg-shape3-1.png" data-opacity="5"> --}}
-                        {{-- <div class="hero-bg-shape1-1">
-                            <img src="assets/img/hero/hero-bg-shape1-1.png" alt="img">
-                        </div> --}}
-                        {{-- <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-xl-12">
-                                    <div class="hero-style1 text-center">
-                                        <span class="sub-title justify-content-center" data-ani="slideinup"
-                                            data-ani-delay="0.2s">
-                                        </span>
-                                       
-                                        <div class="btn-wrap justify-content-center" data-ani="slideinup"
-                                            data-ani-delay="0.7s">
-                                           
-                                        </div>
-                                    </div>
+                    
+                    <div class="shape-mockup hero-shape-3-1 d-lg-block d-none" data-top="20%" data-left="50%">
+                        <div class="color-masking shake">
+                            <div class="masking-src" data-mask-src="assets/img/hero/hero-bg-shape2-3.png"></div>
+                            <img src="assets/img/hero/hero-bg-shape2-3.png" alt="shape">
+                        </div>
+                    </div>
+                    <div class="shape-mockup hero-shape-3-2 jump" data-top="25%" data-left="5%">
+                        <div class="color-masking">
+                            <div class="masking-src" data-mask-src="assets/img/hero/hero-bg-shape2-1.png"></div>
+                            <img src="assets/img/hero/hero-bg-shape2-1.png" alt="shape">
+                        </div>
+                    </div>
+                    <div class="shape-mockup hero-shape-3-3 jump" data-bottom="0" data-left="-2%">
+                        <div class="color-masking2">
+                            <div class="masking-src" data-mask-src="assets/img/shape/hand-shape3.png"></div>
+                            <img src="assets/img/shape/hand-shape3.png" alt="shape">
+                        </div>
+                    </div>
+                    <div class="hero-bg-3-1" data-bg-src="{{ asset('storage/images/' . $image->avatar) }}" data-mask-src="assets/img/hero/hero-bg-shape3-1.png"></div>
+                    <div class="container">
+                        <div class="row gx-40 align-items-center">
+                            <div class="col-lg-6">
+                                <div class="hero-style3">
+                                    <span class="sub-title after-none">Give Hope For Homeless</span>
+                                    <h1 class="hero-title">
+                                        <span class="title1">Donate For A</span>
+                                        <span class="title2">Better <span class="text-theme2 d-inline-block">World</span></span>
+                                    </h1>
+                                    <p class="hero-text">Explore the variety of volunteer opportunities available. From event planning and fundraising to fieldwork and administrative support</p>
+                                   
                                 </div>
                             </div>
                         </div>
-                    </div>
-
+                    </div>            
                 </div>
                 @endforeach --}}
                 @foreach ($galleryimages as $key => $image)
